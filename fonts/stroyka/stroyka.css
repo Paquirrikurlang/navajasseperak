@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'stroyka';
+    src:
+            url('stroyka.bin') format('truetype'),
+            url('stroyka.woff') format('woff'),
+            url('stroyka.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
