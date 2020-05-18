@@ -230,12 +230,13 @@ p {
   display: inline !important;
 }
 
+.post-card__read-more,
+.post-card__info {
+  width: 100%;
+}
+
 @media screen and (min-width: 992px) {
   .post-card__info {
     width: calc(100% - 380px);
-  }
-
-  .post-card__read-more {
-    width: 100%;
   }
 }
