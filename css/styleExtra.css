@@ -229,3 +229,13 @@ p {
 .modal-body {
   display: inline !important;
 }
+
+@media screen and (min-width: 992px) {
+  .post-card__info {
+    width: calc(100% - 380px);
+  }
+
+  .post-card__read-more {
+    width: 100%;
+  }
+}

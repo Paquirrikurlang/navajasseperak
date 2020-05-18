@@ -48,26 +48,53 @@
                             </a>
                             <div class="search search--location--mobile-header mobile-header__search">
                                 <div class="search__body">
-                                    <form class="search__form" action=""><input class="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
+                                    <form class="search__form" action="">
+                                        <input class="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off">
+                                        <button class="search__button search__button--type--submit" type="submit">
+                                            <svg width="20px" height="20px">
                                                 <use xlink:href="images/sprite.svg#search-20"></use>
-                                            </svg></button> <button class="search__button search__button--type--close" type="button"><svg width="20px" height="20px">
+                                            </svg>
+                                        </button>
+                                        <button class="search__button search__button--type--close" type="button">
+                                            <svg width="20px" height="20px">
                                                 <use xlink:href="images/sprite.svg#cross-20"></use>
-                                            </svg></button>
+                                            </svg>
+                                        </button>
                                         <div class="search__border"></div>
                                     </form>
                                     <div class="search__suggestions suggestions suggestions--location--mobile-header"></div>
                                 </div>
                             </div>
                             <div class="mobile-header__indicators">
-                                <div class="indicator indicator--mobile-search indicator--mobile d-md-none"><button class="indicator__button"><span class="indicator__area"><svg width="20px" height="20px">
+                                <div class="indicator indicator--mobile-search indicator--mobile d-md-none">
+                                    <button class="indicator__button">
+                                        <span class="indicator__area">
+                                            <svg width="20px" height="20px">
                                                 <use xlink:href="images/sprite.svg#search-20"></use>
-                                            </svg></span></button></div>
-                                <div class="indicator indicator--mobile d-sm-flex d-none"><a href="cart.php" class="indicator__button"><span class="indicator__area"><svg width="20px" height="20px">
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="indicator indicator--mobile d-sm-flex d-none">
+                                    <a href="cart.php" class="indicator__button">
+                                        <span class="indicator__area">
+                                            <svg width="20px" height="20px">
                                                 <use xlink:href="images/sprite.svg#heart-20"></use>
-                                            </svg> <span class="indicator__value">0</span></span></a></div>
-                                <div class="indicator indicator--mobile"><a href="cart.php" class="indicator__button"><span class="indicator__area"><svg width="20px" height="20px">
+                                            </svg>
+                                            <span class="indicator__value">0</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="indicator indicator--mobile">
+                                    <a href="cart.php" class="indicator__button">
+                                        <span class="indicator__area">
+                                            <svg width="20px" height="20px">
                                                 <use xlink:href="images/sprite.svg#cart-20"></use>
-                                            </svg> <span class="indicator__value">3</span></span></a></div>
+                                            </svg>
+                                            <span class="indicator__value">3</span>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,18 +104,27 @@
         <!-- desktop site__header -->
         <header class="site__header d-lg-block d-none">
             <div class="site-header">
-
                 <div class="site-header__topbar topbar">
                     <div class="topbar__container container">
                         <div class="topbar__row">
-                            <div class="topbar__item topbar__item--link"><a class="topbar-link" href="#">Sobre Nosotros</a></div>
-                            <div class="topbar__item topbar__item--link"><a class="topbar-link" href="#">Contactos</a></div>
-                            <div class="topbar__item topbar__item--link"><a class="topbar-link" href="#">Blog</a></div>
+                            <div class="topbar__item topbar__item--link">
+                                <a class="topbar-link" href="#">Sobre Nosotros</a>
+                            </div>
+                            <div class="topbar__item topbar__item--link">
+                                <a class="topbar-link" href="#">Contactos</a>
+                            </div>
+                            <div class="topbar__item topbar__item--link">
+                                <a class="topbar-link" href="#">Blog</a>
+                            </div>
                             <div class="topbar__spring"></div>
                             <div class="topbar__item">
-                                <div class="topbar-dropdown"><button class="topbar-dropdown__btn" type="button">Lenguaje: <span class="topbar__item-value">EN</span> <svg width="7px" height="5px">
+                                <div class="topbar-dropdown">
+                                    <button class="topbar-dropdown__btn" type="button">
+                                        Lenguaje: <span class="topbar__item-value">EN</span>
+                                        <svg width="7px" height="5px">
                                             <use xlink:href="images/sprite.svg#arrow-rounded-down-7x5"></use>
-                                        </svg></button>
+                                        </svg>
+                                    </button>
                                     <div class="topbar-dropdown__body">
                                         <!-- .menu -->
                                         <div class="menu menu--layout--topbar menu--with-icons">
@@ -96,8 +132,12 @@
                                             <ul class="menu__list">
                                                 <li class="menu__item">
                                                     <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
-                                                    <div class="menu__item-submenu-offset"></div><a class="menu__item-link" href="">
-                                                        <div class="menu__item-icon"><img srcset="images/languages/language-1.png, images/languages/language-1@2x.png 2x" src="images/languages/language-1.png" alt=""></div>English
+                                                    <div class="menu__item-submenu-offset"></div>
+                                                    <a class="menu__item-link" href="">
+                                                        <div class="menu__item-icon">
+                                                            <img srcset="images/languages/language-1.png, images/languages/language-1@2x.png 2x" src="images/languages/language-1.png" alt="">
+                                                        </div>
+                                                        English
                                                     </a>
                                                 </li>
                                                 <li class="menu__item">
@@ -132,7 +172,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="site-header__middle container">
                     <div class="site-header__logo"><a href="index.html">
                             <h3>GALPÓN SEPERAK</h3>
@@ -154,7 +193,6 @@
                         <div class="site-header__phone-number">(01) 999919898</div>
                     </div>
                 </div>
-
                 <div class="site-header__nav-panel">
                     <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
                     <div class="nav-panel nav-panel--sticky" data-sticky-mode="pullToShow">
@@ -194,8 +232,6 @@
                                                     </svg></div>
                                             </a>
                                         </li>
-
-
                                     </ul>
                                 </div><!-- .nav-links / end -->
                                 <div class="nav-panel__indicators">
@@ -294,7 +330,6 @@
                                                                     <use xlink:href="images/sprite.svg#cross-10"></use>
                                                                 </svg></button>
                                                         </div>
-
                                                     </div>
                                                     <div class="dropcart__totals">
                                                         <table>
@@ -400,7 +435,7 @@
                                                     <div class="post-card__name"><a href="">Campeonato Nacional de Gallos a Navaja 2019</a></div>
                                                     <div class="post-card__date">Octubre 19, 2019</div>
                                                     <div class="post-card__read-more">
-                                                        <div class="product-details-small nav mt-12 product-dec-slider owl-carousel">
+                                                        <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
                                                             <a class="active" data-toggle="modal" data-target="#exampleModal" href="#">
                                                                 <img src="images/peleas/p1.png">
                                                             </a>
