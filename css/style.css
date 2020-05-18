@@ -4604,7 +4604,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 .nav-links__item {
   height: 100%;
@@ -7335,6 +7334,13 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   }
 }
 @media (min-width: 992px) {
+  .site-header__logo {
+    justify-content: flex-start;
+  }
+  .nav-links__list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
   .product--layout--columnar .product__content {
     -ms-grid-columns: 380px auto 260px;
     grid-template-columns: [gallery] 380px [info] auto [sidebar] 260px;
@@ -8816,6 +8822,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   }
 }
 @media (max-width: 991px) {
+  .nav-links__list {
+    margin: 0;
+  }
   .shop-layout {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
