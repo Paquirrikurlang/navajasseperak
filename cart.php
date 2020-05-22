@@ -48,7 +48,7 @@
                             </button>
                             <a class="mobile-header__logo" href="index.html">
                                 <!-- mobile-logo -->
-                                <h7>GALPÓN SEPERAK</h7>
+                                <h7>GALPÓN PAQUIRRI</h7>
                                 <!-- mobile-logo / end -->
                             </a>
                             <div class="search search--location--mobile-header mobile-header__search">
@@ -140,7 +140,7 @@
 
                 <div class="site-header__middle container">
                     <div class="site-header__logo"><a href="index.html">
-                            <h3>GALPÓN SEPERAK</h3>
+                            <h3>GALPÓN PAQUIRRI</h3>
                         </a></div>
                     <div class="site-header__search">
                         <div class="search search--location--header">
@@ -657,7 +657,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="site-footer__widget footer-contacts">
                                 <h5 class="footer-contacts__title">Contactos</h5>
-                                <div class="footer-contacts__text">Si desea omunicarte con mi persona, te dejo mis datos para poder comunicarnos.</div>
+                                <div class="footer-contacts__text">Te dejo mis datos para poder comunicarnos.</div>
                                 <ul class="footer-contacts__contacts">
                                     <li><i class="footer-contacts__icon fas fa-globe-americas"></i> Direción de domicilio</li>
                                     <li><i class="footer-contacts__icon far fa-envelope"></i> prueba@correo.com</li>
@@ -689,7 +689,7 @@
                         <div class="col-12 col-md-12 col-lg-4">
                             <div class="site-footer__widget footer-newsletter">
                                 <h5 class="footer-newsletter__title">Conexiones</h5>
-                                <div class="footer-newsletter__text">Si deseas comunicarte conmigo lo puedes hacer por medio de las redes</div>
+                                <div class="footer-newsletter__text">También puedes contactarme a través de mis redes sociales</div>
                                 <div class="footer-newsletter__text footer-newsletter__text--social">Síguenos en las redes sociales</div><!-- social-links -->
                                 <div class="social-links footer-newsletter__social-links social-links--shape--circle">
                                     <ul class="social-links__list">

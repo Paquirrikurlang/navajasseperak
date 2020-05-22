@@ -57,7 +57,7 @@
                             </button>
                             <a class="mobile-header__logo" href="index.html">
                                 <!-- mobile-logo -->
-                                <h7>GALPÓN SEPERAK</h7>
+                                <h7>GALPÓN PAQUIRRI</h7>
                                 <!-- mobile-logo / end -->
                             </a>
                             <div class="search search--location--mobile-header mobile-header__search">
@@ -149,7 +149,7 @@
 
                 <div class="site-header__middle container">
                     <div class="site-header__logo"><a href="index.html">
-                            <h3>GALPÓN SEPERAK</h3>
+                            <h3>GALPÓN PAQUIRRI</h3>
                         </a></div>
                     <div class="site-header__search">
                         <div class="search search--location--header">
@@ -1861,78 +1861,7 @@
             <!-- .block-categories / end -->
 
 
-            <!-- .block-posts -->
-            <div class="block block-posts" data-layout="grid-3" data-mobile-columns="1">
-                <div class="container">
-                    <div class="block-header">
-                        <h3 class="block-header__title">Mi Contenido</h3>
-                        <div class="block-header__divider"></div>
-                        <div class="block-header__arrows-list"><button class="block-header__arrow block-header__arrow--left" type="button"><svg width="7px" height="11px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-left-7x11"></use>
-                                </svg></button> <button class="block-header__arrow block-header__arrow--right" type="button"><svg width="7px" height="11px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-right-7x11"></use>
-                                </svg></button></div>
-                    </div>
-                    <div class="block-posts__slider">
-                        <div class="owl-carousel">
-                            <div class="post-card">
-                                <div class="post-card__image"><a href="gallery.php"><img src="images\galpon\img1.jpg" alt=""></a></div>
-                                <div class="post-card__info">
-                                    <div class="post-card__name"><a href="gallery.php">Fotos de mi galpón</a></div>
-                                    <div class="post-card__date">Mayo 02, 2020</div>
-                                    <div class="post-card__content">Este es un album de las fotos más representativas de mi Galpón</div>
-                                    <div class="post-card__read-more"><a href="" class="btn btn-secondary btn-sm">Read More</a></div>
-                                </div>
-                            </div>
-                            <div class="post-card">
-                                <div class="post-card__image"><a href="gallery.php"><img src="images\galpon\img2.jpg" alt=""></a></div>
-                                <div class="post-card__info">
-                                    <div class="post-card__name"><a href="">Videos de mis encuentros gallísticos</a></div>
-                                    <div class="post-card__date">Mayo 02, 2020</div>
-                                    <div class="post-card__content">Muestro un poco de los videos que logré acumular de mis gallso en diversos torneos.</div>
-                                    <div class="post-card__read-more"><a href="" class="btn btn-secondary btn-sm">Read More</a></div>
-                                </div>
-                            </div>
-                            <div class="post-card">
-                                <div class="post-card__image"><a href="gallery.php"><img src="images\personales\img1.jpg" alt=""></a></div>
-                                <div class="post-card__info">
-                                    <div class="post-card__name"><a href="gallery.php">Fotos personales</a></div>
-                                    <div class="post-card__date">Mayo 02, 2020</div>
-                                    <div class="post-card__content">Muestro algo de mis viajes,campañas, mis anécdotas y más</div>
-                                    <div class="post-card__read-more"><a href="" class="btn btn-secondary btn-sm">Read More</a></div>
-                                </div>
-                            </div>
-                            <div class="post-card">
-                                <div class="post-card__image"><a href=""><img src="images\galpon\img1.jpg" alt=""></a></div>
-                                <div class="post-card__info">
-                                    <div class="post-card__name"><a href="">Fotos de mi galpón</a></div>
-                                    <div class="post-card__date">Mayo 02, 2020</div>
-                                    <div class="post-card__content">Este es un album de las fotos más representativas de mi Galpón</div>
-                                    <div class="post-card__read-more"><a href="" class="btn btn-secondary btn-sm">Read More</a></div>
-                                </div>
-                            </div>
-                            <div class="post-card">
-                                <div class="post-card__image"><a href=""><img src="images\galpon\img2.jpg" alt=""></a></div>
-                                <div class="post-card__info">
-                                    <div class="post-card__name"><a href="">Videos de mis encuentros gallísticos</a></div>
-                                    <div class="post-card__date">Mayo 02, 2020</div>
-                                    <div class="post-card__content">Muestro un poco de los videos que logré acumular de mis gallso en diversos torneos.</div>
-                                    <div class="post-card__read-more"><a href="" class="btn btn-secondary btn-sm">Read More</a></div>
-                                </div>
-                            </div>
-                            <div class="post-card">
-                                <div class="post-card__image"><a href=""><img src="images\personales\img1.jpg" alt=""></a></div>
-                                <div class="post-card__info">
-                                    <div class="post-card__name"><a href="">Fotos personales</a></div>
-                                    <div class="post-card__date">Mayo 02, 2020</div>
-                                    <div class="post-card__content">Muestro algo de mis viajes,campañas, mis anécdotas y más</div>
-                                    <div class="post-card__read-more"><a href="" class="btn btn-secondary btn-sm">Read More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div><!-- .block-posts / end -->
 
 
@@ -1946,7 +1875,7 @@
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="site-footer__widget footer-contacts">
                                 <h5 class="footer-contacts__title">Contactos</h5>
-                                <div class="footer-contacts__text">Si desea omunicarte con mi persona, te dejo mis datos para poder comunicarnos.</div>
+                                <div class="footer-contacts__text">Te dejo mis datos para poder comunicarnos.</div>
                                 <ul class="footer-contacts__contacts">
                                     <li><i class="footer-contacts__icon fas fa-globe-americas"></i> Direción de domicilio</li>
                                     <li><i class="footer-contacts__icon far fa-envelope"></i> prueba@correo.com</li>
@@ -1978,7 +1907,7 @@
                         <div class="col-12 col-md-12 col-lg-4">
                             <div class="site-footer__widget footer-newsletter">
                                 <h5 class="footer-newsletter__title">Conexiones</h5>
-                                <div class="footer-newsletter__text">Si deseas comunicarte conmigo lo puedes hacer por medio de las redes</div>
+                                <div class="footer-newsletter__text">También puedes contactarme a través de mis redes sociales</div>
                                 <div class="footer-newsletter__text footer-newsletter__text--social">Síguenos en las redes sociales</div><!-- social-links -->
                                 <div class="social-links footer-newsletter__social-links social-links--shape--circle">
                                     <ul class="social-links__list">

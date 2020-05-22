@@ -215,7 +215,6 @@ h6 {
   background-color: #f7f7f7;
 }
 @media (min-width: 992px) {
-
   .account-nav {
     border: 2px solid #f0f0f0;
     border-radius: 2px;
@@ -5585,6 +5584,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   margin-top: 16px;
   background: transparent;
   border-top: 1px solid #ebebeb;
+  background-color: #dce4f3;
 }
 .site-footer__widgets {
   padding: 48px 0 54px;
