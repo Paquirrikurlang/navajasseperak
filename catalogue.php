@@ -440,9 +440,9 @@
                                                 <div class="product-card__badges-list">
                                                     <div class="product-card__badge product-card__badge--new">Nuevo</div>
                                                 </div>
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/olivo.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/olivo.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Olivo</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Olivo</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -550,9 +550,9 @@
                                                 <div class="product-card__badges-list">
                                                     <div class="product-card__badge product-card__badge--hot">último stock</div>
                                                 </div>
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images\navajas\tipoSeperak9Milimetros.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images\navajas\tipoSeperak9Milimetros.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Seperak 9 milímetros</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Seperak 9 milímetros</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -660,9 +660,9 @@
                                                 <div class="product-card__badges-list">
                                                     <div class="product-card__badge product-card__badge--new">Nuevo</div>
                                                 </div>
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/tipoSeperak11Milimetros.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/tipoSeperak11Milimetros.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Seperak 11 milímetros</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Seperak 11 milímetros</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -770,9 +770,9 @@
                                                 <div class="product-card__badges-list">
                                                     <div class="product-card__badge product-card__badge--hot">último stock</div>
                                                 </div>
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/tipoSeperak13Milimetros.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/tipoSeperak13Milimetros.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Seperak de 13 milímetros</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Seperak de 13 milímetros</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -880,9 +880,9 @@
                                                 <div class="product-card__badges-list">
                                                     <div class="product-card__badge product-card__badge--new">Nuevo</div>
                                                 </div>
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/sinTacon.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/sinTacon.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Sin Tacón</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Sin Tacón</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -990,9 +990,9 @@
                                                 <div class="product-card__badges-list">
                                                     <div class="product-card__badge product-card__badge--sale">Oferta</div>
                                                 </div>
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/olivoCurva.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/olivoCurva.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Olivo Curva</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Olivo Curva</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -1098,9 +1098,9 @@
                                                         <use xlink:href="images/sprite.svg#quickview-16"></use>
                                                     </svg> <span class="fake-svg-icon"></span></button>
 
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/olivo.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/olivo.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Olivo</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Olivo</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -1206,9 +1206,9 @@
                                                         <use xlink:href="images/sprite.svg#quickview-16"></use>
                                                     </svg> <span class="fake-svg-icon"></span></button>
 
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/mediaO.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/mediaO.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Media O</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Media O</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -1314,9 +1314,9 @@
                                                         <use xlink:href="images/sprite.svg#quickview-16"></use>
                                                     </svg> <span class="fake-svg-icon"></span></button>
 
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/mediaLuna.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/mediaLuna.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Media Luna</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Media Luna</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -1422,9 +1422,9 @@
                                                         <use xlink:href="images/sprite.svg#quickview-16"></use>
                                                     </svg> <span class="fake-svg-icon"></span></button>
 
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/filipina.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/filipina.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Filipina</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Filipina</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -1530,9 +1530,9 @@
                                                         <use xlink:href="images/sprite.svg#quickview-16"></use>
                                                     </svg> <span class="fake-svg-icon"></span></button>
 
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/colgada.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/colgada.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Colgada</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Colgada</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">
@@ -1638,9 +1638,9 @@
                                                         <use xlink:href="images/sprite.svg#quickview-16"></use>
                                                     </svg> <span class="fake-svg-icon"></span></button>
 
-                                                <div class="product-card__image product-image"><a href="product.html" class="product-image__body"><img class="product-image__img" src="images/navajas/colaDeRata.png" alt=""></a></div>
+                                                <div class="product-card__image product-image"><a href="product.php" class="product-image__body"><img class="product-image__img" src="images/navajas/colaDeRata.png" alt=""></a></div>
                                                 <div class="product-card__info">
-                                                    <div class="product-card__name"><a href="product.html">Navaja Modelo Cola de Rata</a></div>
+                                                    <div class="product-card__name"><a href="product.php">Navaja Modelo Cola de Rata</a></div>
                                                     <div class="product-card__rating">
                                                         <div class="product-card__rating-stars">
                                                             <div class="rating">

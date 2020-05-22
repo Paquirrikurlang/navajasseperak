@@ -429,27 +429,88 @@
                                     <div class="posts-list__body">
                                         <div class="posts-list__item">
                                             <div class="post-card post-card--layout--list post-card--size--nl">
-                                                <div class="post-card__image"><a href=""><img src="images/equipo/canetecampeon2.jpg" alt=""></a></div>
+                                                <div class="post-card__image"><a href=""><img src="images/triunfos/t2.jpg" alt=""></a></div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category"><a href="">Colise Abrham Wong Cañete</a></div>
+                                                    <div class="post-card__name"><a href="">Campeonato brahm Wong Cañete 2018</a></div>
+                                                    <div class="post-card__date">Octubre 19, 2019</div>
+                                                    <div class="post-card__read-more">
+                                                        <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
+                                                            <a data-toggle="modal" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t8.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t4.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t5.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t6.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/peleas/p1.png">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--list post-card--size--nl">
+                                                <div class="post-card__image"><a href=""><img src="images/triunfos/t3.png" alt=""></a></div>
                                                 <div class="post-card__info">
                                                     <div class="post-card__category"><a href="">Colise Círculo Gallístico</a></div>
                                                     <div class="post-card__name"><a href="">Campeonato Nacional de Gallos a Navaja 2019</a></div>
                                                     <div class="post-card__date">Octubre 19, 2019</div>
                                                     <div class="post-card__read-more">
                                                         <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
-                                                            <a class="active" data-toggle="modal" data-target="#exampleModal" href="#">
+                                                            <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t4.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+
+                                                                <img src="images/triunfos/t8.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t6.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
                                                                 <img src="images/peleas/p1.png">
                                                             </a>
-                                                            <a href="#pro-details2">
-                                                                <img src="images/peleas/p1.png">
+                                                            <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t5.jpg">
+
                                                             </a>
-                                                            <a href="#pro-details3">
-                                                                <img src="images/peleas/p1.png">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="posts-list__item">
+                                            <div class="post-card post-card--layout--list post-card--size--nl">
+                                                <div class="post-card__image"><a href=""><img src="images/triunfos/t7.jpg" alt=""></a></div>
+                                                <div class="post-card__info">
+                                                    <div class="post-card__category"><a href="">Colise de Ayacucho</a></div>
+                                                    <div class="post-card__name"><a href="">Campeonato Nacional de Gallos Ayacucho 2019</a></div>
+                                                    <div class="post-card__date">Octubre 19, 2019</div>
+                                                    <div class="post-card__read-more">
+                                                        <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
+                                                            <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t4.jpg">
                                                             </a>
-                                                            <a href="#pro-details4">
+                                                            <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
                                                                 <img src="images/peleas/p1.png">
+
                                                             </a>
-                                                            <a href="#pro-details5">
-                                                                <img src="images/peleas/p1.png">
+                                                            <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t8.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t5.jpg">
+                                                            </a>
+                                                            <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                                <img src="images/triunfos/t5.jpg">
                                                             </a>
                                                         </div>
                                                     </div>
@@ -551,406 +612,77 @@
     </div>
     <!-- site / end -->
     <!-- quickview-modal -->
-    <div id="quickview-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal fade" id="homeVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="quickview">
-                    <button class="quickview__close" type="button"><svg width="20px" height="20px">
-                            <use xlink:href="images/sprite.svg#cross-20"></use>
-                        </svg>
-                    </button>
-                    <div class="product product--layout--quickview" data-layout="quickview">
-                        <div class="product__content">
-                            <!-- .product__gallery -->
-                            <div class="product__gallery">
-                                <div class="product-gallery">
-                                    <div class="product-gallery__featured">
-                                        <button class="product-gallery__zoom">
-                                            <svg width="24px" height="24px">
-                                                <use xlink:href="images/sprite.svg#zoom-in-24"></use>
-                                            </svg>
-                                        </button>
-                                        <div class="owl-carousel owl-loaded owl-drag" id="product-image">
-
-
-
-
-
-                                            <div class="owl-stage-outer">
-                                                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2656px;">
-                                                    <div class="owl-item active" style="width: 531.007px;">
-                                                        <div class="product-image product-image--location--gallery">
-                                                            <a href="images\navajas\colaDeRata.png" data-width="700" data-height="700" class="product-image__body" target="_blank">
-                                                                <img class="product-image__img" src="images\navajas\olivo.png" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 531.007px;">
-                                                        <div class="product-image product-image--location--gallery">
-                                                            <a href="images\navajas\filipina.png" data-width="700" data-height="700" class="product-image__body" target="_blank">
-                                                                <img class="product-image__img" src="images\navajas\filipina.png" alt="">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 531.007px;">
-                                                        <div class="product-image product-image--location--gallery">
-                                                            <a href="images\navajas\mediaO.png" data-width="700" data-height="700" class="product-image__body" target="_blank">
-                                                                <img class="product-image__img" src="images\navajas\mediaO.png" alt=""></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 531.007px;">
-                                                        <div class="product-image product-image--location--gallery">
-                                                            <a href="images\navajas\olivoCurva.png" data-width="700" data-height="700" class="product-image__body" target="_blank">
-                                                                <img class="product-image__img" src="images\navajas\olivoCurva.png" alt=""></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 531.007px;">
-                                                        <div class="product-image product-image--location--gallery">
-                                                            <a href="images\navajas\spk.png" data-width="700" data-height="700" class="product-image__body" target="_blank">
-                                                                <img class="product-image__img" src="images\navajas\spk.png" alt=""></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div>
-                                            <div class="owl-dots disabled"></div>
-                                        </div>
-                                    </div>
-                                    <div class="product-gallery__carousel">
-                                        <div class="owl-carousel owl-loaded owl-drag" id="product-carousel">
-
-
-
-
-
-                                            <div class="owl-stage-outer">
-                                                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 545px;">
-                                                    <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\olivo.png" class="product-image product-gallery__carousel-item product-gallery__carousel-item--active">
-                                                            <div class="product-image__body">
-                                                                <img class="product-image__img product-gallery__carousel-image" src="images\navajas\olivo.png" alt=""></div>
-                                                        </a></div>
-                                                    <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\filipina.png" class="product-image product-gallery__carousel-item">
-                                                            <div class="product-image__body">
-                                                                <img class="product-image__img product-gallery__carousel-image" src="images\navajas\filipina.png" alt=""></div>
-                                                        </a></div>
-                                                    <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\mediaO.png" class="product-image product-gallery__carousel-item">
-                                                            <div class="product-image__body">
-                                                                <img class="product-image__img product-gallery__carousel-image" src="images\navajas\mediaO.png" alt=""></div>
-                                                        </a></div>
-                                                    <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\olivoCurva.png" class="product-image product-gallery__carousel-item">
-                                                            <div class="product-image__body">
-                                                                <img class="product-image__img product-gallery__carousel-image" src="images\navajas\olivoCurva.png" alt=""></div>
-                                                        </a></div>
-                                                    <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\spk.png" class="product-image product-gallery__carousel-item">
-                                                            <div class="product-image__body">
-                                                                <img class="product-image__img product-gallery__carousel-image" src="images\navajas\spk.png" alt=""></div>
-                                                        </a></div>
-                                                </div>
-                                            </div>
-                                            <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div>
-                                            <div class="owl-dots disabled"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .product__gallery / end -->
-                            <!-- .product__info -->
-                            <div class="product__info">
-                                <div class="product__wishlist-compare">
-                                    <button type="button" class="btn btn-sm btn-light btn-svg-icon" data-toggle="tooltip" data-placement="right" title="" data-original-title="Wishlist">
-                                        <svg width="16px" height="16px">
-                                            <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                        </svg>
-                                    </button>
-                                    <button type="button" class="btn btn-sm btn-light btn-svg-icon" data-toggle="tooltip" data-placement="right" title="" data-original-title="Compare">
-                                        <svg width="16px" height="16px">
-                                            <use xlink:href="images/sprite.svg#compare-16"></use>
-                                        </svg>
-                                    </button>
-                                </div>
-                                <h1 class="product__name">
-                                    Navaja Olivo
-                                </h1>
-
-                                <div class="product__description">
-                                    Esta navaja tiene un diseño ideal para el tipo de pleito
-                                    que va y pega sin demora, gallso de aire y buen registro, además
-                                    cae perfectamente en gallos que tienen buena conformación.
-                                    que va y pega sin demora, gallso de aire y buen registro, además
-                                    cae perfectamente en gallos que tienen buena conformación.
-                                    cae perfectamente en gallos que tienen buena.
-                                </div>
-                                <ul class="product__features">
-                                    <li>Speed: 750 RPM</li>
-                                    <li>Power Source: Cordless-Electric</li>
-                                    <li>Battery Cell Type: Lithium</li>
-                                    <li>Voltage: 20 Volts</li>
-                                    <li>Battery Capacity: 2 Ah</li>
-                                </ul>
-                                <ul class="product__meta">
-                                    <li class="product__meta-availability">
-                                        Disponibilidad: <span class="text-success">En Stock</span>
-                                    </li>
-                                    <li>Marca: <a href="">Seperak</a></li>
-                                    <li>SKU: 0001</li>
-                                </ul>
-                            </div>
-                            <!-- .product__info / end -->
-                            <!-- .product__sidebar disabled="disabled"-->
-                            <div class="product__sidebar">
-                                <div class="product__availability">
-                                    Disponibilidad: <span class="text-success">En Stock</span>
-                                </div>
-                                <div class="product__prices">S/100.00</div>
-                                <!-- .product__options -->
-                                <form class="product__options">
-                                    <div class="form-group product__option">
-                                        <label class="product__option-label">Material</label>
-                                        <div class="input-radio-label">
-                                            <div class="input-radio-label__list">
-                                                <label><input type="radio" name="material">
-                                                    <span>Metal</span></label>
-                                                <label><input type="radio" name="material">
-                                                    <span>Madera</span></label>
-                                                <label><input type="radio" name="material">
-                                                    <span>Plástico</span></label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group product__option">
-                                        <label class="product__option-label" for="product-quantity">Cantidad</label>
-                                        <div class="product__actions">
-                                            <div class="product__actions-item">
-                                                <div class="input-number product__quantity">
-                                                    <input id="product-quantity" class="input-number__input form-control form-control-lg" type="number" min="1" value="1">
-                                                    <div class="input-number__add"></div>
-                                                    <div class="input-number__sub"></div>
-                                                </div>
-                                            </div>
-                                            <div class="product__actions-item product__actions-item--addtocart">
-                                                <button class="btn btn-primary btn-lg">
-                                                    Agregar al Carrito
-                                                </button>
-                                            </div>
-                                            <!--
-                                            <div class="product__actions-item product__actions-item--wishlist">
-                                                <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip" title="Wishlist">
-                                                    <svg width="16px" height="16px">
-                                                        <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                            <div class="product__actions-item product__actions-item--compare">
-                                                <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip" title="Compare">
-                                                    <svg width="16px" height="16px">
-                                                        <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>-->
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- .product__options / end -->
-                            </div>
-                            <!-- .product__end -->
-                            <div class="product__footer">
-                                <div class="product__tags tags">
-                                    <div class="tags__list">
-                                        <a href="catalogue.php">Ver Catálogo</a>
-                                    </div>
-                                </div>
-                                <div class="product__share-links share-links">
-                                    <ul class="share-links__list">
-                                        <li class="share-links__item share-links__item--type--like">
-                                            <a href="">Like</a>
-                                        </li>
-                                        <li class="share-links__item share-links__item--type--tweet">
-                                            <a href="">Tweet</a>
-                                        </li>
-                                        <li class="share-links__item share-links__item--type--pin">
-                                            <a href="">Pin It</a>
-                                        </li>
-                                        <li class="share-links__item share-links__item--type--counter">
-                                            <a href="">4K</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="pauseVid()">X</button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video id="gossVideo" class="embed-responsive-item" controls="controls" poster="http://www.gossettmktg.com/video/dangot.png">
+                        <source src="http://www.gossettmktg.com/video/dangot.mp4" type="video/mp4">
+                        <source src="http://www.gossettmktg.com/video/dangot.webm" type="video/webm">
+                        <source src="http://www.gossettmktg.com/video/dangot.ogv" type="video/ogg">
+                        <object type="application/x-shockwave-flash" data="https://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="353" height="190">
+                            <param name="movie" value="https://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
+                            <param name="allowFullScreen" value="true">
+                            <param name="wmode" value="transparent">
+                            <param name="flashVars" value="config={'playlist':['http%3A%2F%2Fwww.gossettmktg.com%2Fvideo%2Fdangot.png',{'url':'http%3A%2F%2Fwww.gossettmktg.com%2Fvideo%2Fdangot.mp4','autoPlay':false}]}">
+                            <img alt="Big Buck Bunny" src="http://www.gossettmktg.com/video/dangot.png" width="353" height="190" title="No video playback capabilities, please download the video below">
+                        </object>
+                    </video>
                 </div>
             </div>
         </div>
     </div>
     <!-- quickview-modal / end -->
     <!-- mobilemenu -->
-    <div class="mobilemenu">
-        <div class="mobilemenu__backdrop"></div>
-        <div class="mobilemenu__body">
-            <div class="mobilemenu__header">
-                <div class="mobilemenu__title">Menu</div><button type="button" class="mobilemenu__close"><svg width="20px" height="20px">
-                        <use xlink:href="images/sprite.svg#cross-20"></use>
-                    </svg></button>
-            </div>
-            <div class="mobilemenu__content">
-                <ul class="mobile-links mobile-links--level--0" data-collapse="" data-collapse-opened-class="mobile-links__item--open">
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="index.php" class="mobile-links__item-link">Inicio</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
-                        </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="trayectoria.php" class="mobile-links__item-link">Trayectoria</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
-                        </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="catalogue.php" class="mobile-links__item-link">Catálogo</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
-                        </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="gallery.php" class="mobile-links__item-link">Galería</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
-                        </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="contacts.php" class="mobile-links__item-link">Contáctanos</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
-                        </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
-                    </li>
-                </ul>
-            </div>
 
-
-        </div>
-    </div><!-- mobilemenu / end -->
     <!-- photoswipe -->
     <!-- js -->
     <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
+<script>
+    $(document).ready(main);
+    var vid = document.getElementById("gossVideo");
+
+    function playVid() {
+        debugger;
+        vid.play();
+    }
+
+    function pauseVid() {
+        vid.pause();
+    }
+
+    function main() {
+        $('#btn-msg-face').on('click', function() {
+            debugger;
+            PopupCenter(this.href, this.target, '350', '450');
+            return false;
+        });
+    }
+
+    function PopupCenter(url, title, w, h) {
+        debugger;
+        var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+        var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+        width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+        height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+        var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        var top = ((height / 2) - (h / 2)) + dualScreenTop;
+        var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+        if (window.focus) {
+            newWindow.focus();
+        }
+    }
+</script>
 
 </html>

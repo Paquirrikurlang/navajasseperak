@@ -18,6 +18,15 @@
     <link rel="stylesheet" href="vendor\fontawesome\css\all.min.css"><!-- font - stroyka -->
     <link rel="stylesheet" href="fonts\stroyka\stroyka.css">
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-6"></script>
+    <style>
+        @media screen and (min-width: 992px) {
+            .post-card__info {
+                width: 100% !important;
+            }
+        }
+    </style>
+
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
