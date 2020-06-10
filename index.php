@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"><!-- css -->
     <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
     <link rel="stylesheet" href="vendor\owl-carousel\assets\owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor\owl-carousel\assets\animate.min.css">
     <link rel="stylesheet" href="vendor\photoswipe\photoswipe.css">
     <link rel="stylesheet" href="vendor\photoswipe\default-skin\default-skin.css">
     <link rel="stylesheet" href="vendor\select2\css\select2.min.css">
@@ -382,33 +383,45 @@
         <!-- site__body -->
         <div class="site__body">
             <!-- .block-slideshow -->
-            <div class="block-slideshow block-slideshow--layout--full block">
+            <div class="block-slideshow block-slideshow--layout--full block-slideshow--layout--full--home block">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="block-slideshow__body">
-                                <div class="owl-carousel">
-                                    <a class="block-slideshow__slide" href="catalogue.php">
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop" style="background-image: url('images/slides/navajas1.jpg')"></div>
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url('images/slides/navajas_mobile.jpg')"></div>
+                                <div class="fadeOut owl-carousel owl-carousel--home">
+                                    <a class="block-slideshow__slide block-slideshow__slide--home" href="catalogue.php">
+                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
+                                            <img src="images/slides/navajas1.jpg" alt="Navajas1">
+                                        </div>
+                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile">
+                                            <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
+                                        </div>
                                         <div class="block-slideshow__slide-content">
                                             <!--<div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>-->
                                             <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
                                             <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catálogo</span></div>
                                         </div>
                                     </a>
-                                    <a class="block-slideshow__slide" href="">
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop" style="background-image: url('images/slides/navajas1.jpg')"></div>
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url('images/slides/navajas_mobile.jpg')"></div>
+                                    <a class="block-slideshow__slide block-slideshow__slide--home" href="">
+                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
+                                            <img src="images/slides/navajas1.jpg" alt="Navajas1">
+                                        </div>
+                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile">
+                                            <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
+                                        </div>
                                         <div class="block-slideshow__slide-content">
                                             <!--<div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>-->
                                             <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
                                             <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catàlogo</span></div>
                                         </div>
                                     </a>
-                                    <a class="block-slideshow__slide" href="">
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop" style="background-image: url('images/slides/navajas1.jpg')"></div>
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url('images/slides/navajas_mobile.jpg')"></div>
+                                    <a class="block-slideshow__slide block-slideshow__slide--home" href="">
+                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
+                                            <img src="images/slides/navajas1.jpg" alt="Navajas1">
+                                        </div>
+                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile">
+                                            <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
+                                        </div>
                                         <div class="block-slideshow__slide-content">
                                             <!--<div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>-->
                                             <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
@@ -2375,6 +2388,18 @@
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
     <script>
         svg4everybody();
+        $('.owl-carousel--home').owlCarousel({
+            items:1,
+            navigation: true,
+            navigationText: ["", ""],
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            autoPlay: true,
+            mouseDrag: true,
+            singleItem: true,
+            animateIn: 'fadeIn',
+            animateOut: 'fadeOut'
+        });
     </script>
 </body>
 
