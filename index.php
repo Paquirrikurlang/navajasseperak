@@ -397,7 +397,7 @@
                                             <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
-                                            <!--<div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>-->
+                                            <div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>
                                             <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
                                             <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catálogo</span></div>
                                         </div>
@@ -410,9 +410,9 @@
                                             <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
-                                            <!--<div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>-->
+                                            <div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>
                                             <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
-                                            <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catàlogo</span></div>
+                                            <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catálogo</span></div>
                                         </div>
                                     </a>
                                     <a class="block-slideshow__slide block-slideshow__slide--home" href="">
@@ -423,7 +423,7 @@
                                             <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
-                                            <!--<div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>-->
+                                            <div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>
                                             <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
                                             <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catàlogo</span></div>
                                         </div>
@@ -1711,7 +1711,8 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons">
+                                                <button class="btn btn-primary product-card__addtocart" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1721,9 +1722,11 @@
                                 </div>
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
-                                        <button class="product-card__quickview" type="button"><svg width="16px" height="16px">
+                                        <button class="product-card__quickview" type="button">
+                                            <svg width="16px" height="16px">
                                                 <use xlink:href="images/sprite.svg#quickview-16"></use>
-                                            </svg> <span class="fake-svg-icon"></span>
+                                            </svg>
+                                            <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="./product.php" class="product-image__body">
                                                 <img class="product-image__img" src="images\navajas\spk.png" alt=""></a></div>
@@ -1970,11 +1973,6 @@
                                             </svg>
                                         </button>
                                         <div class="owl-carousel owl-loaded owl-drag" id="product-image">
-
-
-
-
-
                                             <div class="owl-stage-outer">
                                                 <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2656px;">
                                                     <div class="owl-item active" style="width: 531.007px;">
@@ -2017,11 +2015,6 @@
                                     </div>
                                     <div class="product-gallery__carousel">
                                         <div class="owl-carousel owl-loaded owl-drag" id="product-carousel">
-
-
-
-
-
                                             <div class="owl-stage-outer">
                                                 <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 545px;">
                                                     <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\olivo.png" class="product-image product-gallery__carousel-item product-gallery__carousel-item--active">
@@ -2389,15 +2382,15 @@
     <script>
         svg4everybody();
         $('.owl-carousel--home').owlCarousel({
-            items:1,
+            items: 1,
             navigation: true,
+            nav: true,
             navigationText: ["", ""],
             slideSpeed: 300,
             paginationSpeed: 400,
             autoPlay: true,
             mouseDrag: true,
             singleItem: true,
-            animateIn: 'fadeIn',
             animateOut: 'fadeOut'
         });
     </script>
