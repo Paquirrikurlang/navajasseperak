@@ -16,6 +16,10 @@
   overflow: hidden;
 }
 
+.mt-24{
+  margin-top: 24px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
