@@ -244,6 +244,27 @@ p {
   width: 100%;
 }
 
+/* Estilos para sección preguntas en Vista Conversemos */
+
+.ship-different-title label {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #363636;
+}
+
+.pregunta {
+  border-bottom: 1px solid #e5e5e5;
+  color: #444;
+  font-size: 25px;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/* Fin - Estilos para sección preguntas en Vista Conversemos */
+
 @media screen and (min-width: 992px) {
   .post-card__info {
     width: calc(100% - 380px);
