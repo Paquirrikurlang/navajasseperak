@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css\style.css"><!-- font - fontawesome -->
     <link rel="stylesheet" href="css\styleAnterior.css"><!-- font - fontawesome -->
     <link rel="stylesheet" href="css\styleExtra.css"><!-- font - fontawesome -->
-    <link rel="stylesheet" href="css\trayectoria.css"><!-- font - fontawesome -->
     <link rel="stylesheet" href="vendor\fontawesome\css\all.min.css"><!-- font - stroyka -->
     <link rel="stylesheet" href="fonts\stroyka\stroyka.css">
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-6"></script>
@@ -31,11 +30,15 @@
     </script>
 </head>
 
+<style>
+    .mb-45 {
+        margin-bottom: 30px !important;
+    }
+</style>
+
 <body>
     <!-- site -->
     <div class="site">
-
-
         <!-- mobile site__header -->
         <header class="site__header d-lg-none">
             <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
@@ -139,7 +142,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="site-header__middle container">
                     <div class="site-header__logo"><a href="index.html">
                             <h3>GALPÓN PAQUIRRI</h3>
@@ -301,7 +303,6 @@
                                                                     <use xlink:href="images/sprite.svg#cross-10"></use>
                                                                 </svg></button>
                                                         </div>
-
                                                     </div>
                                                     <div class="dropcart__totals">
                                                         <table>
@@ -328,43 +329,6 @@
                                             </div><!-- .dropcart / end -->
                                         </div>
                                     </div>
-                                    <!--
-                                    <div class="indicator indicator--trigger--click"><a href="#" class="indicator__button"><span class="indicator__area"><svg width="20px" height="20px">
-                                                    <use xlink:href="images/sprite.svg#person-20"></use>
-                                                </svg></span></a>
-                                        <div class="indicator__dropdown">
-                                            <div class="account-menu">
-                                                <form class="account-menu__form">
-                                                    <div class="account-menu__form-title">Log In to Your Account</div>
-                                                    <div class="form-group"><label for="header-signin-email" class="sr-only">Email address</label> <input id="header-signin-email" type="email" class="form-control form-control-sm" placeholder="Email address"></div>
-                                                    <div class="form-group"><label for="header-signin-password" class="sr-only">Password</label>
-                                                        <div class="account-menu__form-forgot"><input id="header-signin-password" type="password" class="form-control form-control-sm" placeholder="Password"> <a href="" class="account-menu__form-forgot-link">Forgot?</a></div>
-                                                    </div>
-                                                    <div class="form-group account-menu__form-button"><button type="submit" class="btn btn-primary btn-sm">Login</button></div>
-                                                    <div class="account-menu__form-link"><a href="#">Create An Account</a></div>
-                                                </form>
-                                                <div class="account-menu__divider"></div><a href="account-dashboard.html" class="account-menu__user">
-                                                    <div class="account-menu__user-avatar"><img src="images\avatars\avatar-3.jpg" alt=""></div>
-                                                    <div class="account-menu__user-info">
-                                                        <div class="account-menu__user-name">Helena Garcia</div>
-                                                        <div class="account-menu__user-email">stroyka@example.com</div>
-                                                    </div>
-                                                </a>
-                                                <div class="account-menu__divider"></div>
-                                                <ul class="account-menu__links">
-                                                    <li><a href="account-profile.html">Edit Profile</a></li>
-                                                    <li><a href="account-orders.html">Order History</a></li>
-                                                    <li><a href="account-addresses.html">Addresses</a></li>
-                                                    <li><a href="account-password.html">Password</a></li>
-                                                </ul>
-                                                <div class="account-menu__divider"></div>
-                                                <ul class="account-menu__links">
-                                                    <li><a href="#">Logout</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    -->
                                 </div>
                             </div>
                         </div>
@@ -374,7 +338,6 @@
         </header><!-- desktop site__header / end -->
         <!-- site__body -->
         <div class="site__body">
-            <!-- .block-slideshow -->
             <div class="page-header">
                 <div class="page-header__container container">
                     <div class="page-header__breadcrumb">
@@ -383,462 +346,123 @@
                                 <li class="breadcrumb-item"><a href="index.php">Inicio</a> <svg class="breadcrumb-arrow" width="6px" height="9px">
                                         <use xlink:href="images/sprite.svg#arrow-rounded-right-6x9"></use>
                                     </svg></li>
-                                <li class="breadcrumb-item active" aria-current="page">Trayectoria</li>
+                                <li class="breadcrumb-item active" aria-current="page">Mi Biografía</li>
                             </ol>
                         </nav>
                     </div>
+                    <div class="page-header__title">
+                        <h1>Mi Biografía</h1>
+                    </div>
                 </div>
             </div>
-            <div class="block-slideshow block-slideshow--layout--full block">
-                <div class="container">
-                    <div class="testimonial-area">
-                        <div class="panel-box padding-b">
-                            <div class="titles">
-                                <h1>Algo de mi historia</h1>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-xl-4">
-                                    <div class="blog-details-wrapper res-mrg-top">
-                                        <div class="blog-img">
-                                            <img src="images/trayectoria/img1.jpg" alt="" class="satura">
-                                        </div>
+            <!-- .block-slideshow -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel-box mb-40">
+                            <div class="info-panel">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12 col-xl-8">
-                                    <p>
-                                        Yo soy bien dedicado en esto de los gallos y hay muchos factores que entran para ganar una pelea que y
-                                        muchas estan a nuestro alcance, lo unico que no podemos manejar es la suerte asi
-                                        que minimisando todas las cosas que ayudan a ganar una pelea los triunfos pueden ser mas satisfactorios y mas seguido.
-                                        En los gallos hay que invertir y darle siempre sus comodidades a los animales para poder tener resultados positivos y
-                                        no sea una casualidad, todo es producto de algo.
-                                        Cerrar el círculo es importante, yo completo todo desde que salen las camadas hasta que van a la cancha, eso me da la seguridad
-                                        que mi trabajo está completo
-                                    </p>
-
-
-                                    <div class="testimonial-content">
-                                        <div class="testimonial-dec">
-                                            <p><span>Index</span> the most latgest bike store in the wold can serve you latest qulity of motorcycle also you can sell here your motorcycle it quo minus iduod maxie placeat facere possimus, omnis voluptas assumenda est, omnis dolor llendus. Temporibus autem quibusdam quoten</p>
-                                        </div>
+                                <div class="row padding-top-mini">
+                                    <div class="col-md-4">
+                                        <img class="w-100" src="images/biografia/img1.jpeg" alt="">
                                     </div>
+                                    <div class="col-md-8">
+                                        <p>Pellentesque habitant morbi tristique orper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidu senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. </p>
+                                        <p>Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit
+                                            amet est et sapien Aenean fermentum, elit eget tincidunt condimentum,
+                                            eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                                            Donec non enim in turpis pulvinar facilisis. Ut felis.
+                                            Praesent dapibus, neque id cursus faucibus,
+                                            tortor neque egestas augue, eu vulputate
+                                            magna eros eu erat. Aliquam erat volutpat.
+                                            Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                            Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                        </p>
+                                    </div>
+                                </div>
 
+                                <div class="row padding-top-mini">
+                                    <div class="col-md-12">
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                                    </div>
+                                </div>
+
+                                <div class="row padding-top-mini">
+                                    <div class="col-md-8">
+                                        <p>Pellentesque habitant morbi tristique orper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidu senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. </p>
+                                        <p>Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est
+                                            et sapien Aenean fermentum, elit eget tincidunt condimentum,
+                                            eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                                            Donec non enim in turpis pulvinar facilisis. Ut felis.
+                                            Praesent dapibus, neque id cursus faucibus, tortor neque
+                                            egestas augue, eu vulputate magna eros eu erat.
+                                            Aliquam erat volutpat. Nam dui mi, tincidunt quis,
+                                            accumsan porttitor, facilisis luctus, metus
+                                            Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100" src="images/biografia/img2.jpeg" alt="">
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="team-area pt-120 pb-95">
-                            <div class="coupon-accordion">
-                                <!-- ACCORDION START -->
-                                <h3><span id="biografia">Mi Biografía </span></h3>
-                                <div id="checkout-biografia" class="coupon-content">
-                                    <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <p>
-                                                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                                                            &nbsp;<a href="mi-biografia.php" title="Leer más">Leer más</a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="team-wrapper mb-30">
+                                    <div class="team-img">
+                                        <img src="images/biografia/img3.jpeg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h4>Careando gallo XXXX</h4>
+                                        <span>Lima </span>
                                     </div>
                                 </div>
-                                <!-- ACCORDION END -->
-                                <!-- ACCORDION START -->
-                                <h3><span id="galpon">Mi Galpón </span></h3>
-                                <div id="checkout_galpon" class="coupon-checkout-content" style="display: none;">
-                                    <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-                                                <div class="titles">
-                                                    <h4>Algunas fotos de mi galpón cuando empecé</h4>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img12.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Pareja de camada</h4>
-                                                                <span>Galpón Casma </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img2.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo nro xxxx</h4>
-                                                                <span>Glpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img10.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo carmelo nro xxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img16.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo Nro xxxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img8.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo línea xxxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img7.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo línea xxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img7.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo Línea nro xxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img5.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo Línea nro xxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img16.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo línea xxxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img3.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo nro xxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img11.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo nro xxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-6 col-12">
-                                                        <div class="team-wrapper mb-30">
-                                                            <div class="team-img">
-                                                                <img src="images/galpon/img1.jpg" alt="">
-                                                            </div>
-                                                            <div class="team-content">
-                                                                <h4>Gallo nro xxxx</h4>
-                                                                <span>Galpón Lima </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-
-
-
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="team-wrapper mb-30">
+                                    <div class="team-img">
+                                        <img src="images/biografia/img4.jpg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h4>Campeonato de la Asociación Huancayo</h4>
+                                        <span>Huancayo </span>
                                     </div>
                                 </div>
-                                <h3><span id="equipo">Mi Equipo </span></h3>
-                                <div id="checkout-equipo" class="coupon-content" style="display: none;">
-                                    <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-
-                                        </div>
-                                        <div class="section-title text-center mb-60">
-                                            <h2>Mi equipo </h2>
-                                            <p>
-                                                Este es el equipo que me acompaña siempre para los trabajos con los gallos
-                                            </p>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-6 col-12">
-                                                <div class="team-wrapper mb-30">
-                                                    <div class="team-img">
-                                                        <img src="images/equipo/canetecampeon3.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-content">
-                                                        <h4>Alberto mi galponero</h4>
-                                                        <span>Campeonato Cañete </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6 col-12">
-                                                <div class="team-wrapper mb-30">
-                                                    <div class="team-img">
-                                                        <img src="images/equipo/canetecampeon2.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-content">
-                                                        <h4>Tito mi mano derecha</h4>
-                                                        <span>Campeonato Cañete </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6 col-12">
-                                                <div class="team-wrapper mb-30">
-                                                    <div class="team-img">
-                                                        <img src="images/equipo/central.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-content">
-                                                        <h4>Mi padre que siempre está a mi lado</h4>
-                                                        <span>Campeonato xxxxx </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6 col-12">
-                                                <div class="team-wrapper mb-30">
-                                                    <div class="team-img">
-                                                        <img src="images/equipo/mama.jpg" alt="">
-                                                    </div>
-                                                    <div class="team-content">
-                                                        <h4>Mi apoyo, mi madre</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="team-wrapper mb-30">
+                                    <div class="team-img">
+                                        <img src="images/biografia/img6.jpg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h4>Campeonato xxxxxx</h4>
+                                        <span>Lima </span>
                                     </div>
                                 </div>
-                                <h3><span id="preguntas">Conversemos</span></h3>
-                                <div id="checkout-preguntas" class="coupon-content" style="display: none;">
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cuanto tiempo tienes en el mundo gallístico?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <div class="team-wrapper mb-30">
+                                    <div class="team-img">
+                                        <img src="images/biografia/img7.jpg" alt="">
                                     </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Como nació tu pasión por los gallos?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Que significa ser gallero para ti?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cuales concideras que fueron los principales logros obtenidos en esta afición?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cual es la metodoloía que aplicas en la crianza de tus animales?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cuales son las líneas que has podido formar en todo este tiempo como criador de gallos?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cuéntanos una anécdota que hayas vivido en los gallos?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Como debe ser el gallo ideal para ti?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>¿Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cual es tu mayor motivación para seguir adelante?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>¿Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cual es tu consejo para los criadores jóvenes?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
+                                    <div class="team-content">
+                                        <h4>Gallo que nos da el pase a la final</h4>
+                                        <span>Lima </span>
                                     </div>
                                 </div>
-                                <h3><span id="suenio">Mi sueño </span></h3>
-                                <div id="checkout-suenio" class="coupon-content" style="display: none;">
-                                    <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ACCORDION END -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!-- .block-slideshow / end -->
+            </div>
+            <!-- .block-slideshow / end -->
         </div><!-- .block-posts / end -->
     </div><!-- site__body / end -->
     <!-- site__footer -->
@@ -932,11 +556,6 @@
                                             </svg>
                                         </button>
                                         <div class="owl-carousel owl-loaded owl-drag" id="product-image">
-
-
-
-
-
                                             <div class="owl-stage-outer">
                                                 <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2656px;">
                                                     <div class="owl-item active" style="width: 531.007px;">
@@ -979,11 +598,6 @@
                                     </div>
                                     <div class="product-gallery__carousel">
                                         <div class="owl-carousel owl-loaded owl-drag" id="product-carousel">
-
-
-
-
-
                                             <div class="owl-stage-outer">
                                                 <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 545px;">
                                                     <div class="owl-item active" style="width: 99px; margin-right: 10px;"><a href="images\navajas\olivo.png" class="product-image product-gallery__carousel-item product-gallery__carousel-item--active">
@@ -1018,7 +632,7 @@
                             <!-- .product__info -->
                             <div class="product__info">
                                 <div class="product__wishlist-compare">
-                                    <button type="button" class="btn btn-sm btn-light btn-svg-icon" data-toggle="tooltip" data-placement="right" title="" data-original-title="Me encanta">
+                                    <button type="button" class="btn btn-sm btn-light btn-svg-icon" data-toggle="tooltip" data-placement="right" title="" data-original-title="Wishlist">
                                         <svg width="16px" height="16px">
                                             <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                         </svg>
@@ -1093,21 +707,6 @@
                                                     Agregar al Carrito
                                                 </button>
                                             </div>
-                                            <!--
-                                            <div class="product__actions-item product__actions-item--wishlist">
-                                                <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip" title="Me encanta">
-                                                    <svg width="16px" height="16px">
-                                                        <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                            <div class="product__actions-item product__actions-item--compare">
-                                                <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip" title="Compare">
-                                                    <svg width="16px" height="16px">
-                                                        <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>-->
                                         </div>
                                     </div>
                                 </form>
@@ -1158,152 +757,30 @@
                     <li class="mobile-links__item" data-collapse-item="">
                         <div class="mobile-links__item-title">
                             <a href="index.php" class="mobile-links__item-link">Inicio</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
                         </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
                     </li>
                     <li class="mobile-links__item" data-collapse-item="">
                         <div class="mobile-links__item-title">
                             <a href="trayectoria.php" class="mobile-links__item-link">Trayectoria</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
                         </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
                     </li>
                     <li class="mobile-links__item" data-collapse-item="">
                         <div class="mobile-links__item-title">
                             <a href="catalogue.php" class="mobile-links__item-link">Catálogo</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
                         </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
                     </li>
                     <li class="mobile-links__item" data-collapse-item="">
                         <div class="mobile-links__item-title">
-                            <a href="gallery.php" class="mobile-links__item-link">Galería</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
+                            <a href="gallery.php" class="mobile-links__item-link">Mi Biografía</a>
                         </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
                     </li>
                     <li class="mobile-links__item" data-collapse-item="">
                         <div class="mobile-links__item-title">
                             <a href="contacts.php" class="mobile-links__item-link">Contáctanos</a>
-                            <!-- <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
-                                <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                                </svg>
-                            </button>-->
                         </div>
-                        <!-- <div class="mobile-links__item-sub-links" data-collapse-content="">
-                            <ul class="mobile-links mobile-links--level--1">
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index.html" class="mobile-links__item-link">Home 1</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-2.html" class="mobile-links__item-link">Home 2</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-3.html" class="mobile-links__item-link">Home 1 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a></div>
-                                </li>
-                                <li class="mobile-links__item" data-collapse-item="">
-                                    <div class="mobile-links__item-title"><a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a></div>
-                                </li>
-                            </ul>
-                        </div>-->
                     </li>
                 </ul>
             </div>
-
-
         </div>
     </div><!-- mobilemenu / end -->
     <!-- photoswipe -->
@@ -1337,7 +814,6 @@
         </div>
     </div><!-- photoswipe / end -->
     <!-- js -->
-
     <script src="vendor\jquery\jquery.min.js"></script>
     <script src="vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
     <script src="vendor\owl-carousel\owl.carousel.min.js"></script>
@@ -1346,15 +822,9 @@
     <script src="vendor\photoswipe\photoswipe-ui-default.min.js"></script>
     <script src="vendor\select2\js\select2.min.js"></script>
     <script src="js\number.js"></script>
-    <script src="js\plugins.js"></script>
     <script src="js\main.js"></script>
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
-
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/mainAnterior.js"></script>
     <script>
         svg4everybody();
     </script>

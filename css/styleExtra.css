@@ -19,6 +19,11 @@
 .mb-30 {
   margin-bottom: 30px;
 }
+
+.mb-40 {
+  margin-bottom: 40px!important;
+}
+
 img {
   vertical-align: middle;
   border-style: none;
