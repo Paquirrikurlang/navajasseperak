@@ -28,6 +28,14 @@
   margin-bottom: 40px!important;
 }
 
+.pl-24 {
+  padding-left: 24px!important;
+}
+
+.pr-24 {
+  padding-right: 24px!important;
+}
+
 img {
   vertical-align: middle;
   border-style: none;

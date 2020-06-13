@@ -34,8 +34,6 @@
 <body>
     <!-- site -->
     <div class="site">
-
-
         <!-- mobile site__header -->
         <header class="site__header d-lg-none">
             <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
@@ -433,16 +431,12 @@
                                 <h3><span id="biografia">Mi Biografía </span></h3>
                                 <div id="checkout-biografia" class="coupon-content">
                                     <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <p>
-                                                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                                                            &nbsp;<a href="mi-biografia.php" title="Leer más">Leer más</a>
-                                                        </p>
-                                                    </div>
-                                                </div>
+                                        <div class="row">
+                                            <div class="col-md-12 pl-24 pr-24">
+                                                <p>
+                                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                                    &nbsp;<a href="mi-biografia.php" title="Leer más">Leer más</a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -450,16 +444,45 @@
                                 <!-- ACCORDION END -->
                                 <!-- ACCORDION START -->
                                 <h3><span id="galpon">Mi Galpón </span></h3>
-                                <div id="checkout_galpon" class="coupon-checkout-content" style="display: none;">
+                                <div id="checkout_galpon" class="coupon-content">
                                     <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-                                                <div class="info-panel">
+                                        <div class="row">
+                                            <div class="col-md-12 pl-24 pr-24">
+                                                <p>
+                                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                                    &nbsp;<a href="mi-galpon.php" title="Leer más">Leer más</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3><span id="equipo">Mi Equipo </span></h3>
+                                <div id="checkout-equipo" class="coupon-content">
+                                    <div class="coupon-info justifyText">
+                                        <div class="row">
+                                            <div class="col-md-12 pl-24 pr-24">
+                                                <p>
+                                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                                    &nbsp;<a href="mi-equipo.php" title="Leer más">Leer más</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3><span id="preguntas">Conversemos</span></h3>
+                                <div id="checkout-preguntas" class="coupon-content">
+                                    <div class="coupon-info">
+                                        <div class="row">
+                                            <div class="col-md-12 pl-24 pr-24">
+                                                <div class="different-address">
+                                                    <div class="ship-different-title">
+                                                        <label class="pregunta">¿Cuanto tiempo tienes en el mundo gallístico?</label>
+                                                    </div>
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <p>
-                                                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus,
-                                                                &nbsp;<a href="mi-galpon.php" title="Leer más">Leer más</a>
+                                                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                                                                &nbsp;<a href="conversemos.php" title="Leer más">Leer más</a>
                                                             </p>
                                                         </div>
                                                     </div>
@@ -468,56 +491,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <h3><span id="equipo">Mi Equipo </span></h3>
-                                <div id="checkout-equipo" class="coupon-content" style="display: none;">
-                                    <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <p>
-                                                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-                                                            &nbsp;<a href="mi-equipo.php" title="Leer más">Leer más</a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h3><span id="preguntas">Conversemos</span></h3>
-                                <div id="checkout-preguntas" class="coupon-content" style="display: none;">
-                                    <div class="coupon-info">
-                                        <div class="different-address">
-                                            <div class="ship-different-title">
-                                                <label class="pregunta">¿Cuanto tiempo tienes en el mundo gallístico?</label>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>
-                                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                                                        &nbsp;<a href="conversemos.php" title="Leer más">Leer más</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <h3><span id="suenio">Mi sueño </span></h3>
-                                <div id="checkout-suenio" class="coupon-content" style="display: none;">
+                                <div id="checkout-suenio" class="coupon-content">
                                     <div class="coupon-info justifyText">
-                                        <div class="panel-box padding-b">
-                                            <div class="info-panel">
-
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                                                    </div>
-                                                </div>
-
-
+                                        <div class="row">
+                                            <div class="col-md-12 pl-24 pr-24">
+                                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
