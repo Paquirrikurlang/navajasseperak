@@ -2367,12 +2367,11 @@
             items: 1,
             navigation: true,
             nav: true,
-            navigationText: ["", ""],
-            slideSpeed: 300,
-            paginationSpeed: 400,
+            loop: true,
             autoPlay: true,
-            autoplayTimeout: 5000,
             mouseDrag: true,
+            singleItem: true,
+            animateIn: 'fadeIn',
             animateOut: 'fadeOut'
         });
     </script>
