@@ -391,41 +391,23 @@
                                 <div class="fadeOut owl-carousel owl-carousel--home">
                                     <a class="block-slideshow__slide block-slideshow__slide--home" href="catalogue.php">
                                         <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
-                                            <img src="images/slides/navajas1.jpg" alt="Navajas1">
-                                        </div>
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile">
-                                            <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
+                                            <img src="images/slides/slide-img-1.jpg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
-                                            <div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>
-                                            <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
-                                            <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catálogo</span></div>
+                                            <h1 class="text-bold text-uppercase text-center slide__title">Realice sus<br /> pedidos desde<br /> nuestra web</h1>
+                                            <button class="btn btn__cta__slide">
+                                                Ver catálogo
+                                            </button>
                                         </div>
                                     </a>
                                     <a class="block-slideshow__slide block-slideshow__slide--home" href="">
                                         <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
-                                            <img src="images/slides/navajas1.jpg" alt="Navajas1">
-                                        </div>
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile">
-                                            <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
+                                            <img src="images/slides/slide-img-2.jpg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
-                                            <div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>
-                                            <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
-                                            <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catálogo</span></div>
-                                        </div>
-                                    </a>
-                                    <a class="block-slideshow__slide block-slideshow__slide--home" href="">
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
-                                            <img src="images/slides/navajas1.jpg" alt="Navajas1">
-                                        </div>
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile">
-                                            <img src="images/slides/navajas_mobile.jpg" alt="Navajas1">
-                                        </div>
-                                        <div class="block-slideshow__slide-content">
-                                            <div class="block-slideshow__slide-title">Navajas para Gallos<br>Seperak</div>
-                                            <div class="block-slideshow__slide-text">Elaboradas y fabricadas con la mejor<br>tecnología mexicana</div>
-                                            <div class="block-slideshow__slide-button"><span class="btn btn-primary btn-lg">Ver Catàlogo</span></div>
+                                            <button class="btn btn__cta__slide">
+                                                Click aquí
+                                            </button>
                                         </div>
                                     </a>
                                 </div>
@@ -2389,8 +2371,8 @@
             slideSpeed: 300,
             paginationSpeed: 400,
             autoPlay: true,
+            autoplayTimeout: 5000,
             mouseDrag: true,
-            singleItem: true,
             animateOut: 'fadeOut'
         });
     </script>
