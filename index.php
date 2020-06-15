@@ -2368,11 +2368,13 @@
             navigation: true,
             nav: true,
             loop: true,
-            autoPlay: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            smartSpeed:1500,
             mouseDrag: true,
             singleItem: true,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut'
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn'
         });
     </script>
 </body>
