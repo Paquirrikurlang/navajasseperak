@@ -429,7 +429,7 @@
                             <div class="coupon-accordion">
                                 <!-- ACCORDION START -->
                                 <h3><span id="biografia">Mi Biografía </span></h3>
-                                <div id="checkout-biografia" class="coupon-content">
+                                <div id="checkout-biografia" class="coupon-content" style="display: block;">
                                     <div class="coupon-info justifyText">
                                         <div class="row">
                                             <div class="col-md-12 pl-24 pr-24">
@@ -444,7 +444,7 @@
                                 <!-- ACCORDION END -->
                                 <!-- ACCORDION START -->
                                 <h3><span id="galpon">Mi Galpón </span></h3>
-                                <div id="checkout_galpon" class="coupon-content">
+                                <div id="checkout_galpon" class="coupon-content" style="display: block;">
                                     <div class="coupon-info justifyText">
                                         <div class="row">
                                             <div class="col-md-12 pl-24 pr-24">
@@ -457,7 +457,7 @@
                                     </div>
                                 </div>
                                 <h3><span id="equipo">Mi Equipo </span></h3>
-                                <div id="checkout-equipo" class="coupon-content">
+                                <div id="checkout-equipo" class="coupon-content" style="display: block;">
                                     <div class="coupon-info justifyText">
                                         <div class="row">
                                             <div class="col-md-12 pl-24 pr-24">
@@ -470,7 +470,7 @@
                                     </div>
                                 </div>
                                 <h3><span id="preguntas">Conversemos</span></h3>
-                                <div id="checkout-preguntas" class="coupon-content">
+                                <div id="checkout-preguntas" class="coupon-content" style="display: block;">
                                     <div class="coupon-info">
                                         <div class="row">
                                             <div class="col-md-12 pl-24 pr-24">
@@ -492,7 +492,7 @@
                                     </div>
                                 </div>
                                 <h3><span id="suenio">Mi sueño </span></h3>
-                                <div id="checkout-suenio" class="coupon-content">
+                                <div id="checkout-suenio" class="coupon-content" style="display: block;">
                                     <div class="coupon-info justifyText">
                                         <div class="row">
                                             <div class="col-md-12 pl-24 pr-24">
