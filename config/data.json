@@ -1,0 +1,1286 @@
+{
+  "Producto": [
+    {
+      "Id": 1,
+      "CodigoProducto": "P001",
+      "SKU": "SKU001",
+      "Titulo": "Navaja Olivo Seperak",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 5,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 1,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "A"
+    },
+    {
+      "Id": 2,
+      "CodigoProducto": "P002",
+      "SKU": "SKU002",
+      "Titulo": "Navaja Olivo Tradicional",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 5,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 1,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "B"
+    },
+    {
+      "Id": 3,
+      "CodigoProducto": "P003",
+      "SKU": "SKU003",
+      "Titulo": "Navaja SPK",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 5,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 1,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "C"
+    },
+    {
+      "Id": 4,
+      "CodigoProducto": "P004",
+      "SKU": "SKU004",
+      "Titulo": "Navaja Olivo Curva",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 5,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 1,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "D"
+    },
+    {
+      "Id": 5,
+      "CodigoProducto": "P005",
+      "SKU": "SKU005",
+      "Titulo": "Navaja Especial Seperak 11mm",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "E"
+    },
+    {
+      "Id": 6,
+      "CodigoProducto": "P006",
+      "SKU": "SKU006",
+      "Titulo": "Navaja Media O",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "F"
+    },
+    {
+      "Id": 7,
+      "CodigoProducto": "P007",
+      "SKU": "SKU007",
+      "Titulo": "Navaja Filipina",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "G"
+    },
+    {
+      "Id": 8,
+      "CodigoProducto": "P008",
+      "SKU": "SKU008",
+      "Titulo": "Navaja Especial Seperak 9mm",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "H"
+    },
+    {
+      "Id": 9,
+      "CodigoProducto": "P009",
+      "SKU": "SKU009",
+      "Titulo": "Navaja Seperak en v",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "I"
+    },
+    {
+      "Id": 10,
+      "CodigoProducto": "P0010",
+      "SKU": "SKU0010",
+      "Titulo": "Navaja Especial seperak 13mm",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "J"
+    },
+    {
+      "Id": 11,
+      "CodigoProducto": "P0011",
+      "SKU": "SKU0011",
+      "Titulo": "Navaja Cola de Rata",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "K"
+    },
+    {
+      "Id": 12,
+      "CodigoProducto": "P0012",
+      "SKU": "SKU0012",
+      "Titulo": "Navaja Huaraca sin tacon",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "L"
+    },
+    {
+      "Id": 13,
+      "CodigoProducto": "P0013",
+      "SKU": "SKU0013",
+      "Titulo": "Navaja Media Luna",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "M"
+    },
+    {
+      "Id": 14,
+      "CodigoProducto": "P0014",
+      "SKU": "SKU0014",
+      "Titulo": "Navaja Colgada",
+      "MarcaId": 1,
+      "CategoriaId": 1,
+      "FabricacionId": 1,
+      "Puntuacion": 4,
+      "Descripcion": "Esta navaja tiene un diseño ideal para el tipo de pleito que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. que va y pega sin demora, gallso de aire y buen registro, además cae perfectamente en gallos que tienen buena conformación. cae perfectamente en gallos que tienen buena.",
+      "CaracteristicaId": 1,
+      "DisponibilidadId": 1,
+      "PrecioVenta": "100.00",
+      "EstadoAntiguedadId": 2,
+      "CompartirFacebook": 1,
+      "CompartirTweter": 1,
+      "Letra": "N"
+    }
+  ],
+  "ProductoImagen": [
+    {
+      "Id": 1,
+      "IdProducto": 1,
+      "Descripcion": "A1",
+      "PadreId": 0,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/A/A1.jpg"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 1,
+      "Descripcion": "A2",
+      "PadreId": 1,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/A/A2.jpg"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 1,
+      "Descripcion": "A3",
+      "PadreId": 1,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/A/A3.jpg"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 1,
+      "Descripcion": "A4",
+      "PadreId": 1,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/A/A4.jpg"
+    },
+    {
+      "Id": 5,
+      "IdProducto": 1,
+      "Descripcion": "A5",
+      "PadreId": 1,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/A/A5.jpg"
+    },
+    {
+      "Id": 6,
+      "IdProducto": 1,
+      "Descripcion": "A6",
+      "PadreId": 1,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/A/A6.jpg"
+    },
+
+    {
+      "Id": 7,
+      "IdProducto": 2,
+      "Descripcion": "B1",
+      "PadreId": 0,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/B/B1.jpg"
+    },
+    {
+      "Id": 8,
+      "IdProducto": 2,
+      "Descripcion": "B2",
+      "PadreId": 7,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/B/B2.jpg"
+    },
+    {
+      "Id": 9,
+      "IdProducto": 2,
+      "Descripcion": "B3",
+      "PadreId": 7,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/B/B3.jpg"
+    },
+    {
+      "Id": 10,
+      "IdProducto": 2,
+      "Descripcion": "B4",
+      "PadreId": 7,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/B/B4.jpg"
+    },
+    {
+      "Id": 11,
+      "IdProducto": 2,
+      "Descripcion": "B5",
+      "PadreId": 7,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/B/B5.jpg"
+    },
+    {
+      "Id": 12,
+      "IdProducto": 2,
+      "Descripcion": "B6",
+      "PadreId": 7,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/B/B6.jpg"
+    },
+
+    {
+      "Id": 13,
+      "IdProducto": 3,
+      "Descripcion": "C1",
+      "PadreId": 0,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/C/C1.jpg"
+    },
+    {
+      "Id": 14,
+      "IdProducto": 3,
+      "Descripcion": "C2",
+      "PadreId": 13,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/C/C2.jpg"
+    },
+    {
+      "Id": 15,
+      "IdProducto": 3,
+      "Descripcion": "C3",
+      "PadreId": 13,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/C/C3.jpg"
+    },
+    {
+      "Id": 16,
+      "IdProducto": 3,
+      "Descripcion": "C4",
+      "PadreId": 13,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/C/C4.jpg"
+    },
+    {
+      "Id": 17,
+      "IdProducto": 3,
+      "Descripcion": "C5",
+      "PadreId": 13,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/C/C5.jpg"
+    },
+    {
+      "Id": 18,
+      "IdProducto": 3,
+      "Descripcion": "C6",
+      "PadreId": 13,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/C/C6.jpg"
+    },
+
+    {
+      "Id": 19,
+      "IdProducto": 4,
+      "Descripcion": "D1",
+      "PadreId": 0,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/D/D1.jpg"
+    },
+    {
+      "Id": 20,
+      "IdProducto": 4,
+      "Descripcion": "D2",
+      "PadreId": 19,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/D/D2.jpg"
+    },
+    {
+      "Id": 21,
+      "IdProducto": 4,
+      "Descripcion": "D3",
+      "PadreId": 19,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/D/D3.jpg"
+    },
+    {
+      "Id": 22,
+      "IdProducto": 4,
+      "Descripcion": "D4",
+      "PadreId": 19,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/D/D4.jpg"
+    },
+    {
+      "Id": 23,
+      "IdProducto": 4,
+      "Descripcion": "D5",
+      "PadreId": 19,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/D/D5.jpg"
+    },
+    {
+      "Id": 24,
+      "IdProducto": 4,
+      "Descripcion": "D6",
+      "PadreId": 19,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/D/D6.jpg"
+    },
+
+    {
+      "Id": 25,
+      "IdProducto": 5,
+      "Descripcion": "E1",
+      "PadreId": 0,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/E/E1.jpg"
+    },
+    {
+      "Id": 26,
+      "IdProducto": 5,
+      "Descripcion": "E2",
+      "PadreId": 25,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/E/E2.jpg"
+    },
+    {
+      "Id": 27,
+      "IdProducto": 5,
+      "Descripcion": "E3",
+      "PadreId": 25,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/E/E3.jpg"
+    },
+    {
+      "Id": 28,
+      "IdProducto": 5,
+      "Descripcion": "E4",
+      "PadreId": 25,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/E/E4.jpg"
+    },
+    {
+      "Id": 29,
+      "IdProducto": 5,
+      "Descripcion": "E5",
+      "PadreId": 25,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/E/E5.jpg"
+    },
+    {
+      "Id": 30,
+      "IdProducto": 5,
+      "Descripcion": "E6",
+      "PadreId": 25,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/E/E6.jpg"
+    },
+
+    {
+      "Id": 31,
+      "IdProducto": 6,
+      "Descripcion": "F1",
+      "PadreId": 0,
+      "OrdenItem": 6,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/F/F1.jpg"
+    },
+    {
+      "Id": 32,
+      "IdProducto": 6,
+      "Descripcion": "F2",
+      "PadreId": 31,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/F/F2.jpg"
+    },
+    {
+      "Id": 33,
+      "IdProducto": 6,
+      "Descripcion": "F3",
+      "PadreId": 32,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/F/F3.jpg"
+    },
+    {
+      "Id": 34,
+      "IdProducto": 6,
+      "Descripcion": "F4",
+      "PadreId": 32,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/F/F4.jpg"
+    },
+    {
+      "Id": 35,
+      "IdProducto": 6,
+      "Descripcion": "F5",
+      "PadreId": 32,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/F/F5.jpg"
+    },
+    {
+      "Id": 36,
+      "IdProducto": 6,
+      "Descripcion": "F6",
+      "PadreId": 32,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/F/F6.jpg"
+    },
+
+    {
+      "Id": 37,
+      "IdProducto": 7,
+      "Descripcion": "G1",
+      "PadreId": 0,
+      "OrdenItem": 7,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/G/G1.jpg"
+    },
+    {
+      "Id": 38,
+      "IdProducto": 7,
+      "Descripcion": "G2",
+      "PadreId": 37,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/G/G2.jpg"
+    },
+    {
+      "Id": 39,
+      "IdProducto": 7,
+      "Descripcion": "G3",
+      "PadreId": 37,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/G/G3.jpg"
+    },
+    {
+      "Id": 40,
+      "IdProducto": 7,
+      "Descripcion": "G4",
+      "PadreId": 37,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/G/G4.jpg"
+    },
+    {
+      "Id": 41,
+      "IdProducto": 7,
+      "Descripcion": "G5",
+      "PadreId": 37,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/G/G5.jpg"
+    },
+    {
+      "Id": 42,
+      "IdProducto": 7,
+      "Descripcion": "G6",
+      "PadreId": 37,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/G/G6.jpg"
+    },
+    {
+      "Id": 43,
+      "IdProducto": 8,
+      "Descripcion": "H1",
+      "PadreId": 0,
+      "OrdenItem": 8,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/H/H1.jpg"
+    },
+    {
+      "Id": 44,
+      "IdProducto": 8,
+      "Descripcion": "H2",
+      "PadreId": 43,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/H/H2.jpg"
+    },
+    {
+      "Id": 45,
+      "IdProducto": 8,
+      "Descripcion": "H3",
+      "PadreId": 43,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/H/H3.jpg"
+    },
+    {
+      "Id": 46,
+      "IdProducto": 8,
+      "Descripcion": "H4",
+      "PadreId": 43,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/H/H4.jpg"
+    },
+    {
+      "Id": 47,
+      "IdProducto": 8,
+      "Descripcion": "H5",
+      "PadreId": 43,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/H/H5.jpg"
+    },
+    {
+      "Id": 48,
+      "IdProducto": 8,
+      "Descripcion": "H6",
+      "PadreId": 43,
+      "OrdenItem": 6,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/H/H6.jpg"
+    },
+
+    {
+      "Id": 49,
+      "IdProducto": 9,
+      "Descripcion": "I1",
+      "PadreId": 0,
+      "OrdenItem": 9,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/I/I1.jpg"
+    },
+    {
+      "Id": 50,
+      "IdProducto": 9,
+      "Descripcion": "I2",
+      "PadreId": 49,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/I/I2.jpg"
+    },
+    {
+      "Id": 51,
+      "IdProducto": 9,
+      "Descripcion": "I3",
+      "PadreId": 49,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/I/I3.jpg"
+    },
+    {
+      "Id": 52,
+      "IdProducto": 9,
+      "Descripcion": "I4",
+      "PadreId": 49,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/I/I4.jpg"
+    },
+    {
+      "Id": 53,
+      "IdProducto": 9,
+      "Descripcion": "I5",
+      "PadreId": 49,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/I/I5.jpg"
+    },
+    {
+      "Id": 54,
+      "IdProducto": 9,
+      "Descripcion": "I6",
+      "PadreId": 49,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/I/I6.jpg"
+    },
+    {
+      "Id": 55,
+      "IdProducto": 10,
+      "Descripcion": "J1",
+      "PadreId": 0,
+      "OrdenItem": 10,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/J/J1.jpg"
+    },
+    {
+      "Id": 56,
+      "IdProducto": 10,
+      "Descripcion": "J2",
+      "PadreId": 55,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/J/J2.jpg"
+    },
+    {
+      "Id": 57,
+      "IdProducto": 10,
+      "Descripcion": "J3",
+      "PadreId": 55,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/J/J3.jpg"
+    },
+    {
+      "Id": 58,
+      "IdProducto": 10,
+      "Descripcion": "J4",
+      "PadreId": 55,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/J/J4.jpg"
+    },
+    {
+      "Id": 59,
+      "IdProducto": 10,
+      "Descripcion": "J5",
+      "PadreId": 55,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/J/J5.jpg"
+    },
+    {
+      "Id": 60,
+      "IdProducto": 10,
+      "Descripcion": "J6",
+      "PadreId": 55,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/J/J6.jpg"
+    },
+
+    {
+      "Id": 61,
+      "IdProducto": 11,
+      "Descripcion": "K1",
+      "PadreId": 0,
+      "OrdenItem": 11,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/K/K1.jpg"
+    },
+    {
+      "Id": 62,
+      "IdProducto": 11,
+      "Descripcion": "K2",
+      "PadreId": 61,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/K/A2.jpg"
+    },
+    {
+      "Id": 63,
+      "IdProducto": 11,
+      "Descripcion": "K3",
+      "PadreId": 61,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/K/K3.jpg"
+    },
+    {
+      "Id": 64,
+      "IdProducto": 11,
+      "Descripcion": "K4",
+      "PadreId": 61,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/K/K4.jpg"
+    },
+    {
+      "Id": 65,
+      "IdProducto": 11,
+      "Descripcion": "K5",
+      "PadreId": 61,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/K/K5.jpg"
+    },
+    {
+      "Id": 66,
+      "IdProducto": 11,
+      "Descripcion": "K6",
+      "PadreId": 61,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/K/K6.jpg"
+    },
+    {
+      "Id": 67,
+      "IdProducto": 12,
+      "Descripcion": "L1",
+      "PadreId": 0,
+      "OrdenItem": 12,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/L/L1.jpg"
+    },
+    {
+      "Id": 68,
+      "IdProducto": 12,
+      "Descripcion": "L2",
+      "PadreId": 67,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/L/L2.jpg"
+    },
+    {
+      "Id": 69,
+      "IdProducto": 12,
+      "Descripcion": "L3",
+      "PadreId": 67,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/L/L3.jpg"
+    },
+    {
+      "Id": 70,
+      "IdProducto": 12,
+      "Descripcion": "L4",
+      "PadreId": 67,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/L/L4.jpg"
+    },
+    {
+      "Id": 71,
+      "IdProducto": 12,
+      "Descripcion": "L5",
+      "PadreId": 67,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/L/L5.jpg"
+    },
+    {
+      "Id": 72,
+      "IdProducto": 1,
+      "Descripcion": "L6",
+      "PadreId": 67,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/L/L6.jpg"
+    },
+
+    {
+      "Id": 73,
+      "IdProducto": 13,
+      "Descripcion": "M1",
+      "PadreId": 0,
+      "OrdenItem": 13,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/M/M1.jpg"
+    },
+    {
+      "Id": 74,
+      "IdProducto": 13,
+      "Descripcion": "M2",
+      "PadreId": 73,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/M/M2.jpg"
+    },
+    {
+      "Id": 75,
+      "IdProducto": 13,
+      "Descripcion": "M3",
+      "PadreId": 73,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/M/AM.jpg"
+    },
+    {
+      "Id": 76,
+      "IdProducto": 13,
+      "Descripcion": "M4",
+      "PadreId": 73,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/M/M4.jpg"
+    },
+    {
+      "Id": 77,
+      "IdProducto": 13,
+      "Descripcion": "M5",
+      "PadreId": 73,
+      "OrdenItem": 4,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/M/M5.jpg"
+    },
+    {
+      "Id": 78,
+      "IdProducto": 13,
+      "Descripcion": "M6",
+      "PadreId": 73,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/M/M6.jpg"
+    },
+    {
+      "Id": 79,
+      "IdProducto": 14,
+      "Descripcion": "M1",
+      "PadreId": 0,
+      "OrdenItem": 14,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/N/N1.jpg"
+    },
+    {
+      "Id": 80,
+      "IdProducto": 14,
+      "Descripcion": "N2",
+      "PadreId": 79,
+      "OrdenItem": 1,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/N/N2.jpg"
+    },
+    {
+      "Id": 81,
+      "IdProducto": 14,
+      "Descripcion": "N3",
+      "PadreId": 79,
+      "OrdenItem": 2,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/N/N3.jpg"
+    },
+    {
+      "Id": 82,
+      "IdProducto": 14,
+      "Descripcion": "N4",
+      "PadreId": 79,
+      "OrdenItem": 3,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/N/N4.jpg"
+    },
+    {
+      "Id": 83,
+      "IdProducto": 14,
+      "Descripcion": "N5",
+      "PadreId": 79,
+      "OrdenItem": 5,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/N/N5.jpg"
+    },
+    {
+      "Id": 84,
+      "IdProducto": 14,
+      "Descripcion": "N6",
+      "PadreId": 79,
+      "OrdenItem": 6,
+      "CodigoContexto": "navajas",
+      "Ruta": "images/navajas/modelos/N/N6.jpg"
+    }
+  ],
+  "Marca": [{ "Id": 1, "Descripcion": "Navajas Seperak" }],
+  "Categoria": [
+    {
+      "Id": 1,
+      "Descripcion": "Navajas"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Zapatillas"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Hilos"
+    }
+  ],
+
+  "Fabricacion": [
+    {
+      "Id": 1,
+      "Descripcion": "Metal"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Madera"
+    },
+    {
+      "Id": 3,
+      "Descripcion": "Plástico"
+    }
+  ],
+  "Caracteristica": [
+    {
+      "Id": 1,
+      "IdProducto": 1,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 1,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 1,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 2,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 2,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 2,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 3,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 3,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 3,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 4,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 4,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 4,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 5,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 5,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 5,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 6,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 6,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 6,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 7,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 7,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 7,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 8,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 8,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 8,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 9,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 9,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 9,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 10,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 10,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 10,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 11,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 11,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 11,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 12,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 12,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 12,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 13,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 13,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 13,
+      "Descripcion": "Hecho con productos de alta calidad"
+    },
+    {
+      "Id": 1,
+      "IdProducto": 14,
+      "Descripcion": "producto con garantía"
+    },
+    {
+      "Id": 2,
+      "IdProducto": 14,
+      "Descripcion": "Certificado por muchos galleros"
+    },
+    {
+      "Id": 3,
+      "IdProducto": 14,
+      "Descripcion": "Hecho con productos de alta calidad"
+    }
+  ],
+
+  "Disponibilidad": [
+    {
+      "Id": 1,
+      "Descripcion": "En Stock"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Sin Stock"
+    }
+  ],
+  "EstadoAntiguedad": [
+    {
+      "Id": 1,
+      "Descripcion": "Nuevo"
+    },
+    {
+      "Id": 1,
+      "Descripcion": "Top"
+    }
+  ]
+}

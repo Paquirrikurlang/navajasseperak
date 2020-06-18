@@ -1475,12 +1475,7 @@ select.form-control-lg:valid {
   background: #e0e0e0;
   color: #3d464d;
 }
-.input-radio-label__list input:checked ~ span {
-  cursor: default;
-  background: #c33;
-  color: #fff;
-  transition-duration: 0.08s, 0.08s;
-}
+
 .input-radio-label__list input:disabled ~ span {
   cursor: default;
   opacity: 0.5;
@@ -12900,3 +12895,23 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   border-radius: 2px;
   padding: 28px;
 }
+
+.pt {
+  width: 100%;
+}
+
+.color_false {
+  cursor: default !important;
+  background: #c33 !important;
+  color: #fff !important;
+  transition-duration: 0.08s, 0.08s !important;
+}
+
+/*
+.input-radio-label__list input:checked ~ span {
+  cursor: default;
+  background: #c33;
+  color: #fff;
+  transition-duration: 0.08s, 0.08s;
+}
+*/
