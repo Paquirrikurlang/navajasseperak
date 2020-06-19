@@ -818,7 +818,7 @@
       "PadreId": 61,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/A2.jpg"
+      "Ruta": "images/navajas/modelos/K/k2.jpg"
     },
     {
       "Id": 63,
@@ -903,7 +903,7 @@
     },
     {
       "Id": 72,
-      "IdProducto": 1,
+      "IdProducto": 12,
       "Descripcion": "L6",
       "PadreId": 67,
       "OrdenItem": 5,
@@ -936,7 +936,7 @@
       "PadreId": 73,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/AM.jpg"
+      "Ruta": "images/navajas/modelos/M/M3.jpg"
     },
     {
       "Id": 76,
@@ -968,7 +968,7 @@
     {
       "Id": 79,
       "IdProducto": 14,
-      "Descripcion": "M1",
+      "Descripcion": "N1",
       "PadreId": 0,
       "OrdenItem": 14,
       "CodigoContexto": "navajas",
