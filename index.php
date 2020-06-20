@@ -67,7 +67,7 @@
                                     </a>
                                     <a class="block-slideshow__slide block-slideshow__slide--home" href="catalogue.php">
                                         <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
-                                            <img src="images/slides/prueba.png" alt="Navajas1">
+                                            <img src="images/slides/afiche_seperak2.jpeg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
                                             <button class="btn btn__cta__slide">
@@ -120,7 +120,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=1" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/A/A1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/A/A1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Olivo</a></div>
                                             <div class="product-card__rating">
@@ -233,7 +233,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=14" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/N/N1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/N/N1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Colgada</a></div>
                                             <div class="product-card__rating">
@@ -348,7 +348,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=8" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/H/H1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/H/H1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Seperak 9 milímetros</a></div>
                                             <div class="product-card__rating">
@@ -461,7 +461,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=13" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/M/M1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/M/M1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Media Luna</a></div>
                                             <div class="product-card__rating">
@@ -576,7 +576,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=5" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/E/E1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/E/E1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Seperak 11 milímetros</a></div>
                                             <div class="product-card__rating">
@@ -689,7 +689,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=6" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/F/F1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/F/F1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Media O</a></div>
                                             <div class="product-card__rating">
@@ -804,7 +804,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=10" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/J/J1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/J/J1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Seperak 13 milímetros</a></div>
                                             <div class="product-card__rating">
@@ -917,7 +917,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=4" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/D/D1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/D/D1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Olivo Curva</a></div>
                                             <div class="product-card__rating">
@@ -1032,7 +1032,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=7" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/G/G1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/G/G1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Filipina</a></div>
                                             <div class="product-card__rating">
@@ -1145,7 +1145,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=12" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/L/L1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/L/L1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Sin Tacón</a></div>
                                             <div class="product-card__rating">
@@ -1260,7 +1260,7 @@
                                             </svg> <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=11" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/K/K1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/K/K1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">Cola de Rata</a></div>
                                             <div class="product-card__rating">
@@ -1376,7 +1376,7 @@
                                             <span class="fake-svg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=3" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/C/C1.jpg" alt=""></a></div>
+                                                <img class="product-image__img" src="images/navajas/modelos/C/C1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
                                             <div class="product-card__name"><a href="./product.php">SPK</a></div>
                                             <div class="product-card__rating">

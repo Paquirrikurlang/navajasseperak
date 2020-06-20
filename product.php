@@ -126,36 +126,35 @@
                             <div class="product__sidebar">
                                 <div class="product__prices"></div>
                                 <!-- .product__options -->
-                                <form class="product__options">
-                                    <div class="form-group product__option">
-                                        <label class="product__option-label">Material</label>
-                                        <div class="input-radio-label">
-                                            <div class="input-radio-label__list">
-                                                <label><input type="radio" name="material" />
-                                                    <span class="color_false">Metal</span></label>
-                                                <label><input type="radio" name="material" />
-                                                    <span>Madera</span></label>
-                                                <label><input type="radio" name="material" />
-                                                    <span>Plástico</span></label>
-                                            </div>
+                                <div class="form-group product__option">
+                                    <label class="product__option-label">Material</label>
+                                    <div class="input-radio-label">
+                                        <div class="input-radio-label__list">
+                                            <label><input type="radio" name="material" />
+                                                <span class="color_false">Metal</span></label>
+                                            <label><input type="radio" name="material" />
+                                                <span>Madera</span></label>
+                                            <label><input type="radio" name="material" />
+                                                <span>Plástico</span></label>
                                         </div>
                                     </div>
-                                    <div class="form-group product__option">
-                                        <label class="product__option-label" for="product-quantity">Cantidad</label>
-                                        <div class="product__actions">
-                                            <div class="product__actions-item">
-                                                <div class="input-number product__quantity">
-                                                    <input id="product-quantity" class="input-number__input form-control form-control-lg" type="number" min="1" value="1" />
-                                                    <div class="input-number__add"></div>
-                                                    <div class="input-number__sub"></div>
-                                                </div>
+                                </div>
+                                <div class="form-group product__option">
+                                    <label class="product__option-label" for="product-quantity">Cantidad</label>
+                                    <div class="product__actions">
+                                        <div class="product__actions-item">
+                                            <div class="input-number product__quantity">
+                                                <input id="product-quantity" class="input-number__input form-control form-control-lg" type="number" min="1" value="1" />
+                                                <div class="input-number__add"></div>
+                                                <div class="input-number__sub"></div>
                                             </div>
-                                            <div class="product__actions-item product__actions-item--addtocart">
-                                                <button class="btn btn-primary btn-lg">
-                                                    Solicitar Producto
-                                                </button>
-                                            </div>
-                                            <!--
+                                        </div>
+                                        <div class="product__actions-item product__actions-item--addtocart">
+                                            <button class="btn btn-primary btn-lg">
+                                                Solicitar Producto
+                                            </button>
+                                        </div>
+                                        <!--
                                             <div class="product__actions-item product__actions-item--wishlist">
                                                 <button type="button" class="btn btn-secondary btn-svg-icon btn-lg" data-toggle="tooltip" title="Wishlist">
                                                     <svg width="16px" height="16px">
@@ -170,9 +169,9 @@
                                                     </svg>
                                                 </button>
                                             </div>-->
-                                        </div>
                                     </div>
-                                </form>
+                                </div>
+
                                 <!-- .product__options / end -->
                             </div>
                             <!-- .product__end -->
@@ -213,7 +212,7 @@
                                                 <li class="reviews-list__item">
                                                     <div class="review">
                                                         <div class="review__avatar">
-                                                            <img src="images\usuarios\img1.jpg" alt="" />
+                                                            <img src="images\usuarios\img1.jpeg" alt="" />
                                                         </div>
                                                         <div class="review__content">
                                                             <div class="review__author">Paquirri Seperak</div>
@@ -230,7 +229,7 @@
                                                 <li class="reviews-list__item">
                                                     <div class="review">
                                                         <div class="review__avatar">
-                                                            <img src="images\avatars\avatar-2.jpg" alt="" />
+                                                            <img src="images\avatars\avatar-2.jpeg" alt="" />
                                                         </div>
                                                         <div class="review__content">
                                                             <div class="review__author">Marcos Flores</div>
@@ -247,7 +246,7 @@
                                                 <li class="reviews-list__item">
                                                     <div class="review">
                                                         <div class="review__avatar">
-                                                            <img src="images\avatars\avatar-1.jpg" alt="" />
+                                                            <img src="images\avatars\avatar-1.jpeg" alt="" />
                                                         </div>
                                                         <div class="review__content">
                                                             <div class="review__author">María Pérez</div>
@@ -369,7 +368,7 @@
                                         </div>
                                         <div class="product-card__image product-image">
                                             <a href="product.php?IdProducto=11" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/K/K1.jpg" alt="" />
+                                                <img class="product-image__img" src="images/navajas/modelos/K/K1.jpeg" alt="" />
                                             </a>
                                         </div>
                                         <div class="product-card__info">
@@ -511,7 +510,7 @@
                                         </div>
                                         <div class="product-card__image product-image">
                                             <a href="product.php?IdProducto=7" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/G/G1.jpg" alt="" />
+                                                <img class="product-image__img" src="images/navajas/modelos/G/G1.jpeg" alt="" />
                                             </a>
                                         </div>
                                         <div class="product-card__info">
@@ -653,7 +652,7 @@
                                         </div>
                                         <div class="product-card__image product-image">
                                             <a href="product.php?IdProducto=6" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/F/F1.jpg" alt="" />
+                                                <img class="product-image__img" src="images/navajas/modelos/F/F1.jpeg" alt="" />
                                             </a>
                                         </div>
                                         <div class="product-card__info">
@@ -795,7 +794,7 @@
                                         </div>
                                         <div class="product-card__image product-image">
                                             <a href="product.php?IdProducto=4" class="product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/D/D1.jpg" alt="" />
+                                                <img class="product-image__img" src="images/navajas/modelos/D/D1.jpeg" alt="" />
                                             </a>
                                         </div>
                                         <div class="product-card__info">
@@ -937,7 +936,7 @@
                                         </div>
                                         <div class="product-card__image product-image">
                                             <a href="product.php?IdProducto=8" class=" product-image__body">
-                                                <img class="product-image__img" src="images/navajas/modelos/H/H1.jpg" alt="" />
+                                                <img class="product-image__img" src="images/navajas/modelos/H/H1.jpeg" alt="" />
                                             </a>
                                         </div>
                                         <div class="product-card__info">

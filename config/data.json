@@ -261,7 +261,7 @@
       "PadreId": 0,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/A/A1.jpg"
+      "Ruta": "images/navajas/modelos/A/A1.jpeg"
     },
     {
       "Id": 2,
@@ -270,7 +270,7 @@
       "PadreId": 1,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/A/A2.jpg"
+      "Ruta": "images/navajas/modelos/A/A2.jpeg"
     },
     {
       "Id": 3,
@@ -279,7 +279,7 @@
       "PadreId": 1,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/A/A3.jpg"
+      "Ruta": "images/navajas/modelos/A/A3.jpeg"
     },
     {
       "Id": 4,
@@ -288,7 +288,7 @@
       "PadreId": 1,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/A/A4.jpg"
+      "Ruta": "images/navajas/modelos/A/A4.jpeg"
     },
     {
       "Id": 5,
@@ -297,7 +297,7 @@
       "PadreId": 1,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/A/A5.jpg"
+      "Ruta": "images/navajas/modelos/A/A5.jpeg"
     },
     {
       "Id": 6,
@@ -306,7 +306,7 @@
       "PadreId": 1,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/A/A6.jpg"
+      "Ruta": "images/navajas/modelos/A/A6.jpeg"
     },
 
     {
@@ -316,7 +316,7 @@
       "PadreId": 0,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/B/B1.jpg"
+      "Ruta": "images/navajas/modelos/B/B1.jpeg"
     },
     {
       "Id": 8,
@@ -325,7 +325,7 @@
       "PadreId": 7,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/B/B2.jpg"
+      "Ruta": "images/navajas/modelos/B/B2.jpeg"
     },
     {
       "Id": 9,
@@ -334,7 +334,7 @@
       "PadreId": 7,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/B/B3.jpg"
+      "Ruta": "images/navajas/modelos/B/B3.jpeg"
     },
     {
       "Id": 10,
@@ -343,7 +343,7 @@
       "PadreId": 7,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/B/B4.jpg"
+      "Ruta": "images/navajas/modelos/B/B4.jpeg"
     },
     {
       "Id": 11,
@@ -352,7 +352,7 @@
       "PadreId": 7,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/B/B5.jpg"
+      "Ruta": "images/navajas/modelos/B/B5.jpeg"
     },
     {
       "Id": 12,
@@ -361,7 +361,7 @@
       "PadreId": 7,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/B/B6.jpg"
+      "Ruta": "images/navajas/modelos/B/B6.jpeg"
     },
 
     {
@@ -371,7 +371,7 @@
       "PadreId": 0,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/C/C1.jpg"
+      "Ruta": "images/navajas/modelos/C/C1.jpeg"
     },
     {
       "Id": 14,
@@ -380,7 +380,7 @@
       "PadreId": 13,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/C/C2.jpg"
+      "Ruta": "images/navajas/modelos/C/C2.jpeg"
     },
     {
       "Id": 15,
@@ -389,7 +389,7 @@
       "PadreId": 13,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/C/C3.jpg"
+      "Ruta": "images/navajas/modelos/C/C3.jpeg"
     },
     {
       "Id": 16,
@@ -398,7 +398,7 @@
       "PadreId": 13,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/C/C4.jpg"
+      "Ruta": "images/navajas/modelos/C/C4.jpeg"
     },
     {
       "Id": 17,
@@ -407,7 +407,7 @@
       "PadreId": 13,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/C/C5.jpg"
+      "Ruta": "images/navajas/modelos/C/C5.jpeg"
     },
     {
       "Id": 18,
@@ -416,7 +416,7 @@
       "PadreId": 13,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/C/C6.jpg"
+      "Ruta": "images/navajas/modelos/C/C6.jpeg"
     },
 
     {
@@ -426,7 +426,7 @@
       "PadreId": 0,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/D/D1.jpg"
+      "Ruta": "images/navajas/modelos/D/D1.jpeg"
     },
     {
       "Id": 20,
@@ -435,7 +435,7 @@
       "PadreId": 19,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/D/D2.jpg"
+      "Ruta": "images/navajas/modelos/D/D2.jpeg"
     },
     {
       "Id": 21,
@@ -444,7 +444,7 @@
       "PadreId": 19,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/D/D3.jpg"
+      "Ruta": "images/navajas/modelos/D/D3.jpeg"
     },
     {
       "Id": 22,
@@ -453,7 +453,7 @@
       "PadreId": 19,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/D/D4.jpg"
+      "Ruta": "images/navajas/modelos/D/D4.jpeg"
     },
     {
       "Id": 23,
@@ -462,7 +462,7 @@
       "PadreId": 19,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/D/D5.jpg"
+      "Ruta": "images/navajas/modelos/D/D5.jpeg"
     },
     {
       "Id": 24,
@@ -471,7 +471,7 @@
       "PadreId": 19,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/D/D6.jpg"
+      "Ruta": "images/navajas/modelos/D/D6.jpeg"
     },
 
     {
@@ -481,7 +481,7 @@
       "PadreId": 0,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/E/E1.jpg"
+      "Ruta": "images/navajas/modelos/E/E1.jpeg"
     },
     {
       "Id": 26,
@@ -490,7 +490,7 @@
       "PadreId": 25,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/E/E2.jpg"
+      "Ruta": "images/navajas/modelos/E/E2.jpeg"
     },
     {
       "Id": 27,
@@ -499,7 +499,7 @@
       "PadreId": 25,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/E/E3.jpg"
+      "Ruta": "images/navajas/modelos/E/E3.jpeg"
     },
     {
       "Id": 28,
@@ -508,7 +508,7 @@
       "PadreId": 25,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/E/E4.jpg"
+      "Ruta": "images/navajas/modelos/E/E4.jpeg"
     },
     {
       "Id": 29,
@@ -517,7 +517,7 @@
       "PadreId": 25,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/E/E5.jpg"
+      "Ruta": "images/navajas/modelos/E/E5.jpeg"
     },
     {
       "Id": 30,
@@ -526,7 +526,7 @@
       "PadreId": 25,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/E/E6.jpg"
+      "Ruta": "images/navajas/modelos/E/E6.jpeg"
     },
 
     {
@@ -536,7 +536,7 @@
       "PadreId": 0,
       "OrdenItem": 6,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/F/F1.jpg"
+      "Ruta": "images/navajas/modelos/F/F1.jpeg"
     },
     {
       "Id": 32,
@@ -545,7 +545,7 @@
       "PadreId": 31,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/F/F2.jpg"
+      "Ruta": "images/navajas/modelos/F/F2.jpeg"
     },
     {
       "Id": 33,
@@ -554,7 +554,7 @@
       "PadreId": 32,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/F/F3.jpg"
+      "Ruta": "images/navajas/modelos/F/F3.jpeg"
     },
     {
       "Id": 34,
@@ -563,7 +563,7 @@
       "PadreId": 32,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/F/F4.jpg"
+      "Ruta": "images/navajas/modelos/F/F4.jpeg"
     },
     {
       "Id": 35,
@@ -572,7 +572,7 @@
       "PadreId": 32,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/F/F5.jpg"
+      "Ruta": "images/navajas/modelos/F/F5.jpeg"
     },
     {
       "Id": 36,
@@ -581,7 +581,7 @@
       "PadreId": 32,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/F/F6.jpg"
+      "Ruta": "images/navajas/modelos/F/F6.jpeg"
     },
 
     {
@@ -591,7 +591,7 @@
       "PadreId": 0,
       "OrdenItem": 7,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/G/G1.jpg"
+      "Ruta": "images/navajas/modelos/G/G1.jpeg"
     },
     {
       "Id": 38,
@@ -600,7 +600,7 @@
       "PadreId": 37,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/G/G2.jpg"
+      "Ruta": "images/navajas/modelos/G/G2.jpeg"
     },
     {
       "Id": 39,
@@ -609,7 +609,7 @@
       "PadreId": 37,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/G/G3.jpg"
+      "Ruta": "images/navajas/modelos/G/G3.jpeg"
     },
     {
       "Id": 40,
@@ -618,7 +618,7 @@
       "PadreId": 37,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/G/G4.jpg"
+      "Ruta": "images/navajas/modelos/G/G4.jpeg"
     },
     {
       "Id": 41,
@@ -627,7 +627,7 @@
       "PadreId": 37,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/G/G5.jpg"
+      "Ruta": "images/navajas/modelos/G/G5.jpeg"
     },
     {
       "Id": 42,
@@ -636,7 +636,7 @@
       "PadreId": 37,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/G/G6.jpg"
+      "Ruta": "images/navajas/modelos/G/G6.jpeg"
     },
     {
       "Id": 43,
@@ -645,7 +645,7 @@
       "PadreId": 0,
       "OrdenItem": 8,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/H/H1.jpg"
+      "Ruta": "images/navajas/modelos/H/H1.jpeg"
     },
     {
       "Id": 44,
@@ -654,7 +654,7 @@
       "PadreId": 43,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/H/H2.jpg"
+      "Ruta": "images/navajas/modelos/H/H2.jpeg"
     },
     {
       "Id": 45,
@@ -663,7 +663,7 @@
       "PadreId": 43,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/H/H3.jpg"
+      "Ruta": "images/navajas/modelos/H/H3.jpeg"
     },
     {
       "Id": 46,
@@ -672,7 +672,7 @@
       "PadreId": 43,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/H/H4.jpg"
+      "Ruta": "images/navajas/modelos/H/H4.jpeg"
     },
     {
       "Id": 47,
@@ -681,7 +681,7 @@
       "PadreId": 43,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/H/H5.jpg"
+      "Ruta": "images/navajas/modelos/H/H5.jpeg"
     },
     {
       "Id": 48,
@@ -690,7 +690,7 @@
       "PadreId": 43,
       "OrdenItem": 6,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/H/H6.jpg"
+      "Ruta": "images/navajas/modelos/H/H6.jpeg"
     },
 
     {
@@ -700,7 +700,7 @@
       "PadreId": 0,
       "OrdenItem": 9,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/I/I1.jpg"
+      "Ruta": "images/navajas/modelos/I/I1.jpeg"
     },
     {
       "Id": 50,
@@ -709,7 +709,7 @@
       "PadreId": 49,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/I/I2.jpg"
+      "Ruta": "images/navajas/modelos/I/I2.jpeg"
     },
     {
       "Id": 51,
@@ -718,7 +718,7 @@
       "PadreId": 49,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/I/I3.jpg"
+      "Ruta": "images/navajas/modelos/I/I3.jpeg"
     },
     {
       "Id": 52,
@@ -727,7 +727,7 @@
       "PadreId": 49,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/I/I4.jpg"
+      "Ruta": "images/navajas/modelos/I/I4.jpeg"
     },
     {
       "Id": 53,
@@ -736,7 +736,7 @@
       "PadreId": 49,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/I/I5.jpg"
+      "Ruta": "images/navajas/modelos/I/I5.jpeg"
     },
     {
       "Id": 54,
@@ -745,7 +745,7 @@
       "PadreId": 49,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/I/I6.jpg"
+      "Ruta": "images/navajas/modelos/I/I6.jpeg"
     },
     {
       "Id": 55,
@@ -754,7 +754,7 @@
       "PadreId": 0,
       "OrdenItem": 10,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/J/J1.jpg"
+      "Ruta": "images/navajas/modelos/J/J1.jpeg"
     },
     {
       "Id": 56,
@@ -763,7 +763,7 @@
       "PadreId": 55,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/J/J2.jpg"
+      "Ruta": "images/navajas/modelos/J/J2.jpeg"
     },
     {
       "Id": 57,
@@ -772,7 +772,7 @@
       "PadreId": 55,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/J/J3.jpg"
+      "Ruta": "images/navajas/modelos/J/J3.jpeg"
     },
     {
       "Id": 58,
@@ -781,7 +781,7 @@
       "PadreId": 55,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/J/J4.jpg"
+      "Ruta": "images/navajas/modelos/J/J4.jpeg"
     },
     {
       "Id": 59,
@@ -790,7 +790,7 @@
       "PadreId": 55,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/J/J5.jpg"
+      "Ruta": "images/navajas/modelos/J/J5.jpeg"
     },
     {
       "Id": 60,
@@ -799,7 +799,7 @@
       "PadreId": 55,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/J/J6.jpg"
+      "Ruta": "images/navajas/modelos/J/J6.jpeg"
     },
 
     {
@@ -809,7 +809,7 @@
       "PadreId": 0,
       "OrdenItem": 11,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/K1.jpg"
+      "Ruta": "images/navajas/modelos/K/K1.jpeg"
     },
     {
       "Id": 62,
@@ -818,7 +818,7 @@
       "PadreId": 61,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/k2.jpg"
+      "Ruta": "images/navajas/modelos/K/k2.jpeg"
     },
     {
       "Id": 63,
@@ -827,7 +827,7 @@
       "PadreId": 61,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/K3.jpg"
+      "Ruta": "images/navajas/modelos/K/K3.jpeg"
     },
     {
       "Id": 64,
@@ -836,7 +836,7 @@
       "PadreId": 61,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/K4.jpg"
+      "Ruta": "images/navajas/modelos/K/K4.jpeg"
     },
     {
       "Id": 65,
@@ -845,7 +845,7 @@
       "PadreId": 61,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/K5.jpg"
+      "Ruta": "images/navajas/modelos/K/K5.jpeg"
     },
     {
       "Id": 66,
@@ -854,7 +854,7 @@
       "PadreId": 61,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/K/K6.jpg"
+      "Ruta": "images/navajas/modelos/K/K6.jpeg"
     },
     {
       "Id": 67,
@@ -863,7 +863,7 @@
       "PadreId": 0,
       "OrdenItem": 12,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/L/L1.jpg"
+      "Ruta": "images/navajas/modelos/L/L1.jpeg"
     },
     {
       "Id": 68,
@@ -872,7 +872,7 @@
       "PadreId": 67,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/L/L2.jpg"
+      "Ruta": "images/navajas/modelos/L/L2.jpeg"
     },
     {
       "Id": 69,
@@ -881,7 +881,7 @@
       "PadreId": 67,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/L/L3.jpg"
+      "Ruta": "images/navajas/modelos/L/L3.jpeg"
     },
     {
       "Id": 70,
@@ -890,7 +890,7 @@
       "PadreId": 67,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/L/L4.jpg"
+      "Ruta": "images/navajas/modelos/L/L4.jpeg"
     },
     {
       "Id": 71,
@@ -899,7 +899,7 @@
       "PadreId": 67,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/L/L5.jpg"
+      "Ruta": "images/navajas/modelos/L/L5.jpeg"
     },
     {
       "Id": 72,
@@ -908,7 +908,7 @@
       "PadreId": 67,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/L/L6.jpg"
+      "Ruta": "images/navajas/modelos/L/L6.jpeg"
     },
 
     {
@@ -918,7 +918,7 @@
       "PadreId": 0,
       "OrdenItem": 13,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/M1.jpg"
+      "Ruta": "images/navajas/modelos/M/M1.jpeg"
     },
     {
       "Id": 74,
@@ -927,7 +927,7 @@
       "PadreId": 73,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/M2.jpg"
+      "Ruta": "images/navajas/modelos/M/M2.jpeg"
     },
     {
       "Id": 75,
@@ -936,7 +936,7 @@
       "PadreId": 73,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/M3.jpg"
+      "Ruta": "images/navajas/modelos/M/M3.jpeg"
     },
     {
       "Id": 76,
@@ -945,7 +945,7 @@
       "PadreId": 73,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/M4.jpg"
+      "Ruta": "images/navajas/modelos/M/M4.jpeg"
     },
     {
       "Id": 77,
@@ -954,7 +954,7 @@
       "PadreId": 73,
       "OrdenItem": 4,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/M5.jpg"
+      "Ruta": "images/navajas/modelos/M/M5.jpeg"
     },
     {
       "Id": 78,
@@ -963,7 +963,7 @@
       "PadreId": 73,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/M/M6.jpg"
+      "Ruta": "images/navajas/modelos/M/M6.jpeg"
     },
     {
       "Id": 79,
@@ -972,7 +972,7 @@
       "PadreId": 0,
       "OrdenItem": 14,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/N/N1.jpg"
+      "Ruta": "images/navajas/modelos/N/N1.jpeg"
     },
     {
       "Id": 80,
@@ -981,7 +981,7 @@
       "PadreId": 79,
       "OrdenItem": 1,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/N/N2.jpg"
+      "Ruta": "images/navajas/modelos/N/N2.jpeg"
     },
     {
       "Id": 81,
@@ -990,7 +990,7 @@
       "PadreId": 79,
       "OrdenItem": 2,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/N/N3.jpg"
+      "Ruta": "images/navajas/modelos/N/N3.jpeg"
     },
     {
       "Id": 82,
@@ -999,7 +999,7 @@
       "PadreId": 79,
       "OrdenItem": 3,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/N/N4.jpg"
+      "Ruta": "images/navajas/modelos/N/N4.jpeg"
     },
     {
       "Id": 83,
@@ -1008,7 +1008,7 @@
       "PadreId": 79,
       "OrdenItem": 5,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/N/N5.jpg"
+      "Ruta": "images/navajas/modelos/N/N5.jpeg"
     },
     {
       "Id": 84,
@@ -1017,7 +1017,7 @@
       "PadreId": 79,
       "OrdenItem": 6,
       "CodigoContexto": "navajas",
-      "Ruta": "images/navajas/modelos/N/N6.jpg"
+      "Ruta": "images/navajas/modelos/N/N6.jpeg"
     }
   ],
   "Marca": [{ "Id": 1, "Descripcion": "Navajas Seperak" }],
