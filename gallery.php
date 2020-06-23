@@ -405,7 +405,7 @@
                             <div class="products-view__options">
                                 <div class="view-options view-options--offcanvas--always">
                                     <div class="view-options__divider"></div>
-                                    <div class="view-options__control">
+                                    <!--  <div class="view-options__control">
                                         <label for="">Ordenado por</label>
                                         <div>
                                             <select class="form-control form-control-sm" name="" id="">
@@ -423,7 +423,7 @@
                                                 <option value="">Personales</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -431,13 +431,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a href="multimedia.php"><img src="images/blog/eventos.jpg" alt="image"></a>
+                                <a TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/eventos.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>24 Julio, 2019</h4>
                                 </div>
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a href="multimedia.php">Eventos en todo el Perú </a></h3>
+                                <h3><a>Eventos en todo el Perú </a></h3>
                                 <p><span>GALLERO</span> te invito a ver los eventos donde participamos.</p>
                             </div>
                         </div>
@@ -445,13 +445,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a href="multimedia.php"><img src="images/blog/entrevistas.jpg" alt="image"></a>
+                                <a TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/entrevistas.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>22 Agosto, 2019</h4>
                                 </div>
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a href="multimedia.php">Entrevistas</a></h3>
+                                <h3><a>Entrevistas</a></h3>
                                 <p><span>GALLERO</span> revisa nuestras entrevistas. </p>
                             </div>
                         </div>
@@ -459,13 +459,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a href="multimedia.php"><img src="images/blog/viajes.jpg" alt="image"></a>
+                                <a TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/viajes.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>25 Agosto, 2019</h4>
                                 </div>
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a href="multimedia.php">Viajes realizados</a></h3>
+                                <h3><a>Viajes realizados</a></h3>
                                 <p><span>GALLERO</span> comparte nuestros viajes por el mundo.</p>
                             </div>
                         </div>
@@ -473,13 +473,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a href="multimedia.php"><img src="images/blog/galpon.jpg" alt="image"></a>
+                                <a TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/galpon.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>27 Agosto, 2019</h4>
                                 </div>
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a href="multimedia.php">Fotos de mi galpón </a></h3>
+                                <h3><a>Fotos de mi galpón </a></h3>
                                 <p><span>GALLERO</span> GALLERO, pasa y conoce el Galpón Paquirri.</p>
                             </div>
                         </div>
@@ -487,14 +487,14 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a href="multimedia.php"><img src="images/blog/peleas.jpg" alt="image"></a>
+                                <a TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/peleas.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>22 Septiembre, 2019</h4>
                                 </div>
 
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a href="multimedia.php">Videos de mis peleas</a></h3>
+                                <h3><a>Videos de mis peleas</a></h3>
                                 <p><span>GALLERO</span> te invito a ver los videos de las mejores peleas de los gallos Paquirri. </p>
                             </div>
                         </div>
@@ -502,27 +502,18 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a href="multimedia.php"><img src="images/blog/logros.jpg" alt="image"></a>
+                                <a TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)"><img src="images/blog/logros.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>28 Septiembre, 2019</h4>
                                 </div>
 
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a href="multimedia.php">Mis logros en los gallos </a></h3>
+                                <h3><a>Mis logros en los gallos </a></h3>
                                 <p><span>GALLERO</span> disfruta conmigo de los triunfos obtenidos.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="paginations text-center mt-20">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li class="active"><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                    </ul>
                 </div>
             </div>
             <!-- .block-slideshow / end -->
@@ -1035,9 +1026,32 @@
     <script src="js\main.js"></script>
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
+
     <script>
         svg4everybody();
     </script>
+
+    <script>
+        function DetalleMultimedia(valor) {
+            debugger;
+
+            var TipoMultimedia = valor.attributes[0].value;
+            var accion = valor.attributes[1].value;
+            var loc = window.location;
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+
+            /* 1 -> Videos, 2 ->Fotos */
+            if (TipoMultimedia == "2") {
+                window.open((pathName + "multimedia.php"), '_blank');
+            } else {
+                if (accion == "1") {
+                    window.open((pathName + "triumphs.php"), '_blank');
+                }
+                window.open((pathName + "videos.php"), '_blank');
+            }
+        }
+    </script>
+
 </body>
 
 </html>

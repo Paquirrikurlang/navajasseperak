@@ -1,0 +1,174 @@
+{
+  "TipoMultimedia": [
+    {
+      "Id": 1,
+      "Descripcion": "Videos"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Fotos"
+    },
+    {
+      "Id": 3,
+      "Descripcion": "Ambos"
+    }
+  ],
+  "TipoMuestra": [
+    {
+      "Id": 1,
+      "Descripcion": "Gallos"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "Personales"
+    }
+  ],
+  "Galeria": [
+    {
+      "Id": 1,
+      "Titulo": "Eventos en todo el Perú",
+      "TipoMultimediaid": 2,
+      "TipoMuestraId": 2,
+      "Descripcion": "GALLERO te invito a ver los eventos donde participamos.",
+      "Estado": 1
+    },
+    {
+      "Id": 2,
+      "Titulo": "Entrevistas",
+      "TipoMultimediaid": 1,
+      "TipoMuestraId": 1,
+      "Descripcion": "GALLERO revisa nuestras entrevistas.",
+      "Estado": 1
+    },
+    {
+      "Id": 3,
+      "Titulo": "Viajes realizados",
+      "TipoMultimediaid": 2,
+      "TipoMuestraId": 1,
+      "Descripcion": "GALLERO comparte nuestros viajes por el mundo.",
+      "Estado": 1
+    },
+    {
+      "Id": 4,
+      "Titulo": "Fotos de mi galpón",
+      "TipoMultimediaid": 2,
+      "TipoMuestraId": 1,
+      "Descripcion": "GALLERO GALLERO, pasa y conoce el Galpón Paquirri.",
+      "Estado": 1
+    },
+    {
+      "Id": 5,
+      "Titulo": "Videos de mis peleas",
+      "TipoMultimediaid": 1,
+      "TipoMuestraId": 1,
+      "Descripcion": "GALLERO te invito a ver los videos de las mejores peleas de los gallos Paquirri.",
+      "Estado": 1
+    },
+    {
+      "Id": 6,
+      "Titulo": "Mis logros en los gallos",
+      "TipoMultimediaid": 1,
+      "TipoMuestraId": 1,
+      "Descripcion": "GALLERO disfruta conmigo de los triunfos obtenidos.",
+      "Estado": 1
+    }
+  ],
+  "Contenido": [
+    {
+      "Id": 1,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img16.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 2,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img3.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 3,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img5.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 4,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img6.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 5,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img7.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 6,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img8.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 7,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img9.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 8,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img10.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 9,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img11.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 10,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img12.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 11,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img13.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 12,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img14.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 13,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img17.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 14,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img18.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 15,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img19.jpg",
+      "Estado": 1
+    },
+    {
+      "Id": 16,
+      "GaleriaId": 1,
+      "Ruta": "images/galpon/img20.jpg",
+      "Estado": 1
+    }
+  ]
+}

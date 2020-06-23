@@ -400,6 +400,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="block-slideshow block-slideshow--layout--full block">
                 <div class="container">
                     <div class="row">
@@ -1539,6 +1541,7 @@
     <script src="js\main.js"></script>
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
+    <script src="js\detalleMultimedia.js"></script>
     <script>
         svg4everybody();
     </script>
