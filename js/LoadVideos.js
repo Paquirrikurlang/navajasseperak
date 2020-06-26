@@ -11,12 +11,13 @@ function LoadVideos(TipoMultimedia) {
   );
 
   //$(".container-fluid").append();
+  var videos = document.getElementById("videos");
+
+  var subDiv = document.createElement("div");
+  subDiv.className = "demo-gallery dark mrb35";
   var ul = document.createElement("ul");
   ul.className = "list-unstyled row";
   ul.id = "html5-videos-videojs";
-
-  var div = document.createElement("div");
-  div.className = "demo-gallery dark mrb35";
 
   debugger;
   for (i = 0; i < 4; i++) {
@@ -47,15 +48,15 @@ function LoadVideos(TipoMultimedia) {
     video.appendChild(source);
     div.appendChild(video);
 
-    div.appendChild(div);
+    videos.appendChild(div);
   }
 
   for (i = 0; i < 4; i++) {
     var imgBoton = document.createElement("img");
     var srcimgBoton = document.createAttribute("src");
-    imgBoton.value =
+    srcimgBoton.value =
       "https://sachinchoolur.github.io/lightGallery/static/img/play-button.png";
-    imgBoton.setAttributeNode(imgBoton);
+    imgBoton.setAttributeNode(srcimgBoton);
 
     var imgVideo = document.createElement("img");
     var srcimgVideo = document.createAttribute("src");
@@ -88,11 +89,9 @@ function LoadVideos(TipoMultimedia) {
     a.appendChild(imgVideo);
     a.appendChild(div);
     li.appendChild(a);
+    ul.appendChild(li);
+    subDiv.appendChild(ul);
   }
 
-  ul.innerHTML = lista;
-  div.appendChild(ul);
-  videos = document.getElementById("videos");
-  videos.innerHTML = videoDetalle;
-  videos.appendChild(div);
+  videos.appendChild(subDiv);
 }

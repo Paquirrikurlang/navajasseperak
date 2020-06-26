@@ -353,28 +353,28 @@
                     </div>
 
                     <section class="section highlight pdb0">
-                        <div class="container-fluid">
+                        <div class="container-fluid" id="videos">
 
-                            <div style="display:none;" id="videojs1"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
-                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4">Your browser does not support HTML5 video.</video> </div>
-                            <div style="display:none;" id="videojs2"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
-                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4">Your browser does not support HTML5 video.</video> </div>
-                            <div style="display:none;" id="videojs3"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
-                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4">Your browser does not support HTML5 video.</video> </div>
-                            <div style="display:none;" id="videojs4"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
-                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4">Your browser does not support HTML5 video.</video> </div>
+                            <div id="videojs1" style="display: none;"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
+                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4"></video></div>
+                            <div id="videojs2" style="display: none;"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
+                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4"></video></div>
+                            <div id="videojs3" style="display: none;"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
+                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4"></video></div>
+                            <div id="videojs4" style="display: none;"><video class="lg-video-object lg-html5 video-js vjs-default-skin" poster="./videos/imgv1.png" controls="" preload="none">
+                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4"></video></div>
                             <div class="demo-gallery dark mrb35">
                                 <ul class="list-unstyled row" id="html5-videos-videojs">
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs1"><a href=""><img class="img-responsive" src="./videos/imgv1.png">
+                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs1"><a href=""><img src="./videos/imgv1.png" class="img-responsive">
                                             <div class="demo-gallery-poster"><img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png"></div>
                                         </a></li>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs2"><a href=""><img class="img-responsive" src="./videos/imgv1.png">
+                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs2"><a href=""><img src="./videos/imgv1.png" class="img-responsive">
                                             <div class="demo-gallery-poster"><img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png"></div>
                                         </a></li>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs3"><a href=""><img class="img-responsive" src="./videos/imgv1.png">
+                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs3"><a href=""><img src="./videos/imgv1.png" class="img-responsive">
                                             <div class="demo-gallery-poster"><img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png"></div>
                                         </a></li>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs4"><a href=""><img class="img-responsive" src="./videos/imgv1.png">
+                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>" data-poster="./videos/imgv1.png" data-html="#videojs4"><a href=""><img src="./videos/imgv1.png" class="img-responsive">
                                             <div class="demo-gallery-poster"><img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png"></div>
                                         </a></li>
                                 </ul>
@@ -389,6 +389,8 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <script src="https://vjs.zencdn.net/4.12/video.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/transition.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/collapse.js"></script>
@@ -399,6 +401,7 @@
     <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-autoplay.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/demos.js"></script>
 
+    <script src="js/LoadVideos.js"></script>
 
 
 
