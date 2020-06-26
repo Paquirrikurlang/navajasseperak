@@ -77,97 +77,121 @@
     {
       "Id": 1,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img16.jpg",
+      "RutaImagen": "images/galpon/img16.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 2,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img3.jpg",
+      "RutaImagen": "images/galpon/img3.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 3,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img5.jpg",
+      "RutaImagen": "images/galpon/img5.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 4,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img6.jpg",
+      "RutaImagen": "images/galpon/img6.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 5,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img7.jpg",
+      "RutaImagen": "images/galpon/img7.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 6,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img8.jpg",
+      "RutaImagen": "images/galpon/img8.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 7,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img9.jpg",
+      "RutaImagen": "images/galpon/img9.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 8,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img10.jpg",
+      "RutaImagen": "images/galpon/img10.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 9,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img11.jpg",
+      "RutaImagen": "images/galpon/img11.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 10,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img12.jpg",
+      "RutaImagen": "images/galpon/img12.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 11,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img13.jpg",
+      "RutaImagen": "images/galpon/img13.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 12,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img14.jpg",
+      "RutaImagen": "images/galpon/img14.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 13,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img17.jpg",
+      "RutaImagen": "images/galpon/img17.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 14,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img18.jpg",
+      "RutaImagen": "images/galpon/img18.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 15,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img19.jpg",
+      "RutaImagen": "images/galpon/img19.jpg",
+      "RutaVideo": "",
       "Estado": 1
     },
     {
       "Id": 16,
       "GaleriaId": 1,
-      "Ruta": "images/galpon/img20.jpg",
+      "RutaImagen": "images/galpon/img20.jpg",
+      "RutaVideo": "",
+      "Estado": 1
+    },
+
+    {
+      "Id": 17,
+      "GaleriaId": 5,
+      "RutaImagen": "images/galpon/img20.jpg",
+      "RutaVideo": "",
       "Estado": 1
     }
   ]

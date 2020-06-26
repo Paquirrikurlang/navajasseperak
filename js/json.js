@@ -3,8 +3,6 @@ var Producto = [];
   "use strict";
 
   $(function () {
-    debugger;
-
     $.getJSON("./config/data.json", function (json) {
       var producto = json.Producto;
       var productoImagen = json.ProductoImagen;
@@ -72,6 +70,7 @@ var Producto = [];
       });
 
       localStorage.setItem("resultado", JSON.stringify(resultado));
+
       debugger;
       jQuery.each(resultado, function (i, val) {
         var caracteristicas = "";

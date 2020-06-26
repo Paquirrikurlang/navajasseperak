@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <link href="https://sachinchoolur.github.io/lightGallery/static/css/main.css" rel="stylesheet">
     <link href="https://sachinchoolur.github.io/lightGallery/lightgallery/css/lightgallery.css" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,84 +43,10 @@
                             </div>
                         </div>
                     </div>
-                    <section class="section">
-                        <div class="container-fluid">
-                            <div style="display:none;" id="video1">
-                                <video class="lg-video-object lg-html5" controls="" preload="none">
-                                    <source src="http://navajasseperak.com/videos/video1.mp4" type="video/mp4">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Su navegador no admite video HTML5.
-                                        </font>
-                                    </font>
-                                </video>
-                            </div>
-                            <div style="display:none;" id="video2">
-                                <video class="lg-video-object lg-html5" controls="" preload="none">
-                                    <source src="https://sachinchoolur.github.io/lightGallery/static/videos/video2.mp4" type="video/mp4">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Su navegador no admite video HTML5.
-                                        </font>
-                                    </font>
-                                </video>
-                            </div>
-                            <div style="display:none;" id="video3">
-                                <video class="lg-video-object lg-html5" controls="" preload="none">
-                                    <source src="https://sachinchoolur.github.io/lightGallery/static/videos/video3.mp4" type="video/mp4">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Su navegador no admite video HTML5.
-                                        </font>
-                                    </font>
-                                </video>
-                            </div>
-                            <div style="display:none;" id="video4">
-                                <video class="lg-video-object lg-html5" controls="" preload="none">
-                                    <source src="https://sachinchoolur.github.io/lightGallery/static/videos/video4.mp4" type="video/mp4">
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            Su navegador no admite video HTML5.
-                                        </font>
-                                    </font>
-                                </video>
-                            </div>
-                            <div class="demo-gallery dark mrb35">
-                                <ul id="html5-videos" class="list-unstyled row">
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-poster="../static/img/videos/h-video1-poster.jpg" data-sub-html="<h4>CGI Animated Short HD: Student Academy Award Winning 'PeckPocketed' by Kevin Herron</h4>" data-html="#video1">
-                                        <a href="">
-                                            <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-2.jpg">
-                                            <div class="demo-gallery-poster">
-                                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-html="#video2" data-poster="../static/img/videos/h-video2-poster.jpg" data-sub-html="<h4>Rollin`Wild - Short Funny Animated Clips - Film Academy BW</h4>">
-                                        <a href="">
-                                            <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-y-1.jpg">
-                                            <div class="demo-gallery-poster">
-                                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-html="#video3" data-poster="../static/img/videos/h-video3-poster.jpg" data-sub-html="<h4>Big Buck Bunny</h4>">
-                                        <a href="">
-                                            <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-1.jpg">
-                                            <div class="demo-gallery-poster">
-                                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 video" data-html="#video4" data-poster="../static/img/videos/h-video4-poster.jpg" data-sub-html="<h4>Ninja vs Pirate</h4>">
-                                        <a href="">
-                                            <img class="img-responsive" src="https://sachinchoolur.github.io/lightGallery/static/img/thumb-v-v-2.jpg">
-                                            <div class="demo-gallery-poster">
-                                                <img src="https://sachinchoolur.github.io/lightGallery/static/img/play-button.png">
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+
+                    <section class="section highlight pdb0">
+                        <div class="container-fluid" id="videos">
+
                         </div>
                     </section>
                 </div>
@@ -126,15 +54,22 @@
             <!-- .block-slideshow / end -->
         </div>
     </div>
+
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="https://vjs.zencdn.net/4.12/video.js"></script>
+    <script src="https://sachinchoolur.github.io/lightGallery/static/js/transition.js"></script>
+    <script src="https://sachinchoolur.github.io/lightGallery/static/js/collapse.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lightgallery.js"></script>
+    <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-fullscreen.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-thumbnail.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-video.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-autoplay.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/demos.js"></script>
-    <script src="js\detalleMultimedia.js"></script>
-    </div>
 
+    <script src="js/LoadVideos.js"></script>
 
 </body>
 

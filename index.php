@@ -1807,6 +1807,7 @@
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
     <script src="js\modal.js"></script>
+    <script src="js\LoadInicialMultimedia.js"></script>
     <script>
         svg4everybody();
         $('.owl-carousel--home').owlCarousel({
