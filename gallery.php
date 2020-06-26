@@ -431,7 +431,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/eventos.jpg" alt="image"></a>
+                                <a IdGaleria="1" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/eventos.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>24 Julio, 2019</h4>
                                 </div>
@@ -445,7 +445,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/entrevistas.jpg" alt="image"></a>
+                                <a IdGaleria="2" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/entrevistas.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>22 Agosto, 2019</h4>
                                 </div>
@@ -459,7 +459,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/viajes.jpg" alt="image"></a>
+                                <a IdGaleria="3" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/viajes.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>25 Agosto, 2019</h4>
                                 </div>
@@ -473,7 +473,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/galpon.jpg" alt="image"></a>
+                                <a IdGaleria="4" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/galpon.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>27 Agosto, 2019</h4>
                                 </div>
@@ -487,7 +487,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/peleas.jpg" alt="image"></a>
+                                <a IdGaleria="5" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/peleas.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>22 Septiembre, 2019</h4>
                                 </div>
@@ -502,7 +502,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)"><img src="images/blog/logros.jpg" alt="image"></a>
+                                <a IdGaleria="6" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)"><img src="images/blog/logros.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>28 Septiembre, 2019</h4>
                                 </div>
@@ -1035,19 +1035,22 @@
         function DetalleMultimedia(valor) {
             debugger;
 
-            var TipoMultimedia = valor.attributes[0].value;
+            var Idgaleria = valor.attributes[0].value;
+            var TipoMultimedia = valor.attributes[1].value;
+
+
             var accion = valor.attributes[1].value;
             var loc = window.location;
             var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
 
             /* 1 -> Videos, 2 ->Fotos */
             if (TipoMultimedia == "2") {
-                window.open((pathName + "multimedia.php"), '_blank');
+                window.open((pathName + "multimedia.php?IdGaleria=" + Idgaleria), '_blank');
             } else {
                 if (accion == "1") {
-                    window.open((pathName + "triumphs.php"), '_blank');
+                    window.open((pathName + "triumphs.php?IdGaleria=" + Idgaleria), '_blank');
                 }
-                window.open((pathName + "videos.php"), '_blank');
+                window.open((pathName + "videos.php?IdGaleria=" + Idgaleria), '_blank');
             }
         }
     </script>

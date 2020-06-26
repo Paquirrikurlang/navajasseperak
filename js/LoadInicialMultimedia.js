@@ -24,8 +24,10 @@ var Producto = [];
         })[0];
 
         return {
+          GaleriaId: objgaleria.Id,
           IdContenido: contenido.Id,
-          RutaContenido: contenido.Ruta,
+          RutaImagen: contenido.RutaImagen,
+          RutaVideo: contenido.RutaVideo,
           EstadoContenido: contenido.Estado,
           Titulo: objgaleria.Titulo,
           TipoMultimediaid: objgaleria.TipoMultimediaid,
@@ -34,6 +36,7 @@ var Producto = [];
           TipoMuestraDescripcion: objtipoMuestra.Descripcion,
           Descripcion: objgaleria.Descripcion,
           EstadoMultimedia: objgaleria.Estado,
+          Titulo: contenido.Titulo,
         };
       });
 

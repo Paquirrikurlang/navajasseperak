@@ -58,7 +58,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+    <script src="js/LoadVideos.js"></script>
     <script src="https://vjs.zencdn.net/4.12/video.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/transition.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/collapse.js"></script>
@@ -69,7 +69,7 @@
     <script src="https://sachinchoolur.github.io/lightGallery/lightgallery/js/lg-autoplay.js"></script>
     <script src="https://sachinchoolur.github.io/lightGallery/static/js/demos.js"></script>
 
-    <script src="js/LoadVideos.js"></script>
+
 
 </body>
 

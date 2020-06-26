@@ -1,13 +1,20 @@
 (function ($) {
   "use strict";
   $(function () {
-    LoadVideos();
+    var params = new URLSearchParams(location.search);
+    var IdGaleria = params.get("IdGaleria");
+    LoadVideos(IdGaleria);
   });
 })(jQuery);
 
-function LoadVideos(TipoMultimedia) {
+function LoadVideos(IdGaleria) {
+  debugger;
   var resultadoMultimedia = JSON.parse(
     localStorage.getItem("resultadoMultimedia")
+  );
+
+  resultadoContenido = resultadoMultimedia.filter(
+    (data) => data.GaleriaId == IdGaleria
   );
 
   //$(".container-fluid").append();
@@ -19,11 +26,10 @@ function LoadVideos(TipoMultimedia) {
   ul.className = "list-unstyled row";
   ul.id = "html5-videos-videojs";
 
-  debugger;
-  for (i = 0; i < 4; i++) {
+  for (i = 0; i < resultadoContenido.length; i++) {
     var source = document.createElement("source");
     var src = document.createAttribute("src");
-    src.value = "http://navajasseperak.com/videos/video1.mp4";
+    src.value = resultadoContenido[i].RutaVideo;
     var type = document.createAttribute("type");
     type.value = "video/mp4";
     source.setAttributeNode(src);
@@ -34,7 +40,7 @@ function LoadVideos(TipoMultimedia) {
     var poster = document.createAttribute("poster");
     var controls = document.createAttribute("controls");
     var preload = document.createAttribute("preload");
-    poster.value = "./videos/imgv1.png";
+    poster.value = resultadoContenido[i].RutaImagen;
     controls.value = "";
     preload.value = "none";
     video.setAttributeNode(poster);
@@ -51,16 +57,15 @@ function LoadVideos(TipoMultimedia) {
     videos.appendChild(div);
   }
 
-  for (i = 0; i < 4; i++) {
+  for (i = 0; i < resultadoContenido.length; i++) {
     var imgBoton = document.createElement("img");
     var srcimgBoton = document.createAttribute("src");
-    srcimgBoton.value =
-      "https://sachinchoolur.github.io/lightGallery/static/img/play-button.png";
+    srcimgBoton.value = "./images/buttons/play-button.png";
     imgBoton.setAttributeNode(srcimgBoton);
 
     var imgVideo = document.createElement("img");
     var srcimgVideo = document.createAttribute("src");
-    srcimgVideo.value = "./videos/imgv1.png";
+    srcimgVideo.value = resultadoContenido[i].RutaImagen;
     imgVideo.setAttributeNode(srcimgVideo);
     imgVideo.className = "img-responsive";
 
@@ -75,11 +80,11 @@ function LoadVideos(TipoMultimedia) {
     var li = document.createElement("li");
     li.className = "col-xs-6 col-sm-4 col-md-3 video";
     var data_sub_html = document.createAttribute("data-sub-html");
-    data_sub_html.value =
-      "<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>";
+    data_sub_html.value = "<h4>" + resultadoContenido[i].Titulo + "</h4>";
+    ("<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>");
     li.setAttributeNode(data_sub_html);
     var data_poster = document.createAttribute("data-poster");
-    data_poster.value = "./videos/imgv1.png";
+    data_poster.value = resultadoContenido[i].RutaImagen;
     li.setAttributeNode(data_poster);
     var data_html = document.createAttribute("data-html");
     data_html.value = "#videojs" + (i + 1);
