@@ -429,11 +429,11 @@
                                     <div class="posts-list__body">
                                         <div class="posts-list__item">
                                             <div class="post-card post-card--layout--list post-card--size--nl">
-                                                <div class="post-card__image"><a href=""><img src="images/triunfos/t2.jpg" alt=""></a></div>
+                                                <div class="post-card__image"><a><img src="images/triunfos/t2.jpg" alt=""></a></div>
                                                 <div class="post-card__info">
-                                                    <div class="post-card__category"><a href="">Colise Abrham Wong Cañete</a></div>
-                                                    <div class="post-card__name"><a href="">Campeonato brahm Wong Cañete 2018</a></div>
-                                                    <div class="post-card__date">Octubre 19, 2019</div>
+                                                    <div class="post-card__category"><a>Coliseo Abrham Wong Cañete</a></div>
+                                                    <div class="post-card__name"><a>Campeonato Abrham Wong Cañete</a></div>
+                                                    <div class="post-card__date">2019</div>
                                                     <div class="post-card__read-more">
                                                         <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
                                                             <a data-toggle="modal" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
@@ -458,11 +458,11 @@
                                         </div>
                                         <div class="posts-list__item">
                                             <div class="post-card post-card--layout--list post-card--size--nl">
-                                                <div class="post-card__image"><a href=""><img src="images/triunfos/t3.png" alt=""></a></div>
+                                                <div class="post-card__image"><a><img src="images/triunfos/t3.png" alt=""></a></div>
                                                 <div class="post-card__info">
-                                                    <div class="post-card__category"><a href="">Colise Círculo Gallístico</a></div>
-                                                    <div class="post-card__name"><a href="">Campeonato Nacional de Gallos a Navaja 2019</a></div>
-                                                    <div class="post-card__date">Octubre 19, 2019</div>
+                                                    <div class="post-card__category"><a>Coliseo Círculo Gallístico</a></div>
+                                                    <div class="post-card__name"><a>Campeonato Nacional de Gallos a Navaja</a></div>
+                                                    <div class="post-card__date">2019</div>
                                                     <div class="post-card__read-more">
                                                         <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
                                                             <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
@@ -489,11 +489,11 @@
                                         </div>
                                         <div class="posts-list__item">
                                             <div class="post-card post-card--layout--list post-card--size--nl">
-                                                <div class="post-card__image"><a href=""><img src="images/triunfos/t7.jpg" alt=""></a></div>
+                                                <div class="post-card__image"><a><img src="images/triunfos/t7.jpg" alt=""></a></div>
                                                 <div class="post-card__info">
-                                                    <div class="post-card__category"><a href="">Colise de Ayacucho</a></div>
-                                                    <div class="post-card__name"><a href="">Campeonato Nacional de Gallos Ayacucho 2019</a></div>
-                                                    <div class="post-card__date">Octubre 19, 2019</div>
+                                                    <div class="post-card__category"><a>Colise de Ayacucho</a></div>
+                                                    <div class="post-card__name"><a>Campeonato Nacional de Gallos Ayacucho</a></div>
+                                                    <div class="post-card__date">2019</div>
                                                     <div class="post-card__read-more">
                                                         <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
                                                             <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
@@ -518,19 +518,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="posts-view__pagination">
-                                    <ul class="pagination justify-content-center">
-                                        <li class="page-item disabled"><a class="page-link page-link--with-arrow" href="" aria-label="Previous"><svg class="page-link__arrow page-link__arrow--left" aria-hidden="true" width="8px" height="13px">
-                                                    <use xlink:href="images/sprite.svg#arrow-rounded-left-8x13"></use>
-                                                </svg></a></li>
-                                        <li class="page-item"><a class="page-link" href="">1</a></li>
-                                        <li class="page-item active"><a class="page-link" href="">2 <span class="sr-only">(current)</span></a></li>
-                                        <li class="page-item"><a class="page-link" href="">3</a></li>
-                                        <li class="page-item"><a class="page-link page-link--with-arrow" href="" aria-label="Next"><svg class="page-link__arrow page-link__arrow--right" aria-hidden="true" width="8px" height="13px">
-                                                    <use xlink:href="images/sprite.svg#arrow-rounded-right-8x13"></use>
-                                                </svg></a></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
