@@ -487,7 +487,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a IdGaleria="5" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/peleas.jpg" alt="image"></a>
+                                <a IdGaleria="6" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/peleas.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>22 Septiembre, 2019</h4>
                                 </div>
@@ -502,7 +502,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a IdGaleria="6" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)"><img src="images/blog/logros.jpg" alt="image"></a>
+                                <a IdGaleria="5" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)"><img src="images/blog/logros.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>28 Septiembre, 2019</h4>
                                 </div>
@@ -1039,18 +1039,18 @@
             var TipoMultimedia = valor.attributes[1].value;
 
 
-            var accion = valor.attributes[1].value;
+            var accion = valor.attributes[2].value;
             var loc = window.location;
             var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
 
             /* 1 -> Videos, 2 ->Fotos */
             if (TipoMultimedia == "2") {
-                window.open((pathName + "Images.php?IdGaleria=" + Idgaleria));
+                window.location.href = pathName + "Images.php?IdGaleria=" + Idgaleria;
             } else {
                 if (accion == "1") {
-                    window.open((pathName + "triumphs.php?IdGaleria=" + Idgaleria));
+                    window.location.href = pathName + "triumphs.php?IdGaleria=" + Idgaleria;
                 } else
-                    window.open((pathName + "videos.php?IdGaleria=" + Idgaleria));
+                    window.location.href = pathName + "videos.php?IdGaleria=" + Idgaleria;
             }
         }
     </script>

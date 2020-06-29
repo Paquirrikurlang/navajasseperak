@@ -82,7 +82,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div id="mdb-lightbox-ui"></div>
-                                                    <div class="mdb-lightbox" data-pswp-uid="1">
+                                                    <div class="mdb-lightbox" id="images" data-pswp-uid="1">
                                                         <figure class="col-md-4">
                                                             <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg" data-size="1600x1067">
                                                                 <img alt="picture" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg" class="img-fluid">
