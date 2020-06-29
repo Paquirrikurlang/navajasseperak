@@ -76,7 +76,7 @@
   "Contenido": [
     {
       "Id": 1,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img16.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -84,7 +84,7 @@
     },
     {
       "Id": 2,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img3.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -92,7 +92,7 @@
     },
     {
       "Id": 3,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img5.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -100,7 +100,7 @@
     },
     {
       "Id": 4,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img6.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -108,7 +108,7 @@
     },
     {
       "Id": 5,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img7.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -116,7 +116,7 @@
     },
     {
       "Id": 6,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img8.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -124,7 +124,7 @@
     },
     {
       "Id": 7,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img9.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -132,7 +132,7 @@
     },
     {
       "Id": 8,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img10.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -140,7 +140,7 @@
     },
     {
       "Id": 9,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img11.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -148,7 +148,7 @@
     },
     {
       "Id": 10,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img12.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -156,7 +156,7 @@
     },
     {
       "Id": 11,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img13.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -164,7 +164,7 @@
     },
     {
       "Id": 12,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img14.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -172,7 +172,7 @@
     },
     {
       "Id": 13,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img17.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -180,7 +180,7 @@
     },
     {
       "Id": 14,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img18.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -188,7 +188,7 @@
     },
     {
       "Id": 15,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img19.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -196,7 +196,7 @@
     },
     {
       "Id": 16,
-      "GaleriaId": 1,
+      "GaleriaId": 4,
       "RutaImagen": "images/galpon/img20.jpg",
       "RutaVideo": "",
       "Titulo": "",
@@ -212,7 +212,7 @@
       "Estado": 1
     },
     {
-      "Id": 17,
+      "Id": 18,
       "GaleriaId": 6,
       "RutaImagen": "images/galpon/img19.jpg",
       "RutaVideo": "./videos/video2.mp4",
@@ -220,7 +220,7 @@
       "Estado": 1
     },
     {
-      "Id": 17,
+      "Id": 19,
       "GaleriaId": 6,
       "RutaImagen": "images/galpon/img18.jpg",
       "RutaVideo": "./videos/video3.mp4",
@@ -228,7 +228,7 @@
       "Estado": 1
     },
     {
-      "Id": 17,
+      "Id": 20,
       "GaleriaId": 6,
       "RutaImagen": "images/galpon/img17.jpg",
       "RutaVideo": "./videos/video4.mp4",
@@ -236,7 +236,7 @@
       "Estado": 1
     },
     {
-      "Id": 17,
+      "Id": 21,
       "GaleriaId": 6,
       "RutaImagen": "images/galpon/img15.jpg",
       "RutaVideo": "./videos/video5.mp4",
@@ -244,10 +244,74 @@
       "Estado": 1
     },
     {
-      "Id": 17,
+      "Id": 22,
       "GaleriaId": 6,
       "RutaImagen": "images/galpon/img14.jpg",
       "RutaVideo": "./videos/video6.mp4",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+
+    {
+      "Id": 23,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev1.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 1",
+      "Estado": 1
+    },
+    {
+      "Id": 24,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev2.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 2",
+      "Estado": 1
+    },
+    {
+      "Id": 25,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev3.jpg",
+      "Titulo": "Título Nro 3",
+      "Estado": 1
+    },
+    {
+      "Id": 26,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev4.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 4",
+      "Estado": 1
+    },
+    {
+      "Id": 27,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev5.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 5",
+      "Estado": 1
+    },
+    {
+      "Id": 28,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev6.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 28,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev7.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 28,
+      "GaleriaId": 1,
+      "RutaImagen": "images/eventos/ev8.jpg",
+      "RutaVideo": "",
       "Titulo": "Título Nro 6",
       "Estado": 1
     }
