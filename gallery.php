@@ -1045,12 +1045,12 @@
 
             /* 1 -> Videos, 2 ->Fotos */
             if (TipoMultimedia == "2") {
-                window.open((pathName + "multimedia.php?IdGaleria=" + Idgaleria), '_blank');
+                window.open((pathName + "Images.php?IdGaleria=" + Idgaleria));
             } else {
                 if (accion == "1") {
-                    window.open((pathName + "triumphs.php?IdGaleria=" + Idgaleria), '_blank');
-                }
-                window.open((pathName + "videos.php?IdGaleria=" + Idgaleria), '_blank');
+                    window.open((pathName + "triumphs.php?IdGaleria=" + Idgaleria));
+                } else
+                    window.open((pathName + "videos.php?IdGaleria=" + Idgaleria));
             }
         }
     </script>
