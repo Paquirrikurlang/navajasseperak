@@ -206,7 +206,7 @@
     {
       "Id": 17,
       "GaleriaId": 6,
-      "RutaImagen": "images/galpon/img20.jpg",
+      "RutaImagen": "./videos/imgv1.png",
       "RutaVideo": "./videos/video1.mp4",
       "Titulo": "Título Nro 1",
       "Estado": 1
@@ -214,7 +214,7 @@
     {
       "Id": 18,
       "GaleriaId": 6,
-      "RutaImagen": "images/galpon/img19.jpg",
+      "RutaImagen": "./videos/imgv2.png",
       "RutaVideo": "./videos/video2.mp4",
       "Titulo": "Título Nro 2",
       "Estado": 1
@@ -222,7 +222,7 @@
     {
       "Id": 19,
       "GaleriaId": 6,
-      "RutaImagen": "images/galpon/img18.jpg",
+      "RutaImagen": "./videos/imgv3.png",
       "RutaVideo": "./videos/video3.mp4",
       "Titulo": "Título Nro 3",
       "Estado": 1
@@ -230,7 +230,7 @@
     {
       "Id": 20,
       "GaleriaId": 6,
-      "RutaImagen": "images/galpon/img17.jpg",
+      "RutaImagen": "./videos/imgv4.png",
       "RutaVideo": "./videos/video4.mp4",
       "Titulo": "Título Nro 4",
       "Estado": 1
@@ -238,7 +238,7 @@
     {
       "Id": 21,
       "GaleriaId": 6,
-      "RutaImagen": "images/galpon/img15.jpg",
+      "RutaImagen": "./videos/imgv5.png",
       "RutaVideo": "./videos/video5.mp4",
       "Titulo": "Título Nro 5",
       "Estado": 1
@@ -246,7 +246,7 @@
     {
       "Id": 22,
       "GaleriaId": 6,
-      "RutaImagen": "images/galpon/img14.jpg",
+      "RutaImagen": "./videos/imgv6.png",
       "RutaVideo": "./videos/video6.mp4",
       "Titulo": "Título Nro 6",
       "Estado": 1
@@ -300,7 +300,7 @@
       "Estado": 1
     },
     {
-      "Id": 28,
+      "Id": 29,
       "GaleriaId": 1,
       "RutaImagen": "images/eventos/ev7.jpg",
       "RutaVideo": "",
@@ -308,11 +308,157 @@
       "Estado": 1
     },
     {
-      "Id": 28,
+      "Id": 30,
       "GaleriaId": 1,
       "RutaImagen": "images/eventos/ev8.jpg",
       "RutaVideo": "",
       "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+
+    {
+      "Id": 29,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma1.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 30,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma2.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 31,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma3.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 32,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma4.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 33,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma5.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 34,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma6.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 35,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma7.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 36,
+      "GaleriaId": 2,
+      "RutaImagen": "images/marchas/ma8.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+
+    {
+      "Id": 37,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj1.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 38,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj2.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 39,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj3.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 40,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj4.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 41,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj5.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 42,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj6.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 43,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj7.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 44,
+      "GaleriaId": 3,
+      "RutaImagen": "images/viajes/vj8.jpg",
+      "RutaVideo": "",
+      "Titulo": "Título Nro 6",
+      "Estado": 1
+    },
+    {
+      "Id": 45,
+      "GaleriaId": 6,
+      "RutaImagen": "./videos/imgv7.png",
+      "RutaVideo": "./videos/video7.mp4",
+      "Titulo": "Título Nro 7",
+      "Estado": 1
+    },
+    {
+      "Id": 46,
+      "GaleriaId": 6,
+      "RutaImagen": "./videos/imgv8.png",
+      "RutaVideo": "./videos/video8.mp4",
+      "Titulo": "Título Nro 8",
       "Estado": 1
     }
   ]

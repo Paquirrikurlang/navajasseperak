@@ -445,14 +445,14 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="blog-hm-wrapper mb-40">
                             <div class="blog-img">
-                                <a IdGaleria="2" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/entrevistas.jpg" alt="image"></a>
+                                <a IdGaleria="2" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/marchas/ma1.jpg" alt="image"></a>
                                 <div class="blog-date">
                                     <h4>22 Agosto, 2019</h4>
                                 </div>
                             </div>
                             <div class="blog-hm-content">
-                                <h3><a>Entrevistas</a></h3>
-                                <p><span>GALLERO</span> revisa nuestras entrevistas. </p>
+                                <h3><a>Marchas</a></h3>
+                                <p><span>GALLERO</span> revisa la marcha gallera. </p>
                             </div>
                         </div>
                     </div>

@@ -12,12 +12,12 @@
                         <li class="breadcrumb-item"><a href="index.php">Inicio</a> <svg class="breadcrumb-arrow" width="6px" height="9px">
                                 <use xlink:href="images/sprite.svg#arrow-rounded-right-6x9"></use>
                             </svg></li>
-                        <li class="breadcrumb-item active" aria-current="page">Videos</li>
+                        <li class="breadcrumb-item active" aria-current="page">Imágenes</li>
                     </ol>
                 </nav>
             </div>
             <div class="page-header__title">
-                <h1>Fotos</h1>
+                <h1>Imágenes</h1>
             </div>
         </div>
     </div>
