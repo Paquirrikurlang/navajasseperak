@@ -1,4 +1,4 @@
-<footer class="site__footer">
+<footer class="site__footer p-0">
     <div class="site-footer">
         <div class="container">
             <div class="site-footer__widgets">

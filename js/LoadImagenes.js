@@ -20,14 +20,14 @@ function LoadImages(IdGaleria) {
 
   jQuery.each(resultadoContenido, function (i, val) {
     $("#images").append(
-      "<figure class='col-md-4'>" +
-        "<a href='" +
-        val.RutaImagen +
-        "' data-size='1600x1067'>" +
-        "<img alt='picture' src='" +
-        val.RutaImagen +
-        "' class='img-fluid'>" +
-        "</a>" +
+        "<figure class='col-2 col-md-3 galeria__imagen'>" +
+            "<a href='" +
+            val.RutaImagen +
+            "' class='galeria__imagen__link' data-size='1600x1067'>" +
+              "<img alt='picture' src='" +
+              val.RutaImagen +
+              "' class='img-fluid'>" +
+            "</a>" +
         "</figure>"
     );
   });

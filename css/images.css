@@ -1,0 +1,24 @@
+/* Vista Galería de Imágenes */
+
+.container__seccion__imagenes {
+  margin-bottom: 48px;
+}
+
+.lista__galeria__imagenes {
+  list-style-type: none;
+  padding: 0;
+}
+
+.galeria__imagen {
+  padding: 16px !important;
+  height: 204px;
+  float: none;
+}
+
+.galeria__imagen__link {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Fin - Vista Galería de Imágenes */
