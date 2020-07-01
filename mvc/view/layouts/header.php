@@ -26,7 +26,7 @@
     </script>
 </head>
 <!-- mobile site__header -->
-<header class="site__header d-lg-none">
+<header class="position-relative site__header d-lg-none">
     <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
     <div class="mobile-header mobile-header--sticky" data-sticky-mode="pullToShow">
         <div class="mobile-header__panel">

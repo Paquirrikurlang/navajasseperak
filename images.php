@@ -1,27 +1,28 @@
-<?php include_once('mvc/view/layouts/header.php') ?>
 <link rel="stylesheet" id="compiled.css-css" href="https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/css/compiled-4.19.1.min.css?ver=4.19.1" type="text/css" media="all">
+<link rel="stylesheet" href="css/shared.css" type="text/css" />
 <link rel="stylesheet" href="css/images.css" type="text/css" />
 
 <body class="fixed-sn mdb-skin-custom" data-spy="scroll" data-target="#scrollspy" data-offset="15" aria-busy="true" style="">
-    <div class="page-header">
-        <div class="page-header__container container">
-            <div class="page-header__breadcrumb">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php">Inicio</a> <svg class="breadcrumb-arrow" width="6px" height="9px">
-                                <use xlink:href="images/sprite.svg#arrow-rounded-right-6x9"></use>
-                            </svg></li>
-                        <li class="breadcrumb-item active" aria-current="page">Imágenes</li>
-                    </ol>
-                </nav>
-            </div>
-            <div class="page-header__title">
-                <h1>Imágenes</h1>
+    <?php include_once('mvc/view/layouts/header.php') ?>
+    <main class="mx-auto p-0">
+        <div class="page-header">
+            <div class="page-header__container container">
+                <div class="page-header__breadcrumb">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.php">Inicio</a> <svg class="breadcrumb-arrow" width="6px" height="9px">
+                                    <use xlink:href="images/sprite.svg#arrow-rounded-right-6x9"></use>
+                                </svg></li>
+                            <li class="breadcrumb-item active" aria-current="page">Imágenes</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="page-header__title">
+                    <h1>Imágenes</h1>
+                </div>
             </div>
         </div>
-    </div>
-    <main class="mt-0 p-0">
-        <div class="container container__seccion__imagenes">
+        <div class="container container__seccion__videos">
             <div class="row">
                 <div class="col-12">
                     <section id="lightbox-1">
@@ -111,9 +112,9 @@
             </div>
         </div>
     </main>
+    <?php include_once('mvc/view/layouts/footer.php') ?>
     <script type="text/javascript" src="https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/js/bundles/4.19.1/compiled.16.min.js?ver=4.19.1"></script>
     <script src="js/LoadImagenes.js"></script>
 </body>
-<?php include_once('mvc/view/layouts/footer.php') ?>
 
 </html>

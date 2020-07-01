@@ -1,21 +1,7 @@
 /* Vista Galería de Imágenes */
 
-.page-header__title {
-  padding-top: 32px;
-}
-
-.page-header__title h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-}
-
 .container__seccion__imagenes {
   margin-bottom: 72px;
-}
-
-.lista__galeria__imagenes {
-  list-style-type: none;
-  padding: 0;
 }
 
 .galeria__imagen {

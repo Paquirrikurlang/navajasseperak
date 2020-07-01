@@ -1,4 +1,4 @@
-<footer class="site__footer p-0">
+<footer class="position-relative site__footer p-0">
     <div class="site-footer">
         <div class="container">
             <div class="site-footer__widgets">
@@ -8,7 +8,7 @@
                             <h5 class="footer-contacts__title">Contactos</h5>
                             <div class="footer-contacts__text">Te dejo mis datos para poder comunicarnos.</div>
                             <ul class="footer-contacts__contacts">
-                                <li><i class="footer-contacts__icon fas fa-globe-americas"></i> Direción de domicilio</li>
+                                <li><i class="footer-contacts__icon fas fa-globe-americas"></i> Dirección de domicilio</li>
                                 <li><i class="footer-contacts__icon far fa-envelope"></i> prueba@correo.com</li>
                                 <li><i class="footer-contacts__icon fas fa-mobile-alt"></i> (01) 999919898</li>
                             </ul>
