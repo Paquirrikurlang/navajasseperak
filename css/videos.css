@@ -1,0 +1,37 @@
+.galeria__video {
+  padding: 16px;
+  height: 204px;
+  margin-bottom: 0 !important;
+}
+
+.galeria__video a,
+.galeria__video img {
+  height: 100%;
+}
+
+.galeria__video a {
+  border: 0 !important;
+  float: none !important;
+  border-radius: 0 !important;
+}
+
+.galeria__video > img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.demo-gallery-poster {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-gallery-poster > img {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+  width: 64px;
+  height: 64px;
+}
