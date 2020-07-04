@@ -386,7 +386,7 @@
                                     </svg></li>
                                 <li class="breadcrumb-item active" aria-current="page">
                                     <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">Revisa tu Pedido</font>
+                                        <font style="vertical-align: inherit;">Revisa tu Solicitud</font>
                                     </font>
                                 </li>
                             </ol>
@@ -395,7 +395,7 @@
                     <div class="page-header__title">
                         <h1>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Revisa tu Pedido</font>
+                                <font style="vertical-align: inherit;">Revisa tu Solicitud</font>
                             </font>
                         </h1>
                     </div>
@@ -408,9 +408,9 @@
                             <div class="alert alert-lg alert-primary">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">¿Soy Cliente? </font>
-                                </font><a href="">
+                                </font><a href="#">
                                     <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">Haga clic aquí para ingresar</font>
+                                        <font style="vertical-align: inherit;">Ingesa tus datos para que seas cliente nuestro</font>
                                     </font>
                                 </a>
                             </div>
@@ -420,109 +420,36 @@
                                 <div class="card-body">
                                     <h3 class="card-title">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">Detalles de facturación</font>
+                                            <font style="vertical-align: inherit;">Datos del solicitante (Opcional)</font>
                                         </font>
                                     </h3>
                                     <div class="form-row">
                                         <div class="form-group col-md-6"><label for="checkout-first-name">
                                                 <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Nombre de pila</font>
+                                                    <font style="vertical-align: inherit;">Nombre</font>
                                                 </font>
-                                            </label> <input type="text" class="form-control" id="checkout-first-name" placeholder="Nombre de pila"></div>
+                                            </label> <input type="text" class="form-control" id="checkout-first-name" placeholder="Nombre"></div>
                                         <div class="form-group col-md-6"><label for="checkout-last-name">
                                                 <font style="vertical-align: inherit;">
                                                     <font style="vertical-align: inherit;">Apellido</font>
                                                 </font>
                                             </label> <input type="text" class="form-control" id="checkout-last-name" placeholder="Apellido"></div>
                                     </div>
-                                    <div class="form-group"><label for="checkout-company-name">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">Nombre de la empresa </font>
-                                            </font><span class="text-muted">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">(opcional)</font>
-                                                </font>
-                                            </span>
-                                        </label> <input type="text" class="form-control" id="checkout-company-name" placeholder="nombre de empresa"></div>
-                                    <div class="form-group"><label for="checkout-country">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">País</font>
-                                            </font>
-                                        </label> <select id="checkout-country" class="form-control form-control-select2 select2-hidden-accessible" data-select2-id="checkout-country" tabindex="-1" aria-hidden="true">
-                                            <option data-select2-id="2">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Seleccione un país...</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Estados Unidos</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Rusia</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Italia</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Francia</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Ucrania</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Alemania</font>
-                                                </font>
-                                            </option>
-                                            <option>
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Australia</font>
-                                                </font>
-                                            </option>
-                                        </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="1"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-checkout-country-container"><span class="select2-selection__rendered" id="select2-checkout-country-container" role="textbox" aria-readonly="true" title="Seleccione un país...">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">Seleccione un país...</font>
-                                                        </font>
-                                                    </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div>
                                     <div class="form-group"><label for="checkout-street-address">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">Dirección</font>
                                             </font>
                                         </label> <input type="text" class="form-control" id="checkout-street-address" placeholder="Dirección"></div>
-                                    <div class="form-group"><label for="checkout-address">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">Apartamento, suite, unidad, etc. </font>
-                                            </font><span class="text-muted">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">(Opcional)</font>
-                                                </font>
-                                            </span>
-                                        </label> <input type="text" class="form-control" id="checkout-address"></div>
                                     <div class="form-group"><label for="checkout-city">
                                             <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">Pueblo / ciudad</font>
+                                                <font style="vertical-align: inherit;">Ciudad</font>
                                             </font>
                                         </label> <input type="text" class="form-control" id="checkout-city"></div>
                                     <div class="form-group"><label for="checkout-state">
                                             <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">Estado / Condado</font>
+                                                <font style="vertical-align: inherit;">Distrito</font>
                                             </font>
                                         </label> <input type="text" class="form-control" id="checkout-state"></div>
-                                    <div class="form-group"><label for="checkout-postcode">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">Código postal / ZIP</font>
-                                            </font>
-                                        </label> <input type="text" class="form-control" id="checkout-postcode"></div>
                                     <div class="form-row">
                                         <div class="form-group col-md-6"><label for="checkout-email">
                                                 <font style="vertical-align: inherit;">
@@ -535,42 +462,10 @@
                                                 </font>
                                             </label> <input type="text" class="form-control" id="checkout-phone" placeholder="Teléfono"></div>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="form-check"><span class="form-check-input input-check"><span class="input-check__body"><input class="input-check__input" type="checkbox" id="checkout-create-account"> <span class="input-check__box"></span> <svg class="input-check__icon" width="9px" height="7px">
-                                                        <use xlink:href="images/sprite.svg#check-9x7"></use>
-                                                    </svg> </span></span><label class="form-check-label" for="checkout-create-account">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">¿Crea una cuenta?</font>
-                                                </font>
-                                            </label></div>
-                                    </div>
+
                                 </div>
-                                <div class="card-divider"></div>
-                                <div class="card-body">
-                                    <h3 class="card-title">
-                                        <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">Detalles de envío</font>
-                                        </font>
-                                    </h3>
-                                    <div class="form-group">
-                                        <div class="form-check"><span class="form-check-input input-check"><span class="input-check__body"><input class="input-check__input" type="checkbox" id="checkout-different-address"> <span class="input-check__box"></span> <svg class="input-check__icon" width="9px" height="7px">
-                                                        <use xlink:href="images/sprite.svg#check-9x7"></use>
-                                                    </svg> </span></span><label class="form-check-label" for="checkout-different-address">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">¿Envia a una direccion diferente?</font>
-                                                </font>
-                                            </label></div>
-                                    </div>
-                                    <div class="form-group"><label for="checkout-comment">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">Notas de pedido </font>
-                                            </font><span class="text-muted">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">(opcional)</font>
-                                                </font>
-                                            </span>
-                                        </label> <textarea id="checkout-comment" class="form-control" rows="4"></textarea></div>
-                                </div>
+
+
                             </div>
                         </div>
                         <div class="col-12 col-lg-6 col-xl-5 mt-4 mt-lg-0">
@@ -578,7 +473,7 @@
                                 <div class="card-body">
                                     <h3 class="card-title">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">Su pedido</font>
+                                            <font style="vertical-align: inherit;">Detalle de la solicitud</font>
                                         </font>
                                     </h3>
                                     <table class="checkout__totals">
@@ -600,7 +495,7 @@
                                             <tr>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Navaja para Gallos Modelo Cola de Rata</font>
+                                                        <font id="nombreProducto" style="vertical-align: inherit;"></font>
                                                     </font>
                                                 </td>
                                                 <td>
@@ -609,30 +504,7 @@
                                                     </font>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td>
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Navaja para Gallos Modelo Filipina</font>
-                                                    </font>
-                                                </td>
-                                                <td>
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 100.00</font>
-                                                    </font>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Navaja para Gallos Modelo Media O</font>
-                                                    </font>
-                                                </td>
-                                                <td>
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 100.00</font>
-                                                    </font>
-                                                </td>
-                                            </tr>
+
                                         </tbody>
                                         <tbody class="checkout__totals-subtotals">
                                             <tr>
@@ -643,22 +515,11 @@
                                                 </th>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 300.00</font>
+                                                        <font style="vertical-align: inherit;">S/ 100.00</font>
                                                     </font>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <th>
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Crédito de la tienda</font>
-                                                    </font>
-                                                </th>
-                                                <td>
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 00.00</font>
-                                                    </font>
-                                                </td>
-                                            </tr>
+
                                             <tr>
                                                 <th>
                                                     <font style="vertical-align: inherit;">
@@ -667,7 +528,7 @@
                                                 </th>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 25.00</font>
+                                                        <font style="vertical-align: inherit;">S/ 00.00</font>
                                                     </font>
                                                 </td>
                                             </tr>
@@ -681,7 +542,7 @@
                                                 </th>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 325.00</font>
+                                                        <font style="vertical-align: inherit;">S/ 100.00</font>
                                                     </font>
                                                 </td>
                                             </tr>
@@ -698,7 +559,6 @@
                                                     <div class="payment-methods__item-description text-muted">
                                                         <font style="vertical-align: inherit;">
                                                             <font style="vertical-align: inherit;">Realice su pago directamente en nuestra cuenta bancaria. </font>
-                                                            <font style="vertical-align: inherit;">Utilice su ID de pedido como referencia de pago. </font>
                                                             <font style="vertical-align: inherit;">Su pedido no se enviará hasta que los fondos se hayan liquidado en nuestra cuenta.</font>
                                                         </font>
                                                     </div>
@@ -706,14 +566,13 @@
                                             </li>
                                             <li class="payment-methods__item"><label class="payment-methods__item-header"><span class="payment-methods__item-radio input-radio"><span class="input-radio__body"><input class="input-radio__input" name="checkout_payment_method" type="radio"> <span class="input-radio__circle"></span> </span></span><span class="payment-methods__item-title">
                                                         <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">PayPal</font>
+                                                            <font style="vertical-align: inherit;">Comunicación directa</font>
                                                         </font>
                                                     </span></label>
                                                 <div class="payment-methods__item-container">
                                                     <div class="payment-methods__item-description text-muted">
                                                         <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">Pague a través de PayPal; </font>
-                                                            <font style="vertical-align: inherit;">Puede pagar con su tarjeta de crédito si no tiene una cuenta PayPal.</font>
+                                                            <font style="vertical-align: inherit;">Comunícate al número 999 919 898 para acordarlo personalmente</font>
                                                         </font>
                                                     </div>
                                                 </div>
@@ -738,7 +597,7 @@
                                             </label></div>
                                     </div><button type="submit" class="btn btn-primary btn-xl btn-block">
                                         <font style="vertical-align: inherit;">
-                                            <font style="vertical-align: inherit;">Realizar pedido</font>
+                                            <font style="vertical-align: inherit;">Guardar solicitud</font>
                                         </font>
                                     </button>
                                 </div>
@@ -1257,6 +1116,7 @@
     <script src="vendor\select2\js\select2.min.js"></script>
     <script src="js\number.js"></script>
     <script src="js\main.js"></script>
+    <script src="js\solicitudProducto.js"></script>
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
     <script>

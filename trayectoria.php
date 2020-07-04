@@ -417,7 +417,7 @@
 
                                     <div class="testimonial-content">
                                         <div class="testimonial-dec">
-                                            <p><span>Index</span> the most latgest bike store in the wold can serve you latest qulity of motorcycle also you can sell here your motorcycle it quo minus iduod maxie placeat facere possimus, omnis voluptas assumenda est, omnis dolor llendus. Temporibus autem quibusdam quoten</p>
+                                            <p><span>Desde</span> muy pequeño despertó en mi esa curiosidad cuando entraba al corral de mi padre a jugar con mi hermana, me detenía y podía apreciar el revolcadero de las gallinas y pollas, la ubicación los alimentos y medicamentos, las casillas etc.</p>
                                         </div>
                                     </div>
 
@@ -434,7 +434,7 @@
                                         <div class="row">
                                             <div class="col-md-12 pl-24 pr-24">
                                                 <p>
-                                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                                    Nací en la provincia de Casma, Ancash - Perú, ciudad del eterno sol y cuna de la cultura Sechin y sus famosos guerreros, un 10 de abril de 1973. Fue principalmente por mi padre, Francisco Alejandro Seperak Morales (Pancho), quien desde muy chico me introdujo en el mundo de los gallos me hizo ver, conocer, aprender y visitar coliseos y estar cerca de esta tradición, los genes de mi abuelo materno José Lorenzo Mesarina Zegarra y mis tíos también maternos Dagoberto y Alfredo Mesarina, todos criadores y aficionados del gallo navajero peruano. Puedo decir que gracias a ellos nació esta hermosa afición que hasta el día de hoy me llena de satisfacción, grandes alegrías, buenos amigos, muchas experiencias y grandes triunfos.
                                                     &nbsp;<a href="mi-biografia.php" title="Leer más">Leer más</a>
                                                 </p>
                                             </div>
