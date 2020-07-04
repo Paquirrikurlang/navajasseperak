@@ -9,6 +9,7 @@
     <!--  <link rel="icon" type="image/png" href="images\favicon.png"> fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"><!-- css -->
     <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
+
     <link rel="stylesheet" href="vendor\owl-carousel\assets\owl.carousel.min.css">
     <link rel="stylesheet" href="vendor\owl-carousel\assets\animate.min.css">
     <link rel="stylesheet" href="vendor\photoswipe\photoswipe.css">
@@ -16,14 +17,20 @@
     <link rel="stylesheet" href="vendor\select2\css\select2.min.css">
     <link rel="stylesheet" href="css\style.css"><!-- font - fontawesome -->
     <link rel="stylesheet" href="css\styleExtra.css"><!-- font - fontawesome -->
+
     <link rel="stylesheet" href="vendor\fontawesome\css\all.min.css"><!-- font - stroyka -->
     <link rel="stylesheet" href="fonts\stroyka\stroyka.css">
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-6"></script>
+
     <style>
         @media screen and (min-width: 992px) {
             .post-card__info {
                 width: 100% !important;
             }
+        }
+
+        .display {
+            display: none !important;
         }
     </style>
 
@@ -111,8 +118,9 @@
                     </div>
                     <div class="block-products-carousel__slider">
                         <div class="block-products-carousel__preloader"></div>
-                        <div class="owl-carousel">
-                            <div class="block-products-carousel__column">
+                        <div class="owl-carousel" id="productoIndex">
+
+                            <div class="block-products-carousel__column navajas ">
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="1" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -218,7 +226,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -331,7 +339,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -340,7 +348,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="block-products-carousel__column">
+                            <div class="block-products-carousel__column navajas ">
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="8" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -446,7 +454,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -559,7 +567,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -568,7 +576,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="block-products-carousel__column">
+                            <div class="block-products-carousel__column navajas ">
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="5" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -674,7 +682,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -787,7 +795,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -796,7 +804,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="block-products-carousel__column">
+                            <div class="block-products-carousel__column navajas ">
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="10" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -902,7 +910,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1015,7 +1023,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1024,7 +1032,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="block-products-carousel__column">
+                            <div class="block-products-carousel__column navajas ">
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="7" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -1130,7 +1138,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1243,7 +1251,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1252,7 +1260,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="block-products-carousel__column">
+                            <div class="block-products-carousel__column navajas ">
                                 <div class="block-products-carousel__cell">
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="11" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -1359,7 +1367,7 @@
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
                                             <div class="product-card__buttons">
-                                                <button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                                <button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1474,7 +1482,7 @@
                                         <div class="product-card__actions">
                                             <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                             <div class="product-card__prices">S/ 100.00</div>
-                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" type="button">Agregar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Agregar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                            <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#wishlist-16"></use>
                                                     </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                         <use xlink:href="images/sprite.svg#compare-16"></use>
@@ -1483,6 +1491,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -1795,19 +1804,34 @@
         </div>
     </div><!-- photoswipe / end -->
     <!-- js -->
+
     <script src="vendor\jquery\jquery.min.js"></script>
+
     <script src="vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+
     <script src="vendor\owl-carousel\owl.carousel.min.js"></script>
+
     <script src="vendor\nouislider\nouislider.min.js"></script>
+
     <script src="vendor\photoswipe\photoswipe.min.js"></script>
+
     <script src="vendor\photoswipe\photoswipe-ui-default.min.js"></script>
+
     <script src="vendor\select2\js\select2.min.js"></script>
+    <script src="js\solicitudproducto.js"></script>
     <script src="js\number.js"></script>
     <script src="js\main.js"></script>
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
     <script src="js\modal.js"></script>
-    <script src="js\LoadInicialMultimedia.js"></script>
+    <script>
+        function solicitudProducto(valor) {
+            debugger;
+            var loc = window.location;
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
+            window.location.href = pathName + "checkout.php";
+        }
+    </script>
     <script>
         svg4everybody();
         $('.owl-carousel--home').owlCarousel({
