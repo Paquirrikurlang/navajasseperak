@@ -495,7 +495,7 @@
                                             <tr>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Navaja para Gallos Modelo Cola de Rata</font>
+                                                        <font id="nombreProducto" style="vertical-align: inherit;"></font>
                                                     </font>
                                                 </td>
                                                 <td>
@@ -1116,6 +1116,7 @@
     <script src="vendor\select2\js\select2.min.js"></script>
     <script src="js\number.js"></script>
     <script src="js\main.js"></script>
+    <script src="js\solicitudProducto.js"></script>
     <script src="js\header.js"></script>
     <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
     <script>
