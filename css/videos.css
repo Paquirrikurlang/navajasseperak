@@ -35,3 +35,16 @@
   width: 64px;
   height: 64px;
 }
+
+@media screen and (max-width: 767px) {
+  .lista__galeria__videos ul {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .galeria__video {
+    padding: 8px !important;
+    height: 104px;
+    margin-bottom: 0;
+  }
+}

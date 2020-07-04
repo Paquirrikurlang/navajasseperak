@@ -78,7 +78,7 @@ function LoadVideos(IdGaleria) {
     a.setAttributeNode(srca);
 
     var li = document.createElement("li");
-    li.className = "col-2 col-md-3 galeria__video";
+    li.className = "col-6 col-lg-3 galeria__video";
     var data_sub_html = document.createAttribute("data-sub-html");
     data_sub_html.value = "<h4>" + resultadoContenido[i].Titulo + "</h4>";
     ("<h4>CGI Animated Short HD: Student Academy Award Winning PeckPocketed by Kevin Herron</h4>");

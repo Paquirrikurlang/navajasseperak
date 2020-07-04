@@ -16,4 +16,17 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 767px) {
+  .lista__galeria__imagenes {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .galeria__imagen {
+    margin-bottom: 0;
+    padding: 8px !important;
+    height: 104px;
+  }
+}
+
 /* Fin - Vista Galería de Imágenes */
