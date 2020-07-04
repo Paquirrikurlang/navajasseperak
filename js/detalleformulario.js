@@ -81,7 +81,7 @@ function LoadDetalleProductoForm(IdProducto) {
   $(".sku").html("SKU: " + resultado.SKU);
   $(".product__prices").html("S/" + resultado.PrecioVenta);
   $(".descripcion_parrafo").html(resultado.Descripcion);
-
+  $(".btnSolicitarProducto").attr("id", resultado.Id);
   /*
   $(".detalle_producto").append(
     "<div class='product__content'>" +

@@ -63,18 +63,13 @@
                                 <div class="fadeOut owl-carousel owl-carousel--home">
                                     <a class="block-slideshow__slide block-slideshow__slide--home" href="catalogue.php">
                                         <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
-                                            <img src="images/slides/afiche_seperak1.jpg" alt="Navajas1">
+                                            <img src="images/slides/afiche_seperak1.jpeg" alt="Navajas1">
                                         </div>
-                                        <div class="block-slideshow__slide-content">
-                                            <!-- <h1 class="text-bold text-uppercase text-center slide__title">Realice sus<br /> pedidos desde<br /> nuestra web</h1>-->
-                                            <button class="btn btn__cta__slide">
-                                                Ver catálogo
-                                            </button>
-                                        </div>
+
                                     </a>
                                     <a class="block-slideshow__slide block-slideshow__slide--home" href="catalogue.php">
                                         <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop">
-                                            <img src="images/slides/afiche_seperak2.jpeg" alt="Navajas1">
+                                            <img src="images/slides/afiche_seperak2.jpg" alt="Navajas1">
                                         </div>
                                         <div class="block-slideshow__slide-content">
                                             <button class="btn btn__cta__slide">
@@ -352,12 +347,12 @@
                                     <div class="product-card product-card--hidden-actions">
                                         <button id="8" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
                                                 <use xlink:href="images/sprite.svg#quickview-16"></use>
-                                            </svg> <span class="fake-svg-icon"></span>
+                                            </svg> <span class="fake-s  vg-icon"></span>
                                         </button>
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=8" class="product-image__body">
                                                 <img class="product-image__img" src="images/navajas/modelos/H/H1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
-                                            <div class="product-card__name"><a href="./product.php">Seperak 9 milímetros</a></div>
+                                            <div class="product-card__name"><a href="./product.php">Seperak 9 mm</a></div>
                                             <div class="product-card__rating">
                                                 <div class="product-card__rating-stars">
                                                     <div class="rating">
@@ -585,7 +580,7 @@
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=5" class="product-image__body">
                                                 <img class="product-image__img" src="images/navajas/modelos/E/E1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
-                                            <div class="product-card__name"><a href="./product.php">Seperak 11 milímetros</a></div>
+                                            <div class="product-card__name"><a href="./product.php">Seperak 11 mm</a></div>
                                             <div class="product-card__rating">
                                                 <div class="product-card__rating-stars">
                                                     <div class="rating">
@@ -813,7 +808,7 @@
                                         <div class="product-card__image product-image"><a href="product.php?IdProducto=10" class="product-image__body">
                                                 <img class="product-image__img" src="images/navajas/modelos/J/J1.jpeg" alt=""></a></div>
                                         <div class="product-card__info">
-                                            <div class="product-card__name"><a href="./product.php">Seperak 13 milímetros</a></div>
+                                            <div class="product-card__name"><a href="./product.php">Seperak 13 mm</a></div>
                                             <div class="product-card__rating">
                                                 <div class="product-card__rating-stars">
                                                     <div class="rating">
@@ -1820,10 +1815,11 @@
     <script>
         function solicitudProducto(valor) {
             debugger;
+            var cantidad = $("#product-quantity").val();
             var idProducto = valor.id;
             var loc = window.location;
             var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
-            window.location.href = pathName + "checkout.php?idProducto=" + idProducto;
+            window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
         }
     </script>
     <script>

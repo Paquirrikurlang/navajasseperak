@@ -222,7 +222,6 @@ function clickHandler(valor, IdProducto) {
       "<div class='product__prices'>S/" +
       resultado.PrecioVenta +
       "</div>" +
-      "<form class='product__options'>" +
       "<div class='form-group product__option'>" +
       "<label class='product__option-label'>Material</label>" +
       "<div class='input-radio-label'>" +
@@ -247,13 +246,14 @@ function clickHandler(valor, IdProducto) {
       "</div>" +
       "</div>" +
       "<div class='product__actions-item product__actions-item--addtocart'>" +
-      "<button class='btn btn-primary btn-lg'>" +
-      "Solicitar producto" +
+      "<button   id='" +
+      resultado.Id +
+      "' onclick='solicitudProducto(this)' class='btn btn-primary btn-lg'>" +
+      "Solicitar" +
       "</button>" +
       "</div>" +
       "</div>" +
       "</div>" +
-      "</form>" +
       "</div>" +
       "<div class='product__footer'>" +
       "<div class='product__tags tags'>" +

@@ -490,6 +490,7 @@
                                                     </font>
                                                 </th>
                                             </tr>
+
                                         </thead>
                                         <tbody class="checkout__totals-products">
                                             <tr>
@@ -504,7 +505,18 @@
                                                     </font>
                                                 </td>
                                             </tr>
-
+                                            <tr>
+                                                <td>
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">Unidades Solicitadas</font>
+                                                    </font>
+                                                </td>
+                                                <td>
+                                                    <font style="vertical-align: inherit;">
+                                                        <font id="cantidadProducto" style="vertical-align: inherit;"></font>
+                                                    </font>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                         <tbody class="checkout__totals-subtotals">
                                             <tr>
@@ -515,7 +527,7 @@
                                                 </th>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 100.00</font>
+                                                        <font id="totalParcial" style="vertical-align: inherit;"></font>
                                                     </font>
                                                 </td>
                                             </tr>
@@ -542,7 +554,7 @@
                                                 </th>
                                                 <td>
                                                     <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">S/ 100.00</font>
+                                                        <font id="totalFinal" style="vertical-align: inherit;"></font>
                                                     </font>
                                                 </td>
                                             </tr>
