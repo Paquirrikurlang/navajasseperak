@@ -66,9 +66,11 @@
 <header class="site__header d-lg-block d-none">
     <div class="site-header">
         <div class="site-header__middle container">
-            <div class="site-header__logo"><a href="index.html">
+            <div class="site-header__logo">
+                <a href="index.php">
                     <h3>GALPÓN PAQUIRRI</h3>
-                </a></div>
+                </a>
+            </div>
             <div class="site-header__search">
                 <div class="search search--location--header">
                     <div class="search__body">
