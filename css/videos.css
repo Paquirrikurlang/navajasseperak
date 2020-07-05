@@ -15,9 +15,10 @@
   border-radius: 0 !important;
 }
 
-.galeria__video > img {
+.galeria__video .img-responsive {
   object-fit: cover;
   object-position: center top;
+  transition: all .9s ease;
 }
 
 .demo-gallery-poster {
@@ -34,6 +35,10 @@
   margin: 0 !important;
   width: 64px;
   height: 64px;
+}
+
+.galeria__video:hover .img-responsive {
+  transform: scale(1.15);
 }
 
 @media screen and (max-width: 767px) {

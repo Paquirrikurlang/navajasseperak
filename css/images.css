@@ -10,6 +10,11 @@
   float: none;
 }
 
+.galeria__imagen__link:before,
+.galeria__imagen__link img {
+  transition: all 0.9s ease !important;
+}
+
 .galeria__imagen__link {
   display: block;
   height: 100%;
@@ -17,8 +22,27 @@
 }
 
 .galeria__imagen__link img {
-  transition: all .9s ease !important;
   cursor: pointer !important;
+  position: relative;
+}
+
+.galeria__imagen__link img:hover {
+  opacity: 1 !important;
+}
+
+.galeria__imagen__link:before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 2;
+  width: 89%;
+  height: 85%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.galeria__imagen__link:hover:before {
+  background-color: rgba(0, 0, 0, 0.48);
 }
 
 .galeria__imagen__link:hover img {
