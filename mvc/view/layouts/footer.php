@@ -81,6 +81,8 @@
 <script src="js\modal.js"></script>
 <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
 <script src="js\LoadInicialMultimedia.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/mainAnterior.js"></script>
 <script>
     function solicitudProducto(valor) {
         debugger;
