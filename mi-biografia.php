@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <?php include_once('mvc/view/layouts/header.php') ?>
-<!-- site -->
 <div class="site">
     <!-- site__body -->
     <div class="site__body">
@@ -218,7 +217,6 @@
     </div>
     <!-- site__body / end -->
 </div>
-<!-- site / end -->
 <?php include_once('mvc/view/layouts/footer.php') ?>
 
 </html>

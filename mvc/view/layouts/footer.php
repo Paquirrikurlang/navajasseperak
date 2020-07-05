@@ -107,6 +107,28 @@
         animateOut: 'fadeOut',
         animateIn: 'fadeIn'
     });
+
+    function DetalleMultimedia(valor) {
+        debugger;
+
+        var Idgaleria = valor.attributes[0].value;
+        var TipoMultimedia = valor.attributes[1].value;
+
+
+        var accion = valor.attributes[2].value;
+        var loc = window.location;
+        var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+
+        /* 1 -> Videos, 2 ->Fotos */
+        if (TipoMultimedia == "2") {
+            window.location.href = pathName + "Images.php?IdGaleria=" + Idgaleria;
+        } else {
+            if (accion == "1") {
+                window.location.href = pathName + "triumphs.php?IdGaleria=" + Idgaleria;
+            } else
+                window.location.href = pathName + "videos.php?IdGaleria=" + Idgaleria;
+        }
+    }
 </script>
 <!-- Fin - js -->
 

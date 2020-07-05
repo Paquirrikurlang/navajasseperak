@@ -3778,6 +3778,7 @@ p.checkout-coupon input[type="submit"] {
 }
 /*--------- 12. Scrollup ---------*/
 #scrollUp {
+  display: none !important;
   background: #ffb52f none repeat scroll 0 0;
   bottom: 85px;
   color: #ffffff;
