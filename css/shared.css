@@ -3,15 +3,6 @@
   padding-bottom: 0;
 }
 
-.page-header__title {
-  padding-top: 32px !important;
-}
-
-.page-header__title h1 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-}
-
 .products-view__pagination {
   padding-top: 32px;
   padding-bottom: 8px;

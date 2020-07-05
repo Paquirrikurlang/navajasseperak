@@ -12,7 +12,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -158,10 +158,14 @@ h6 {
   padding-top: 16px;
 }
 .page-header__title {
-  padding-top: 6px;
+  padding-top: 32px;
 }
 .page-header__title h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 46px;
   margin-bottom: 0;
+  color: #001232;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .page-header__title {
@@ -497,15 +501,17 @@ h6 {
   }
 }
 .breadcrumb {
-  background: transparent;
-  padding: 0;
-  font-size: 14px;
+  background-color: transparent !important;
+  padding: 0 !important;
   line-height: 20px;
   margin-bottom: 0;
 }
 .breadcrumb-item {
+  font-family: "Poppins", sans-serif;
   position: relative;
-  padding-left: 0;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 0!important;
   padding-right: 30px;
 }
 .breadcrumb-item a {
@@ -520,7 +526,7 @@ h6 {
   padding-right: 30px;
 }
 .breadcrumb-item + .breadcrumb-item:before {
-  display: none;
+  display: none!important;
 }
 .breadcrumb-item.active {
   color: #999;
@@ -4612,6 +4618,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-size: 15px;
   line-height: 1;
   letter-spacing: 0.02em;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: inherit;
 }
@@ -4632,7 +4639,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 .nav-links__item--has-submenu .nav-links__item-body {
   position: relative;
-  padding-right: 27px;
 }
 .nav-links__item--has-submenu .nav-links__item-arrow {
   top: calc(50% - 3px);
@@ -4705,9 +4711,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 .nav-panel {
   height: 54px;
-  /*background: #c33;*/
   background: #001232;
-  box-shadow: 0 1px rgba(0, 0, 0, 0.04), inset 0 -1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
   color: #fff;
 }
 .nav-panel--stuck {
@@ -5241,6 +5246,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 .site-header__logo svg {
   fill: currentColor;
+}
+.site-header__logo h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
 }
 .site-header__search {
   -ms-flex-positive: 1;
@@ -12247,7 +12257,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   z-index: 3;
 }
 .slide__title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 0 24px 0;
   color: #fff;
   text-shadow: 0 3px 7px rgba(17, 40, 62, 0.7);

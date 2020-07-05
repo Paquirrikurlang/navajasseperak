@@ -184,6 +184,13 @@ img {
   margin: 0 !important;
 }
 
+.titles h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  color: #001232;
+}
+
 .titles h4 {
   color: #222;
   margin: 0;

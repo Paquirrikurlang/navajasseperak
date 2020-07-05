@@ -4,7 +4,7 @@
     <meta name="format-detection" content="telephone=no">
     <title>Navajas Seperak</title>
     <!--  <link rel="icon" type="image/png" href="images\favicon.png"> fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"><!-- css -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
     <link rel="stylesheet" href="vendor\owl-carousel\assets\owl.carousel.min.css">
     <link rel="stylesheet" href="vendor\photoswipe\photoswipe.css">
@@ -118,9 +118,9 @@
                                         <a class="nav-links__item-link" href="./index.php">
                                             <div class="nav-links__item-body">
                                                 Inicio
-                                                <svg class="nav-links__item-arrow" width="9px" height="6px">
+                                                <!-- <svg class="nav-links__item-arrow" width="9px" height="6px">
                                                     <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
-                                                </svg>
+                                                </svg> -->
                                             </div>
                                         </a>
                                     </li>
@@ -128,9 +128,6 @@
                                         <a class="nav-links__item-link" href="trayectoria.php">
                                             <div class="nav-links__item-body">
                                                 Trayectoría
-                                                <svg class="nav-links__item-arrow" width="9px" height="6px">
-                                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
-                                                </svg>
                                             </div>
                                         </a>
                                     </li>
@@ -138,9 +135,6 @@
                                         <a class="nav-links__item-link" href="catalogue.php">
                                             <div class="nav-links__item-body">
                                                 Catálogo
-                                                <svg class="nav-links__item-arrow" width="9px" height="6px">
-                                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
-                                                </svg>
                                             </div>
                                         </a>
                                     </li>
@@ -148,9 +142,6 @@
                                         <a class="nav-links__item-link" href="gallery.php">
                                             <div class="nav-links__item-body">
                                                 Galería
-                                                <svg class="nav-links__item-arrow" width="9px" height="6px">
-                                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
-                                                </svg>
                                             </div>
                                         </a>
                                     </li>
@@ -158,13 +149,146 @@
                                         <a class="nav-links__item-link" href="contacts.php">
                                             <div class="nav-links__item-body">
                                                 Contáctanos
-                                                <svg class="nav-links__item-arrow" width="9px" height="6px">
-                                                    <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
-                                                </svg>
                                             </div>
                                         </a>
                                     </li>
                                 </ul>
+                            </div>
+                            <div class="nav-panel__indicators">
+                                <!-- <div class="indicator indicator--trigger--click">
+                                    <button type="button" class="indicator__button">
+                                        <span class="indicator__area">
+                                            <svg class="indicator__icon" width="20px" height="20px">
+                                                <use xlink:href="images/sprite.svg#search-20"></use>
+                                            </svg>
+                                            <svg class="indicator__icon indicator__icon--open" width="20px" height="20px">
+                                                <use xlink:href="images/sprite.svg#cross-20"></use>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    <div class="indicator__dropdown">
+                                        <div class="search search--location--indicator">
+                                            <div class="search__body">
+                                                <form class="search__form" action="">
+                                                    <input class="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off">
+                                                    <button class="search__button search__button--type--submit" type="submit">
+                                                        <svg width="20px" height="20px">
+                                                            <use xlink:href="images/sprite.svg#search-20"></use>
+                                                        </svg></button>
+                                                    <div class="search__border"></div>
+                                                </form>
+                                                <div class="search__suggestions suggestions suggestions--location--indicator">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="indicator">
+                                    <a href="#" class="indicator__button">
+                                        <span class="indicator__area">
+                                            <svg width="20px" height="20px">
+                                                <use xlink:href="images/sprite.svg#heart-20"></use>
+                                            </svg>
+                                            <span class="indicator__value">0
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div> -->
+                                <div class="indicator indicator--trigger--click">
+                                    <a href="#" class="indicator__button">
+                                        <span class="indicator__area">
+                                            <svg width="20px" height="20px">
+                                                <use xlink:href="images/sprite.svg#cart-20"></use>
+                                            </svg>
+                                            <span class="indicator__value">
+                                                3</span>
+                                        </span>
+                                    </a>
+                                    <div class="indicator__dropdown">
+                                        <!-- .dropcart -->
+                                        <div class="dropcart dropcart--style--dropdown">
+                                            <div class="dropcart__body">
+                                                <div class="dropcart__products-list">
+                                                    <div class="dropcart__product">
+                                                        <div class="product-image dropcart__product-image"><a href="/producto.php" class="product-image__body"><img class="product-image__img" src="images\navajas\colaDeRata.png" alt=""></a>
+                                                        </div>
+                                                        <div class="dropcart__product-info">
+                                                            <div class="dropcart__product-name"><a href="#">Cola de
+                                                                    rata</a></div>
+                                                            <ul class="dropcart__product-options">
+                                                                <li>Color: Plata</li>
+                                                                <li>Material: Acero</li>
+                                                            </ul>
+                                                            <div class="dropcart__product-meta"><span class="dropcart__product-quantity"></span><span class="dropcart__product-price">S/100.00</span>
+                                                            </div>
+                                                        </div>
+                                                        <button type="button" class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"><svg width="10px" height="10px">
+                                                                <use xlink:href="images/sprite.svg#cross-10"></use>
+                                                            </svg></button>
+                                                    </div>
+                                                    <div class="dropcart__product">
+                                                        <div class="product-image dropcart__product-image"><a href="#" class="product-image__body"><img class="product-image__img" src="images\navajas\filipina.png" alt=""></a></div>
+                                                        <div class="dropcart__product-info">
+                                                            <div class="dropcart__product-name"><a href="#">Filipina</a>
+                                                            </div>
+                                                            <ul class="dropcart__product-options">
+                                                                <li>Color: Plata</li>
+                                                                <li>Material: Acero</li>
+                                                            </ul>
+                                                            <div class="dropcart__product-meta"><span class="dropcart__product-quantity"></span><span class="dropcart__product-price">S/100.00</span>
+                                                            </div>
+                                                        </div>
+                                                        <button type="button" class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"><svg width="10px" height="10px">
+                                                                <use xlink:href="images/sprite.svg#cross-10"></use>
+                                                            </svg></button>
+                                                    </div>
+                                                    <div class="dropcart__product">
+                                                        <div class="product-image dropcart__product-image"><a href="#" class="product-image__body"><img class="product-image__img" src="images\navajas\olivocurva.png" alt=""></a>
+                                                        </div>
+                                                        <div class="dropcart__product-info">
+                                                            <div class="dropcart__product-name"><a href="#">Media O</a>
+                                                            </div>
+                                                            <ul class="dropcart__product-options">
+                                                                <li>Color: Plata</li>
+                                                                <li>Material: Acero</li>
+                                                            </ul>
+                                                            <div class="dropcart__product-meta"><span class="dropcart__product-quantity"></span><span class="dropcart__product-price">S/100.00</span>
+                                                            </div>
+                                                        </div>
+                                                        <button type="button" class="dropcart__product-remove btn btn-light btn-sm btn-svg-icon"><svg width="10px" height="10px">
+                                                                <use xlink:href="images/sprite.svg#cross-10"></use>
+                                                            </svg></button>
+                                                    </div>
+
+                                                </div>
+                                                <div class="dropcart__totals">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Subtotal</th>
+                                                                <td>S/300.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Envío</th>
+                                                                <td>S/25.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Impuesto</th>
+                                                                <td>S/0.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Total</th>
+                                                                <td>S/325.00</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div class="dropcart__buttons"><a class="btn btn-secondary" href="./cart.php">Ver Carrito</a> <a class="btn btn-primary" href="checkout.php">Pagar</a></div>
+                                            </div>
+                                        </div><!-- .dropcart / end -->
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
