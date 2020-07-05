@@ -42,7 +42,8 @@
                     <h3 class="block-header__title">Productos</h3>
                     <div class="block-header__divider"></div>
                     <ul class="block-header__groups-list">
-                        <li><button type="button" class="block-header__group block-header__group--active">Todo</button></li>
+                        <li><button type="button" class="block-header__group block-header__group--active">Todo</button>
+                        </li>
                         <li><button type="button" class="block-header__group">Navajas</button></li>
                         <li><button type="button" class="block-header__group">Zapatillas</button></li>
                         <li><button type="button" class="block-header__group">Hilos</button></li>
@@ -82,7 +83,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -97,7 +99,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -112,7 +115,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -127,7 +131,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -142,7 +147,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -169,11 +175,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="1" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="1" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +204,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -210,7 +220,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -225,7 +236,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -240,7 +252,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -255,7 +268,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -282,11 +296,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="14" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="14" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -310,7 +327,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -325,7 +343,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -340,7 +359,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -355,7 +375,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -370,7 +391,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -397,11 +419,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="8" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="8" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -423,7 +448,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -438,7 +464,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -453,7 +480,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -468,7 +496,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -483,7 +512,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -510,11 +540,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="13" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="13" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -538,7 +571,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -553,7 +587,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -568,7 +603,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -583,7 +619,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -598,7 +635,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -625,11 +663,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="5" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="5" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -651,7 +692,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -666,7 +708,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -681,7 +724,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -696,7 +740,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -711,7 +756,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -738,11 +784,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="6" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="6" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -766,7 +815,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -781,7 +831,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -796,7 +847,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -811,7 +863,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -826,7 +879,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -853,11 +907,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="10" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="10" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -879,7 +936,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -894,7 +952,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -909,7 +968,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -924,7 +984,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -939,7 +1000,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -966,11 +1028,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="4" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="4" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -994,7 +1059,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1009,7 +1075,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1024,7 +1091,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1039,7 +1107,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1054,7 +1123,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -1081,11 +1151,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="7" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="7" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1107,7 +1180,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1122,7 +1196,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1137,7 +1212,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1152,7 +1228,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1167,7 +1244,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -1194,11 +1272,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="12" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="12" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1222,7 +1303,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1237,7 +1319,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1252,7 +1335,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1267,7 +1351,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1282,7 +1367,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -1312,9 +1398,11 @@
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart pt" onclick="solicitudProducto(this)" id="11" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1338,7 +1426,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1353,7 +1442,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1368,7 +1458,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1383,7 +1474,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge rating__star--active">
@@ -1398,7 +1490,8 @@
                                                                 <use xlink:href="images/sprite.svg#star-normal"></use>
                                                             </g>
                                                             <g class="rating__stroke">
-                                                                <use xlink:href="images/sprite.svg#star-normal-stroke"></use>
+                                                                <use xlink:href="images/sprite.svg#star-normal-stroke">
+                                                                </use>
                                                             </g>
                                                         </svg>
                                                         <div class="rating__star rating__star--only-edge">
@@ -1425,11 +1518,14 @@
                                     <div class="product-card__actions">
                                         <div class="product-card__availability">Availability: <span class="text-success">In Stock</span></div>
                                         <div class="product-card__prices">S/ 100.00</div>
-                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="3" onclick="solicitudProducto(this)" type="button">Solicitar</button> <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
+                                        <div class="product-card__buttons"><button class="btn btn-primary product-card__addtocart pt" id="3" onclick="solicitudProducto(this)" type="button">Solicitar</button>
+                                            <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">Solicitar</button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__wishlist" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#wishlist-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button> <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--wishlist-16"></span></button>
+                                            <button class="btn btn-light btn-svg-icon btn-svg-icon--fake-svg product-card__compare" type="button"><svg width="16px" height="16px">
                                                     <use xlink:href="images/sprite.svg#compare-16"></use>
-                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button></div>
+                                                </svg> <span class="fake-svg-icon fake-svg-icon--compare-16"></span></button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

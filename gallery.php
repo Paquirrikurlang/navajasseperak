@@ -120,7 +120,8 @@
                         </div>
                         <div class="blog-hm-content">
                             <h3><a>Videos de mis peleas</a></h3>
-                            <p><span>GALLERO</span> te invito a ver los videos de las mejores peleas de los gallos Paquirri. </p>
+                            <p><span>GALLERO</span> te invito a ver los videos de las mejores peleas de los gallos
+                                Paquirri. </p>
                         </div>
                     </div>
                 </div>

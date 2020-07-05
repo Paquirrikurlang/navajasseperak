@@ -171,82 +171,13 @@
                 </div>
                 <!-- Fin - data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
             </div>
-            <!-- photoswipe -->
-            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="pswp__bg"></div>
-                <div class="pswp__scroll-wrap">
-                    <div class="pswp__container">
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                    </div>
-                    <div class="pswp__ui pswp__ui--hidden">
-                        <div class="pswp__top-bar">
-                            <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                            <!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>--> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                            <div class="pswp__preloader">
-                                <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                        <div class="pswp__preloader__donut"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                            <div class="pswp__share-tooltip"></div>
-                        </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                        <div class="pswp__caption">
-                            <div class="pswp__caption__center"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- photoswipe / end -->
         </div>
     </header>
     <!-- mobilemenu -->
-    <div class="mobilemenu">
-        <div class="mobilemenu__backdrop"></div>
-        <div class="mobilemenu__body">
-            <div class="mobilemenu__header">
-                <div class="mobilemenu__title">Menu</div>
-                <button type="button" class="mobilemenu__close">
-                    <svg width="20px" height="20px">
-                        <use xlink:href="images/sprite.svg#cross-20"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="mobilemenu__content">
-                <ul class="mobile-links mobile-links--level--0" data-collapse="" data-collapse-opened-class="mobile-links__item--open">
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="index.php" class="mobile-links__item-link">Inicio</a>
-                        </div>
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="trayectoria.php" class="mobile-links__item-link">Trayectoria</a>
-                        </div>
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="catalogue.php" class="mobile-links__item-link">Catálogo</a>
-                        </div>
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="gallery.php" class="mobile-links__item-link">Mi Biografía</a>
-                        </div>
-                    </li>
-                    <li class="mobile-links__item" data-collapse-item="">
-                        <div class="mobile-links__item-title">
-                            <a href="contacts.php" class="mobile-links__item-link">Contáctanos</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <?php include_once('mvc/view/layouts/mobilemenu.php') ?>
+    <!-- photoswipe -->
+    <?php include_once('mvc/view/layouts/dialog.php') ?>
+    <!-- photoswipe / end -->
     <!-- mobilemenu / end -->
     <!-- desktop site__header / end -->
     <!-- site__body -->

@@ -8,7 +8,8 @@
                             <h5 class="footer-contacts__title">Contactos</h5>
                             <div class="footer-contacts__text">Te dejo mis datos para poder comunicarnos.</div>
                             <ul class="footer-contacts__contacts">
-                                <li><i class="footer-contacts__icon fas fa-globe-americas"></i> Dirección de domicilio</li>
+                                <li><i class="footer-contacts__icon fas fa-globe-americas"></i> Dirección de domicilio
+                                </li>
                                 <li><i class="footer-contacts__icon far fa-envelope"></i> prueba@correo.com</li>
                                 <li><i class="footer-contacts__icon fas fa-mobile-alt"></i> (01) 999919898</li>
                             </ul>
@@ -38,8 +39,10 @@
                     <div class="col-12 col-md-12 col-lg-4">
                         <div class="site-footer__widget footer-newsletter">
                             <h5 class="footer-newsletter__title">Conexiones</h5>
-                            <div class="footer-newsletter__text">También puedes contactarme a través de mis redes sociales</div>
-                            <div class="footer-newsletter__text footer-newsletter__text--social">Síguenos en las redes sociales</div><!-- social-links -->
+                            <div class="footer-newsletter__text">También puedes contactarme a través de mis redes
+                                sociales</div>
+                            <div class="footer-newsletter__text footer-newsletter__text--social">Síguenos en las redes
+                                sociales</div><!-- social-links -->
                             <div class="social-links footer-newsletter__social-links social-links--shape--circle">
                                 <ul class="social-links__list">
                                     <li class="social-links__item"><a class="social-links__link social-links__link--type--rss" href="" target="_blank"><i class="fas fa-rss"></i></a></li>
