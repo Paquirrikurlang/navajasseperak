@@ -150,7 +150,7 @@
                                             </div>
                                         </div>
                                         <div class="product__actions-item product__actions-item--addtocart">
-                                            <button class="btn btn-primary btn-lg">
+                                            <button onclick="solicitudProducto(this)" class="btn btn-primary btn-lg btnSolicitarProducto">
                                                 Solicitar Producto
                                             </button>
                                         </div>
@@ -469,8 +469,8 @@
                                             </div>
                                             <div class="product-card__prices">S100.00</div>
                                             <div class="product-card__buttons">
-                                                <button class="btn btn-primary product-card__addtocart pt" type="button">
-                                                    Agregar
+                                                <button id="11" onclick="solicitudProducto(this)" class="btn btn-primary product-card__addtocart pt" type="button">
+                                                    Solicitar
                                                 </button>
                                                 <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">
                                                     Add To Cart
@@ -611,8 +611,8 @@
                                             </div>
                                             <div class="product-card__prices">S100.00</div>
                                             <div class="product-card__buttons">
-                                                <button class="btn btn-primary product-card__addtocart pt" type="button">
-                                                    Agregar
+                                                <button id="7" onclick="solicitudProducto(this)" class="btn btn-primary product-card__addtocart pt" type="button">
+                                                    Solicitar
                                                 </button>
                                                 <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">
                                                     Add To Cart
@@ -753,8 +753,8 @@
                                             </div>
                                             <div class="product-card__prices">S100.00</div>
                                             <div class="product-card__buttons">
-                                                <button class="btn btn-primary product-card__addtocart pt" type="button">
-                                                    Agregar
+                                                <button id="6" onclick="solicitudProducto(this)" class="btn btn-primary product-card__addtocart pt" type="button">
+                                                    Solicitar
                                                 </button>
                                                 <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">
                                                     Add To Cart
@@ -895,8 +895,8 @@
                                             </div>
                                             <div class="product-card__prices">S100.00</div>
                                             <div class="product-card__buttons">
-                                                <button class="btn btn-primary product-card__addtocart pt" type="button">
-                                                    Agregar
+                                                <button id="4" onclick="solicitudProducto(this)" class="btn btn-primary product-card__addtocart pt" type="button">
+                                                    Solicitar
                                                 </button>
                                                 <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">
                                                     Add To Cart
@@ -1037,8 +1037,8 @@
                                             </div>
                                             <div class="product-card__prices">S100.00</div>
                                             <div class="product-card__buttons">
-                                                <button class="btn btn-primary product-card__addtocart pt" type="button">
-                                                    Agregar
+                                                <button id="8" onclick="solicitudProducto(this)" class="btn btn-primary product-card__addtocart pt" type="button">
+                                                    Solicitar
                                                 </button>
                                                 <button class="btn btn-secondary product-card__addtocart product-card__addtocart--list" type="button">
                                                     Add To Cart
@@ -1074,6 +1074,16 @@
     <?php include_once('mvc/view/layouts/mobilemenu.php') ?>
     <?php include_once('mvc/view/layouts/dialog.php') ?>
 
+    <script>
+        function solicitudProducto(valor) {
+            debugger;
+            var cantidad = $("#product-quantity").val();
+            var idProducto = valor.id;
+            var loc = window.location;
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
+            window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
+        }
+    </script>
 </body>
 
 </html>

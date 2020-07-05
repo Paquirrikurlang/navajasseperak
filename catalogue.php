@@ -350,6 +350,17 @@
     </div>
     <?php include_once('mvc/view/layouts/modaDetalle.php') ?>
     <?php include_once('mvc/view/layouts/mobilemenu.php') ?>
+
+    <script>
+        function solicitudProducto(valor) {
+            debugger;
+            var cantidad = $("#product-quantity").val();
+            var idProducto = valor.id;
+            var loc = window.location;
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
+            window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
+        }
+    </script>
 </body>
 
 </html>
