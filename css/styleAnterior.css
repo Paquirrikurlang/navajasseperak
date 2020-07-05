@@ -1482,7 +1482,12 @@
   position: relative;
 }
 
-.blog-img a:hover:before {
+.blog-img a:before,
+.blog-img img {
+  transition: all 0.9s ease;
+}
+
+.blog-img a:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1490,6 +1495,9 @@
   z-index: 2;
   width: 100%;
   height: 100%;
+}
+
+.blog-img a:hover:before {
   background-color: rgba(0, 0, 0, 0.48);
 }
 
@@ -1497,7 +1505,6 @@
   width: 100%;
 }
 .blog-img img {
-  transition: all 0.9s ease;
   width: 100%;
 }
 .blog-hm-wrapper:hover .blog-img img {
