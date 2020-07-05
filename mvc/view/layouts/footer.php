@@ -65,7 +65,7 @@
         </div>
     </div>
 </footer>
-
+<?php include_once('mvc/view/layouts/modalDetalle.php') ?>
 <!-- js -->
 <script src="vendor\jquery\jquery.min.js"></script>
 <script src="vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
@@ -80,7 +80,32 @@
 <script src="js\json.js"></script>
 <script src="js\modal.js"></script>
 <script src="vendor\svg4everybody\svg4everybody.min.js"></script>
+<script src="js\LoadInicialMultimedia.js"></script>
 <script>
+    function solicitudProducto(valor) {
+        debugger;
+        var cantidad = $("#product-quantity").val();
+        var idProducto = valor.id;
+        var loc = window.location;
+        var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
+        window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
+    }
+
     svg4everybody();
+    $('.owl-carousel--home').owlCarousel({
+        items: 1,
+        navigation: true,
+        nav: true,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 1500,
+        mouseDrag: true,
+        singleItem: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn'
+    });
 </script>
 <!-- Fin - js -->
+
+</body>
