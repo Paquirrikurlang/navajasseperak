@@ -867,7 +867,8 @@
                 </ul>
             </div>
         </div>
-    </div><!-- mobilemenu / end -->
+    </div>
+    <!-- mobilemenu / end -->
     <!-- photoswipe -->
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>
