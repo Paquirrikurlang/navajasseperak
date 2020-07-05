@@ -56,13 +56,19 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-hm-wrapper mb-40">
                         <div class="blog-img">
-                            <a IdGaleria="1" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/eventos.jpg" alt="image"></a>
+                            <a IdGaleria="1" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Eventos en todo el Perú">
+                                <img src="images/blog/eventos.jpg" alt="Eventos en todo el Perú">
+                            </a>
                             <div class="blog-date">
                                 <h4>24 Julio, 2019</h4>
                             </div>
                         </div>
                         <div class="blog-hm-content">
-                            <h3><a>Eventos en todo el Perú </a></h3>
+                            <h3>
+                                <a IdGaleria="1" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Eventos en todo el Perú">
+                                    Eventos en todo el Perú
+                                </a>
+                            </h3>
                             <p><span>GALLERO</span> te invito a ver los eventos donde participamos.</p>
                         </div>
                     </div>
@@ -70,13 +76,19 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-hm-wrapper mb-40">
                         <div class="blog-img">
-                            <a IdGaleria="2" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/marchas/ma1.jpg" alt="image"></a>
+                            <a IdGaleria="2" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Marchas">
+                                <img src="images/marchas/ma1.jpg" alt="Marchas">
+                            </a>
                             <div class="blog-date">
                                 <h4>22 Agosto, 2019</h4>
                             </div>
                         </div>
                         <div class="blog-hm-content">
-                            <h3><a>Marchas</a></h3>
+                            <h3>
+                                <a IdGaleria="2" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Marchas">
+                                    Marchas
+                                </a>
+                            </h3>
                             <p><span>GALLERO</span> revisa la marcha gallera. </p>
                         </div>
                     </div>
@@ -84,13 +96,19 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-hm-wrapper mb-40">
                         <div class="blog-img">
-                            <a IdGaleria="3" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/viajes.jpg" alt="image"></a>
+                            <a IdGaleria="3" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Viajes realizados">
+                                <img src="images/blog/viajes.jpg" alt="Viajes realizados">
+                            </a>
                             <div class="blog-date">
                                 <h4>25 Agosto, 2019</h4>
                             </div>
                         </div>
                         <div class="blog-hm-content">
-                            <h3><a>Viajes realizados</a></h3>
+                            <h3>
+                                <a IdGaleria="3" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Viajes realizados">
+                                    Viajes realizados
+                                </a>
+                            </h3>
                             <p><span>GALLERO</span> comparte nuestros viajes por el mundo.</p>
                         </div>
                     </div>
@@ -98,13 +116,19 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-hm-wrapper mb-40">
                         <div class="blog-img">
-                            <a IdGaleria="4" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/galpon.jpg" alt="image"></a>
+                            <a IdGaleria="4" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Fotos de mi galpón">
+                                <img src="images/blog/galpon.jpg" alt="Fotos de mi galpón">
+                            </a>
                             <div class="blog-date">
                                 <h4>27 Agosto, 2019</h4>
                             </div>
                         </div>
                         <div class="blog-hm-content">
-                            <h3><a>Fotos de mi galpón </a></h3>
+                            <h3>
+                                <a IdGaleria="4" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Fotos de mi galpón">
+                                    Fotos de mi galpón
+                                </a>
+                            </h3>
                             <p><span>GALLERO</span> GALLERO, pasa y conoce el Galpón Paquirri.</p>
                         </div>
                     </div>
@@ -112,14 +136,19 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-hm-wrapper mb-40">
                         <div class="blog-img">
-                            <a IdGaleria="6" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)"><img src="images/blog/peleas.jpg" alt="image"></a>
+                            <a IdGaleria="6" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)" title="Videos de mis peleas">
+                                <img src="images/blog/peleas.jpg" alt="Videos de mis peleas">
+                            </a>
                             <div class="blog-date">
                                 <h4>22 Septiembre, 2019</h4>
                             </div>
-
                         </div>
                         <div class="blog-hm-content">
-                            <h3><a>Videos de mis peleas</a></h3>
+                            <h3>
+                                <a IdGaleria="6" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)" title="Videos de mis peleas">
+                                    Videos de mis peleas
+                                </a>
+                            </h3>
                             <p><span>GALLERO</span> te invito a ver los videos de las mejores peleas de los gallos
                                 Paquirri. </p>
                         </div>
@@ -128,14 +157,20 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-hm-wrapper mb-40">
                         <div class="blog-img">
-                            <a IdGaleria="5" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)"><img src="images/blog/logros.jpg" alt="image"></a>
+                            <a IdGaleria="5" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)" title="Mis logros en los gallos">
+                                <img src="images/blog/logros.jpg" alt="Mis logros en los gallos">
+                            </a>
                             <div class="blog-date">
                                 <h4>28 Septiembre, 2019</h4>
                             </div>
 
                         </div>
                         <div class="blog-hm-content">
-                            <h3><a>Mis logros en los gallos </a></h3>
+                            <h3>
+                                <a IdGaleria="5" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)" title="Mis logros en los gallos">
+                                    Mis logros en los gallos
+                                </a>
+                            </h3>
                             <p><span>GALLERO</span> disfruta conmigo de los triunfos obtenidos.</p>
                         </div>
                     </div>
