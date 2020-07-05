@@ -19,10 +19,14 @@
                         <div class="site-footer__widget footer-links">
                             <h5 class="footer-links__title">Información</h5>
                             <ul class="footer-links__list">
-                                <li class="footer-links__item"><a href="trayectoria.php" class="footer-links__link">Trayectoria</a></li>
-                                <li class="footer-links__item"><a href="catalogue.php" class="footer-links__link">Catálogo</a></li>
-                                <li class="footer-links__item"><a href="gallery.php" class="footer-links__link">Galeria</a></li>
-                                <li class="footer-links__item"><a href="contacts.php" class="footer-links__link">Contáctanos</a></li>
+                                <li class="footer-links__item"><a href="trayectoria.php"
+                                        class="footer-links__link">Trayectoria</a></li>
+                                <li class="footer-links__item"><a href="catalogue.php"
+                                        class="footer-links__link">Catálogo</a></li>
+                                <li class="footer-links__item"><a href="gallery.php"
+                                        class="footer-links__link">Galeria</a></li>
+                                <li class="footer-links__item"><a href="contacts.php"
+                                        class="footer-links__link">Contáctanos</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,11 +49,21 @@
                                 sociales</div><!-- social-links -->
                             <div class="social-links footer-newsletter__social-links social-links--shape--circle">
                                 <ul class="social-links__list">
-                                    <li class="social-links__item"><a class="social-links__link social-links__link--type--rss" href="" target="_blank"><i class="fas fa-rss"></i></a></li>
-                                    <li class="social-links__item"><a class="social-links__link social-links__link--type--youtube" href="" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                                    <li class="social-links__item"><a class="social-links__link social-links__link--type--facebook" href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="social-links__item"><a class="social-links__link social-links__link--type--twitter" href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="social-links__item"><a class="social-links__link social-links__link--type--instagram" href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="social-links__item"><a
+                                            class="social-links__link social-links__link--type--rss" href=""
+                                            target="_blank"><i class="fas fa-rss"></i></a></li>
+                                    <li class="social-links__item"><a
+                                            class="social-links__link social-links__link--type--youtube" href=""
+                                            target="_blank"><i class="fab fa-youtube"></i></a></li>
+                                    <li class="social-links__item"><a
+                                            class="social-links__link social-links__link--type--facebook" href=""
+                                            target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-links__item"><a
+                                            class="social-links__link social-links__link--type--twitter" href=""
+                                            target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="social-links__item"><a
+                                            class="social-links__link social-links__link--type--instagram" href=""
+                                            target="_blank"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div><!-- social-links / end -->
                         </div>
@@ -70,9 +84,11 @@
 </footer>
 <?php include_once('mvc/view/layouts/modalDetalle.php') ?>
 <!-- js -->
+
 <script src="vendor\jquery\jquery.min.js"></script>
 <script src="vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
-<script src="vendor\owl-carousel\owl.carousel.min.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 <script src="vendor\nouislider\nouislider.min.js"></script>
 <script src="vendor\photoswipe\photoswipe.min.js"></script>
 <script src="vendor\photoswipe\photoswipe-ui-default.min.js"></script>
@@ -87,51 +103,51 @@
 <script src="js/plugins.js"></script>
 <script src="js/mainAnterior.js"></script>
 <script>
-    function solicitudProducto(valor) {
-        debugger;
-        var cantidad = $("#product-quantity").val();
-        var idProducto = valor.id;
-        var loc = window.location;
-        var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
-        window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
+function solicitudProducto(valor) {
+    debugger;
+    var cantidad = $("#product-quantity").val();
+    var idProducto = valor.id;
+    var loc = window.location;
+    var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf("/") + 1);
+    window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
+}
+
+svg4everybody();
+$('.owl-carousel--home').owlCarousel({
+    items: 1,
+    navigation: true,
+    nav: true,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    smartSpeed: 1500,
+    mouseDrag: true,
+    singleItem: true,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn'
+});
+
+function DetalleMultimedia(valor) {
+    debugger;
+
+    var Idgaleria = valor.attributes[0].value;
+    var TipoMultimedia = valor.attributes[1].value;
+
+
+    var accion = valor.attributes[2].value;
+    var loc = window.location;
+    var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+
+    /* 1 -> Videos, 2 ->Fotos */
+    if (TipoMultimedia == "2") {
+        window.location.href = pathName + "Images.php?IdGaleria=" + Idgaleria;
+    } else {
+        if (accion == "1") {
+            window.location.href = pathName + "triumphs.php?IdGaleria=" + Idgaleria;
+        } else
+            window.location.href = pathName + "videos.php?IdGaleria=" + Idgaleria;
     }
-
-    svg4everybody();
-    $('.owl-carousel--home').owlCarousel({
-        items: 1,
-        navigation: true,
-        nav: true,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1500,
-        mouseDrag: true,
-        singleItem: true,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn'
-    });
-
-    function DetalleMultimedia(valor) {
-        debugger;
-
-        var Idgaleria = valor.attributes[0].value;
-        var TipoMultimedia = valor.attributes[1].value;
-
-
-        var accion = valor.attributes[2].value;
-        var loc = window.location;
-        var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
-
-        /* 1 -> Videos, 2 ->Fotos */
-        if (TipoMultimedia == "2") {
-            window.location.href = pathName + "Images.php?IdGaleria=" + Idgaleria;
-        } else {
-            if (accion == "1") {
-                window.location.href = pathName + "triumphs.php?IdGaleria=" + Idgaleria;
-            } else
-                window.location.href = pathName + "videos.php?IdGaleria=" + Idgaleria;
-        }
-    }
+}
 </script>
 <!-- Fin - js -->
 

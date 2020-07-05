@@ -5238,7 +5238,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   width: 255px;
   -ms-flex-pack: center;
   justify-content: center;
-  color: inherit;
   margin-right: 30px;
 }
 .site-header__logo a {
@@ -5251,6 +5250,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-family: "Oswald", sans-serif;
   font-size: 28px;
   font-weight: 400;
+  color: #001232;
+  transition: opacity .3s ease;
+}
+.site-header__logo:hover h3 {
+  opacity:.7;
 }
 .site-header__search {
   -ms-flex-positive: 1;

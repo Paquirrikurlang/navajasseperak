@@ -15,17 +15,11 @@
     <link rel="stylesheet" href="css\styleExtra.css">
     <link rel="stylesheet" href="vendor\fontawesome\css\all.min.css">
     <link rel="stylesheet" href="fonts\stroyka\stroyka.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
     <style>
         .mb-45 {
             margin-bottom: 30px !important;
         }
-
-        @media screen and (min-width: 992px) {
-            .post-card__info {
-                width: 100% !important;
-            }
-        }
-
         .display {
             display: none !important;
         }
