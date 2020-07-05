@@ -1481,10 +1481,11 @@
   width: 100%;
 }
 .blog-img img {
-  transition: transform 1s ease;
+  transition: all .9s ease;
   width: 100%;
 }
 .blog-hm-wrapper:hover .blog-img img {
+  opacity: .8;
   transform: scale(1.15);
 }
 
