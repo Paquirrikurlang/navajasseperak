@@ -1414,7 +1414,7 @@
 .blog-date h4 {
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0;
   padding: 9px 15px 11px 14px;
 }
@@ -1447,13 +1447,12 @@
   line-height: 38px;
 }
 .blog-hm-content > h3 {
-  color: #353535;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 12px;
 }
 .blog-hm-content > h3 a {
-  color: #353535;
+  color: #001232;
 }
 .blog-hm-content > h3 a:hover {
   color: #ffb52f;
