@@ -50,7 +50,7 @@
                                 <use xlink:href="images/sprite.svg#menu-18x14"></use>
                             </svg>
                         </button>
-                        <a class="mobile-header__logo" href="index.html">
+                        <a class="mobile-header__logo" href="index.php">
                             <!-- mobile-logo -->
                             <h7>GALPÓN PAQUIRRI</h7>
                             <!-- mobile-logo / end -->

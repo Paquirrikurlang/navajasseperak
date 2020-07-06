@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-wrapper ">
                         <div class="blog-img">
                             <a IdGaleria="1" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Eventos en todo el Perú">
                                 <img src="images/blog/eventos.jpg" alt="Eventos en todo el Perú">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-wrapper ">
                         <div class="blog-img">
                             <a IdGaleria="2" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Marchas">
                                 <img src="images/marchas/ma1.jpg" alt="Marchas">
@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-wrapper ">
                         <div class="blog-img">
                             <a IdGaleria="3" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Viajes realizados">
                                 <img src="images/blog/viajes.jpg" alt="Viajes realizados">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-wrapper ">
                         <div class="blog-img">
                             <a IdGaleria="4" TipoMultimedia="2" accion="0" onclick="DetalleMultimedia(this)" title="Fotos de mi galpón">
                                 <img src="images/blog/galpon.jpg" alt="Fotos de mi galpón">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-wrapper ">
                         <div class="blog-img">
                             <a IdGaleria="6" TipoMultimedia="1" accion="0" onclick="DetalleMultimedia(this)" title="Videos de mis peleas">
                                 <img src="images/blog/peleas.jpg" alt="Videos de mis peleas">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-wrapper ">
                         <div class="blog-img">
                             <a IdGaleria="5" TipoMultimedia="1" accion="1" onclick="DetalleMultimedia(this)" title="Mis logros en los gallos">
                                 <img src="images/blog/logros.jpg" alt="Mis logros en los gallos">
