@@ -22,33 +22,31 @@
             </div>
         </div>
         <!-- .block-slideshow -->
-
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="d-none col-lg-12">
                     <div class="product-sidebar-area pr-30">
                         <div class="products-view__options">
                             <div class="view-options view-options--offcanvas--always">
                                 <div class="view-options__divider"></div>
-                                <!--  <div class="view-options__control">
-                                        <label for="">Ordenado por</label>
-                                        <div>
-                                            <select class="form-control form-control-sm" name="" id="">
-                                                <option value="">Videos</option>
-                                                <option value="">Fotos</option>
-                                            </select>
-                                        </div>
+                                <div class="view-options__control">
+                                    <label for="">Ordenado por</label>
+                                    <div>
+                                        <select class="form-control form-control-sm" name="" id="">
+                                            <option value="">Videos</option>
+                                            <option value="">Fotos</option>
+                                        </select>
                                     </div>
-                                    <div class="view-options__control"><label for="">Mostrar</label>
-                                        <div>
-
-                                            <select class="form-control form-control-sm" name="" id="">
-                                                <option value="">Selección</option>
-                                                <option value="">Mis Gallos</option>
-                                                <option value="">Personales</option>
-                                            </select>
-                                        </div>
-                                    </div>-->
+                                </div>
+                                <div class="view-options__control"><label for="">Mostrar</label>
+                                    <div>
+                                        <select class="form-control form-control-sm" name="" id="">
+                                            <option value="">Selección</option>
+                                            <option value="">Mis Gallos</option>
+                                            <option value="">Personales</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

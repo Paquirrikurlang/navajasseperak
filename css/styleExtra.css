@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 
-.mt-24{
+.mt-24 {
   margin-top: 24px;
 }
 
@@ -25,15 +25,15 @@
 }
 
 .mb-40 {
-  margin-bottom: 40px!important;
+  margin-bottom: 40px !important;
 }
 
 .pl-24 {
-  padding-left: 24px!important;
+  padding-left: 24px !important;
 }
 
 .pr-24 {
-  padding-right: 24px!important;
+  padding-right: 24px !important;
 }
 
 img {
@@ -240,8 +240,11 @@ p {
 .btn-primary {
   color: #fff !important;
   background-color: #001232 !important;
-  border-color: #007bff;
-  padding: 3% !important;
+  transition: all .3s ease;
+}
+
+.btn-primary:hover {
+  opacity: .48;
 }
 
 .panel-box .row {

@@ -15,7 +15,6 @@
                         </ol>
                     </nav>
                 </div>
-                <br>
                 <div class="page-header__title">
                     <h1>Contactos</h1>
                 </div>

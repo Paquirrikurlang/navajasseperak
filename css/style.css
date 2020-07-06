@@ -152,7 +152,7 @@ h6 {
   content: "\e901";
 }
 .page-header__container {
-  padding-bottom: 32px;
+  padding-bottom: 48px;
 }
 .page-header__breadcrumb {
   padding-top: 16px;
@@ -504,14 +504,13 @@ h6 {
   background-color: transparent !important;
   padding: 0 !important;
   line-height: 20px;
-  margin-bottom: 0;
 }
 .breadcrumb-item {
   font-family: "Poppins", sans-serif;
   position: relative;
   font-size: 14px;
   font-weight: 400;
-  padding-left: 0!important;
+  padding-left: 0 !important;
   padding-right: 30px;
 }
 .breadcrumb-item a {
@@ -526,7 +525,7 @@ h6 {
   padding-right: 30px;
 }
 .breadcrumb-item + .breadcrumb-item:before {
-  display: none!important;
+  display: none !important;
 }
 .breadcrumb-item.active {
   color: #999;
@@ -5251,10 +5250,10 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-size: 28px;
   font-weight: 400;
   color: #001232;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 .site-header__logo:hover h3 {
-  opacity:.7;
+  opacity: 0.7;
 }
 .site-header__search {
   -ms-flex-positive: 1;

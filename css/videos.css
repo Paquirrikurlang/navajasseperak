@@ -1,5 +1,9 @@
+.breadcrumb {
+  margin-bottom: 0;
+}
+
 .galeria__video {
-  padding: 16px;
+  padding: 0 16px 32px;
   height: 204px;
   margin-bottom: 0 !important;
 }
@@ -18,7 +22,7 @@
 .galeria__video .img-responsive {
   object-fit: cover;
   object-position: center top;
-  transition: all .9s ease;
+  transition: all 0.9s ease;
 }
 
 .demo-gallery-poster {

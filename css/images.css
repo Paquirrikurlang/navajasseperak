@@ -5,7 +5,7 @@
 }
 
 .galeria__imagen {
-  padding: 16px !important;
+  padding: 0 16px 32px !important;
   height: 204px;
   float: none;
 }
@@ -33,7 +33,7 @@
 .galeria__imagen__link:before {
   content: "";
   position: absolute;
-  top: 16px;
+  top: 0;
   left: 16px;
   z-index: 2;
   width: 89%;
