@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <?php include_once('mvc/view/layouts/header.php') ?>
+<link rel="stylesheet" href="css\trayectoria.css">
 <div class="site">
     <div class="site__body">
         <!-- .block-slideshow -->
@@ -22,7 +23,7 @@
         <div class="block-slideshow block-slideshow--layout--full block">
             <div class="container">
                 <div class="testimonial-area">
-                    <div class="panel-box padding-b">
+                    <div class="panel-box panel-box__historia padding-b">
                         <div class="titles">
                             <h1>Algo de mi historia</h1>
                         </div>
