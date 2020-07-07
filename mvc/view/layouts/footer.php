@@ -82,7 +82,6 @@
         </div>
     </div>
 </footer>
-<?php include_once('mvc/view/layouts/modalDetalle.php') ?>
 <!-- js -->
 
 <script src="vendor\jquery\jquery.min.js"></script>

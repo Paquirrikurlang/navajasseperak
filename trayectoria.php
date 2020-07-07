@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <?php include_once('mvc/view/layouts/header.php') ?>
-<link rel="stylesheet" href="css\trayectoria.css">
+<link rel="stylesheet" href="css/trayectoria.css">
 <div class="site">
     <div class="site__body">
         <!-- .block-slideshow -->
