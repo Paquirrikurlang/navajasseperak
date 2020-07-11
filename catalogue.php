@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <?php include_once('mvc/view/layouts/header.php') ?>
+<link rel="stylesheet" href="css/catalogue.css" />
 <div class="site">
     <div class="site__body">
         <div id="tablaUsuarios"></div>
@@ -43,7 +44,7 @@
                                         </div>
                                     </div>
                                     <div class="view-options__divider"></div>
-                                    <div class="view-options__control"><label for="">Ordenado por</label>
+                                    <div class="view-options__control"><label for="">Ordenar por</label>
                                         <div><select class="form-control form-control-sm" name="" id="">
                                                 <option value="">Navajas</option>
                                                 <option value="">Zapatillas</option>
