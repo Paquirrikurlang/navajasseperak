@@ -10,8 +10,7 @@
             <div class="page-header__breadcrumb">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php">Inicio</a> <svg class="breadcrumb-arrow"
-                                width="6px" height="9px">
+                        <li class="breadcrumb-item"><a href="index.php">Inicio</a> <svg class="breadcrumb-arrow" width="6px" height="9px">
                                 <use xlink:href="images/sprite.svg#arrow-rounded-right-6x9"></use>
                             </svg></li>
                         <li class="breadcrumb-item active" aria-current="page">Videos</li>
@@ -23,41 +22,41 @@
             </div>
         </div>
     </div>
-    <div class="container container__seccion__imagenes">
+    <div class="container container__seccion__videos">
         <div class="row">
             <div class="col-12">
                 <div id="videos" class="lista__galeria__videos">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="products-view__pagination">
-        <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-                <a class="page-link page-link--with-arrow" href="" aria-label="Previous">
-                    <svg class="page-link__arrow page-link__arrow--left" aria-hidden="true" width="8px" height="13px">
-                        <use xlink:href="images/sprite.svg#arrow-rounded-left-8x13"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="">1</a>
-            </li>
-            <li class="page-item active">
-                <a class="page-link" href="">2 <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="">3</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link page-link--with-arrow" href="" aria-label="Next">
-                    <svg class="page-link__arrow page-link__arrow--right" aria-hidden="true" width="8px" height="13px">
-                        <use xlink:href="images/sprite.svg#arrow-rounded-right-8x13"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
+        <div class="products-view__pagination">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link page-link--with-arrow" href="" aria-label="Previous">
+                        <svg class="page-link__arrow page-link__arrow--left" aria-hidden="true" width="8px" height="13px">
+                            <use xlink:href="images/sprite.svg#arrow-rounded-left-8x13"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="">1</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="">2 <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link page-link--with-arrow" href="" aria-label="Next">
+                        <svg class="page-link__arrow page-link__arrow--right" aria-hidden="true" width="8px" height="13px">
+                            <use xlink:href="images/sprite.svg#arrow-rounded-right-8x13"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </main>
 <?php include_once('mvc/view/layouts/footer.php') ?>
