@@ -5574,6 +5574,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   margin-left: 6px;
 }
 @media (max-width: 991px) {
+
+  .mobile-header__body {
+    margin-left: -7px;
+    margin-right: -7px;
+  }
+
   .footer-newsletter {
     margin-top: 42px;
     max-width: 420px;
