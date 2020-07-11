@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <div class="container container__seccion__videos">
+    <div class="container container__seccion__imagenes">
         <div class="row">
             <div class="col-12">
                 <section id="lightbox-1">

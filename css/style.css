@@ -12,7 +12,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -161,7 +161,7 @@ h6 {
   padding-top: 32px;
 }
 .page-header__title h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif !important;
   font-weight: 500;
   font-size: 46px;
   margin-bottom: 0;
@@ -506,7 +506,7 @@ h6 {
   line-height: 20px;
 }
 .breadcrumb-item {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   position: relative;
   font-size: 14px;
   font-weight: 400;
@@ -4361,6 +4361,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   fill: currentColor;
   margin-right: 16px;
   margin-left: 12px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .mobile-header__logo:hover {
   color: inherit;
@@ -4482,6 +4484,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   > .mobile-links__item-title
   .mobile-links__item-link {
   padding: 12px 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 .mobile-links:not(.mobile-links--level--0) {
   border-top: 1px solid #ebebeb;
@@ -4553,6 +4558,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-weight: 700;
   -ms-flex-positive: 1;
   flex-grow: 1;
+  font-size: 16px;
 }
 .mobilemenu__close {
   border: none;
@@ -4618,7 +4624,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   font-size: 15px;
   line-height: 1;
   letter-spacing: 0.02em;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   color: inherit;
 }
@@ -5247,7 +5253,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   fill: currentColor;
 }
 .site-header__logo h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif !important;
   font-size: 28px;
   font-weight: 400;
   color: #001232;
@@ -5465,6 +5471,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 .footer-contacts__title {
   margin-bottom: 25px;
+  font-weight: 700;
 }
 .footer-contacts__text {
   font-size: 15px;
@@ -5498,9 +5505,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   margin-right: 2px;
 }
 @media (max-width: 767px) {
-  .footer-contacts {
+  /* .footer-contacts {
     text-align: center;
-  }
+  } */
   .footer-contacts__title {
     font-size: 28px;
     margin-bottom: 16px;
@@ -5511,6 +5518,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 .footer-links__title {
   margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .footer-links__list {
   font-size: 15px;
@@ -5532,11 +5541,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   }
   .footer-links {
     margin-top: 42px;
-    text-align: center;
+    /* text-align: center; */
   }
 }
 .footer-newsletter__title {
   margin-bottom: 25px;
+  font-weight: 700;
 }
 .footer-newsletter__text {
   font-size: 15px;
@@ -5574,7 +5584,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 }
 @media (max-width: 767px) {
   .footer-newsletter {
-    text-align: center;
+    /* text-align: center; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -12271,7 +12281,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   z-index: 3;
 }
 .slide__title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   margin: 0 0 24px 0;
   color: #fff;
   text-shadow: 0 3px 7px rgba(17, 40, 62, 0.7);

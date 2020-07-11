@@ -4,6 +4,10 @@
   margin-bottom: 72px;
 }
 
+.lista__galeria__imagenes {
+  margin-top: -8px;
+}
+
 .galeria__imagen {
   padding: 0 16px 32px !important;
   height: 204px;
