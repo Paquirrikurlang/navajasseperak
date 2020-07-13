@@ -20,7 +20,7 @@ function clickHandler(valor, IdProducto) {
 
   var resultado = JSON.parse(localStorage.getItem("resultadoProductos"));
   resultado = resultado.find((data) => data.Id == IdProducto);
-  debugger;
+
   var rutaFoto1 = resultado.ProductoImagen.find(
     (imagen) => imagen.Descripcion == resultado.Letra + "1"
   ).Ruta;

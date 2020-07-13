@@ -255,7 +255,6 @@
   const quickview = {
     cancelPreviousModal: function () {},
     clickHandler: function () {
-      debugger;
       const modal = $("#quickview-modal");
       const button = $(this);
       const doubleClick = button.is(".product-card__quickview--preload");
@@ -322,7 +321,6 @@
     });
 
     $(".product-card__quickview").on("click", function () {
-      debugger;
       quickview.clickHandler.apply(this, arguments);
     });
   });
