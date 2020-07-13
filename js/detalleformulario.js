@@ -1,7 +1,6 @@
 (function ($) {
   "use strict";
   $(function () {
-    debugger;
     var params = new URLSearchParams(location.search);
     var IdProducto = params.get("IdProducto");
 
@@ -20,7 +19,6 @@
 })(jQuery);
 
 function LoadDetalleProductoForm(IdProducto) {
-  debugger;
   var resultado = JSON.parse(localStorage.getItem("resultadoProductos"));
   resultado = resultado.find((data) => data.Id == IdProducto);
 

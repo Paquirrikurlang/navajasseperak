@@ -22,9 +22,24 @@
             </div>
         </div>
     </div>
-    <div class="container container__seccion__imagenes">
+    <div class="container container__seccion__videos">
         <div class="row">
             <div class="col-12">
+                <div class="products-view__options">
+                    <div class="view-options view-options--offcanvas--always">
+
+                        <div class="view-options__divider"></div>
+                        <div class="view-options__control"><label for="">Orden de numeración</label>
+
+                        </div>
+                        <div class="view-options__control"><label for="">Mostrar</label>
+                            <div><select id="cboCantidadSolicitada" name="cboCantidadSolicitada" class="form-control form-control-sm">
+                                    <option value="12">12</option>
+                                    <option value="24">24</option>
+                                </select></div>
+                        </div>
+                    </div>
+                </div>
                 <section id="lightbox-1">
                     <div id="mdb-lightbox-ui">
                         <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -115,6 +130,7 @@
 <?php include_once('mvc/view/layouts/footer.php') ?>
 <script type="text/javascript" src="https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/js/bundles/4.19.1/compiled.16.min.js?ver=4.19.1">
 </script>
+<script src="js\paginador.js"></script>
 <script src="js/LoadImagenes.js"></script>
 
 </html>

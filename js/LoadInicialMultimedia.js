@@ -1,11 +1,10 @@
 var Producto = [];
 (function ($) {
   "use strict";
-  debugger;
+
   /*Carga de galerìa */
   $(function () {
     $.getJSON("./config/gallery.json", function (json) {
-      debugger;
       var tipoMultimedia = json.TipoMultimedia;
       var tipoMuestra = json.TipoMuestra;
       var galeria = json.Galeria;
@@ -50,7 +49,6 @@ var Producto = [];
 
   /*Carga de los productos */
   $(function () {
-    debugger;
     $.getJSON("./config/data.json", function (json) {
       var producto = json.Producto;
       var productoImagen = json.ProductoImagen;
