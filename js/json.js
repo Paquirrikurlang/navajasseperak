@@ -3,7 +3,7 @@ var Producto = [];
   "use strict";
 
   $(function () {
-    var resultado = JSON.parse(localStorage.getItem("resultado"));
+    var resultado = JSON.parse(localStorage.getItem("resultadoProductos"));
 
     debugger;
     jQuery.each(resultado, function (i, val) {
