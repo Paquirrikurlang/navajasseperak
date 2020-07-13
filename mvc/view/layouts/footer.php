@@ -73,7 +73,7 @@
 <script src="vendor\jquery\jquery.min.js"></script>
 <script src="vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
 <script src="assets/js/popper.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
+<script src="vendor\owl-carousel\owl.carousel.min.js"></script>
 <script src="vendor\nouislider\nouislider.min.js"></script>
 <script src="vendor\photoswipe\photoswipe.min.js"></script>
 <script src="vendor\photoswipe\photoswipe-ui-default.min.js"></script>

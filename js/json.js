@@ -246,14 +246,14 @@ function cargaProductos() {
         "</ul>" +
         "</div>" +
         "<div class='product-card__actions'>" +
-        "<div class='product-card__availability'>Estado:" +
+        "<div class='product-card__availability'>Estado: " +
         (val.Disponibilidad == "En Stock"
           ? "<span class='text-success'>"
           : "<span class='text-danger'>") +
         val.Disponibilidad +
         "</span></div>" +
         "<div class='product-card__prices'>" +
-        "S/ " +
+        "S/" +
         val.PrecioVenta +
         "</div>" +
         "<div class='product-card__buttons'>" +

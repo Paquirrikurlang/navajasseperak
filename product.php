@@ -172,7 +172,7 @@
                             <!-- .product__options / end -->
                         </div>
                         <!-- .product__end -->
-                        <div class="product__footer">
+                        <div class="d-none product__footer">
                             <div class="product__tags tags">
                                 <div class="tags__list">
                                     <a href="catalogue.php">Ver Catálogo</a>

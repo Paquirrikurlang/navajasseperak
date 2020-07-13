@@ -59,7 +59,7 @@
                                         <div class="owl-dots disabled"></div>
                                     </div>
                                 </div>
-                                <div class="product-gallery__carousel product-gallery__carousel--modal">
+                                <div class="product-gallery__carousel">
                                     <div class="owl-carousel owl-loaded owl-drag" id="product-carousel">
                                         <div class="owl-stage-outer">
                                             <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 545px;">

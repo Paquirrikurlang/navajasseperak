@@ -219,7 +219,7 @@ function clickHandler(valor, IdProducto) {
       "<div class='product__availability'>" +
       "Estado: <span class='text-success'>En Stock</span>" +
       "</div>" +
-      "<div class='product__prices'>S/" +
+      "<div class='product__prices'>S/ " +
       resultado.PrecioVenta +
       "</div>" +
       "<div class='form-group product__option'>" +
@@ -255,7 +255,7 @@ function clickHandler(valor, IdProducto) {
       "</div>" +
       "</div>" +
       "</div>" +
-      "<div class='product__footer'>" +
+      "<div class='d-none product__footer'>" +
       "<div class='product__tags tags'>" +
       "<div class='tags__list'>" +
       "<a href='catalogue.php'>Ver Catálogo</a>" +
