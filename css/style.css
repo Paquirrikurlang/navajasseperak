@@ -5254,9 +5254,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   fill: currentColor;
 }
 .site-header__logo h3 {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: bold;
   color: #001232;
   transition: opacity 0.3s ease;
   margin-top: 8px;
