@@ -594,5 +594,4 @@
         window.location.href = pathName + "checkout.php?idProducto=" + idProducto + "&cantidad=" + cantidad;
     }
 </script>
-
 </html>

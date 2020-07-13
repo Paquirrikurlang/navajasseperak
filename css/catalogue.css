@@ -13,8 +13,25 @@
   margin-right: 0;
 }
 
-.product-image__body {
-  height: 206px;
+.product-card__badges-list {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 18px 18px 0;
+}
+
+.products-list[data-layout^="grid-"] .product-card .product-card__image {
+  padding: 16px 18px 18px 18px;
+  height: 190px;
+}
+
+.products-list[data-layout="list"] .product-card .product-card__info {
+  display: flex;
+}
+
+.products-list[data-layout^="grid-"] .product-card .product-image__body {
+  height: 100%;
+  padding-bottom: 0;
 }
 
 @media (min-width: 992px) {
