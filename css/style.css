@@ -152,7 +152,7 @@ h6 {
   content: "\e901";
 }
 .page-header__container {
-  padding-bottom: 48px;
+  padding-bottom: 32px;
 }
 .page-header__breadcrumb {
   padding-top: 16px;
@@ -161,9 +161,9 @@ h6 {
   padding-top: 32px;
 }
 .page-header__title h1 {
-  font-family: "Oswald", sans-serif !important;
-  font-weight: 500;
-  font-size: 46px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  font-size: 36px;
   margin-bottom: 0;
   color: #001232;
 }
@@ -176,9 +176,6 @@ h6 {
   }
 }
 @media (max-width: 767px) {
-  .page-header__container {
-    padding-bottom: 32px;
-  }
   .page-header__title {
     padding-top: 24px;
   }
@@ -5254,9 +5251,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   fill: currentColor;
 }
 .site-header__logo h3 {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: bold;
   color: #001232;
   transition: opacity 0.3s ease;
   margin-top: 8px;
