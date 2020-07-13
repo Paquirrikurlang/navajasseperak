@@ -163,7 +163,7 @@ h6 {
 .page-header__title h1 {
   font-family: "Poppins", sans-serif !important;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 0;
   color: #001232;
 }
@@ -5251,7 +5251,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   fill: currentColor;
 }
 .site-header__logo h3 {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 28px;
   font-weight: bold;
   color: #001232;
