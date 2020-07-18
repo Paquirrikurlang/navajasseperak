@@ -58,7 +58,7 @@
                         </a>
                         <div class="search search--location--mobile-header mobile-header__search">
                             <div class="search__body">
-                                <form class="search__form" action=""><input class="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
+                                <form class="search__form" action=""><input class="search__input" name="search" placeholder="Busca el modelo de tu navaja" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
                                             <use xlink:href="images/sprite.svg#search-20"></use>
                                         </svg></button> <button class="search__button search__button--type--close" type="button"><svg width="20px" height="20px">
                                             <use xlink:href="images/sprite.svg#cross-20"></use>
@@ -88,7 +88,7 @@
                 <div class="site-header__search">
                     <div class="search search--location--header">
                         <div class="search__body">
-                            <form class="search__form mb-0" action=""><input class="search__input" name="search" placeholder="Buscar información" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
+                            <form class="search__form mb-0" action=""><input class="search__input" name="search" placeholder="Busca el modelo de tu navaja aquí" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
                                         <use xlink:href="images/sprite.svg#search-20"></use>
                                     </svg></button>
                                 <div class="search__border"></div>
