@@ -119,3 +119,9 @@ var Producto = [];
     });
   });
 })(jQuery);
+
+
+$(".search__button").click(function(){
+  debugger;
+ 
+})

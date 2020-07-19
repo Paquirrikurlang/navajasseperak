@@ -1054,212 +1054,282 @@
     {
       "Id": 1,
       "IdProducto": 1,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 1,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 1,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 1,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 2,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 2,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 2,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 2,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 3,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 3,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 3,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 3,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 4,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 4,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 4,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 4,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 5,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 5,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 5,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 5,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 6,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 6,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 6,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 6,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 7,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 7,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 7,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 7,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 8,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 8,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 8,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 8,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 9,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 9,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 9,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 9,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 10,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 10,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 10,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 10,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 11,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 11,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 11,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 11,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 12,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 12,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 12,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 12,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 13,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 13,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 13,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 13,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     },
     {
       "Id": 1,
       "IdProducto": 14,
-      "Descripcion": "producto con garantía"
+      "Descripcion": "Acero forjado especial"
     },
     {
       "Id": 2,
       "IdProducto": 14,
-      "Descripcion": "Certificado por muchos galleros"
+      "Descripcion": "Excelente filo, buena tenacidad y alta resistencia"
     },
     {
       "Id": 3,
       "IdProducto": 14,
-      "Descripcion": "Hecho con productos de alta calidad"
+      "Descripcion": "Reafilado especial con profesionalismo y responsabilidad"
+    },
+    {
+      "Id": 4,
+      "IdProducto": 14,
+      "Descripcion": "Garantía personal comprobada en las canchas"
     }
   ],
 
