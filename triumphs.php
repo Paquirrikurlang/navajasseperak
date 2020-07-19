@@ -29,16 +29,21 @@
                         <div class="posts-view">
                             <div class="posts-view__list posts-list posts-list--layout--list">
                                 <div class="posts-list__body">
-                                    <div class="posts-list__item">
+                                    <div class="posts-list__item posts-list__item--triumph">
                                         <div class="post-card post-card--layout--list post-card--size--nl">
-                                            <div class="post-card__image"><a><img src="images/triunfos/t2.jpg" alt=""></a></div>
-                                            <div class="post-card__info">
+                                            <div class="d-lg-none post-card__info">
                                                 <div class="post-card__category"><a>Coliseo Abrham Wong Cañete</a></div>
                                                 <div class="post-card__name"><a>Campeonato Abrham Wong Cañete</a></div>
                                                 <div class="post-card__date">2019</div>
+                                            </div>
+                                            <div class="post-card__image"><a><img src="images/triunfos/t2.jpg" alt=""></a></div>
+                                            <div class="post-card__info">
+                                                <div class="d-none d-lg-flex post-card__category"><a>Coliseo Abrham Wong Cañete</a></div>
+                                                <div class="d-none d-lg-flex post-card__name"><a>Campeonato Abrham Wong Cañete</a></div>
+                                                <div class="d-none d-lg-flex post-card__date">2019</div>
                                                 <div class="post-card__read-more">
                                                     <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
-                                                        <a data-toggle="modal" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t8.jpg">
                                                         </a>
                                                         <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
@@ -58,14 +63,19 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="posts-list__item">
+                                    <div class="posts-list__item posts-list__item--triumph">
                                         <div class="post-card post-card--layout--list post-card--size--nl">
+                                            <div class="d-lg-none post-card__info">
+                                                <div class="post-card__category"><a>Coliseo Círculo Gallístico</a></div>
+                                                <div class="post-card__name"><a>Campeonato Nacional de Gallos a Navaja</a></div>
+                                                <div class="post-card__date">2019</div>
+                                            </div>
                                             <div class="post-card__image"><a><img src="images/triunfos/t3.png" alt=""></a></div>
                                             <div class="post-card__info">
-                                                <div class="post-card__category"><a>Coliseo Círculo Gallístico</a></div>
-                                                <div class="post-card__name"><a>Campeonato Nacional de Gallos a
+                                                <div class="d-none d-lg-flex post-card__category"><a>Coliseo Círculo Gallístico</a></div>
+                                                <div class="d-none d-lg-flex post-card__name"><a>Campeonato Nacional de Gallos a
                                                         Navaja</a></div>
-                                                <div class="post-card__date">2019</div>
+                                                <div class="d-none d-lg-flex post-card__date">2019</div>
                                                 <div class="post-card__read-more">
                                                     <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
                                                         <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
@@ -90,14 +100,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="posts-list__item">
+                                    <div class="posts-list__item posts-list__item--triumph">
                                         <div class="post-card post-card--layout--list post-card--size--nl">
-                                            <div class="post-card__image"><a><img src="images/triunfos/t7.jpg" alt=""></a></div>
-                                            <div class="post-card__info">
+                                            <div class="d-lg-none post-card__info">
                                                 <div class="post-card__category"><a>Colise de Ayacucho</a></div>
                                                 <div class="post-card__name"><a>Campeonato Nacional de Gallos
                                                         Ayacucho</a></div>
                                                 <div class="post-card__date">2019</div>
+                                            </div>
+                                            <div class="post-card__image"><a><img src="images/triunfos/t7.jpg" alt=""></a></div>
+                                            <div class="post-card__info">
+                                                <div class="d-none d-lg-flex post-card__category"><a>Colise de Ayacucho</a></div>
+                                                <div class="d-none d-lg-flex post-card__name"><a>Campeonato Nacional de Gallos
+                                                        Ayacucho</a></div>
+                                                <div class="d-none d-lg-flex post-card__date">2019</div>
                                                 <div class="post-card__read-more">
                                                     <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
                                                         <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
@@ -105,7 +121,6 @@
                                                         </a>
                                                         <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
                                                             <img src="images/peleas/p1.png">
-
                                                         </a>
                                                         <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
                                                             <img src="images/triunfos/t8.jpg">

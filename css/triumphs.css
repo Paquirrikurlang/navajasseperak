@@ -31,3 +31,44 @@
   background-color: #ffb52f !important;
   color: #fff !important;
 }
+
+@media screen and (max-width: 767px) {
+  .posts-list__item--triumph .post-card__info {
+    padding-top: 0 !important;
+  }
+
+  .post-card--layout--list.post-card--size--nl .post-card__name {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 17px;
+  }
+
+  .post-card--layout--list.post-card--size--nl .post-card__read-more {
+    margin-top: 12px;
+  }
+
+  .post-card--layout--list.post-card--size--nl .post-card__category,
+  .post-card--layout--list.post-card--size--nl .post-card__date {
+    font-size: 14px;
+  }
+
+  .product-details-small--triumphs .owl-stage {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .product-details-small--triumphs .owl-item {
+    flex: 0 0 102.5px;
+    max-width: 102.5px;
+    height: 76px;
+    float: none;
+  }
+
+  .product-details-small--triumphs .ver_video {
+    display: block;
+  }
+
+  .product-details-small--triumphs .owl-item img {
+    height: 100%;
+  }
+}
