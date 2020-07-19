@@ -1,0 +1,33 @@
+.owl-carousel .owl-nav button {
+  background-color: #fff !important;
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  color: #8d8c8c !important;
+  display: inline-block;
+  font-size: 13px !important;
+  height: 35px;
+  left: -15px;
+  line-height: 37px !important;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease 0s;
+  width: 35px;
+  outline: none;
+}
+
+.product-dec-slider:hover .owl-nav button {
+  opacity: 1;
+}
+
+.product-dec-slider.owl-carousel .owl-nav .owl-next {
+  left: auto;
+  right: -15px;
+}
+
+.product-dec-slider.owl-carousel .owl-nav button:hover {
+  background-color: #ffb52f !important;
+  color: #fff !important;
+}

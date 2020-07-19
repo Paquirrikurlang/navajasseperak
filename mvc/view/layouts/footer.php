@@ -70,20 +70,21 @@
 </footer>
 <!-- js -->
 
-<script src="vendor\jquery\jquery.min.js"></script>
-<script src="vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js\bootstrap.bundle.min.js"></script>
 <script src="assets/js/popper.js"></script>
-<script src="vendor\owl-carousel\owl.carousel.min.js"></script>
-<script src="vendor\nouislider\nouislider.min.js"></script>
-<script src="vendor\photoswipe\photoswipe.min.js"></script>
-<script src="vendor\photoswipe\photoswipe-ui-default.min.js"></script>
-<script src="vendor\select2\js\select2.min.js"></script>
-<script src="js\number.js"></script>
-<script src="js\main.js"></script>
-<script src="js\header.js"></script>
-<script src="js\LoadInicialMultimedia.js"></script>
-<script src="js\modal.js"></script>
-<script src="vendor\svg4everybody\svg4everybody.min.js"></script>
+<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+<!-- <script src="js/owl.carousel.min.js"></script> -->
+<script src="vendor/nouislider/nouislider.min.js"></script>
+<script src="vendor/photoswipe/photoswipe.min.js"></script>
+<script src="vendor/photoswipe/photoswipe-ui-default.min.js"></script>
+<script src="vendor/select2/js/select2.min.js"></script>
+<script src="js/number.js"></script>
+<script src="js/main.js"></script>
+<script src="js/header.js"></script>
+<script src="js/LoadInicialMultimedia.js"></script>
+<script src="js/modal.js"></script>
+<script src="vendor/svg4everybody/svg4everybody.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/mainAnterior.js"></script>
 <script>

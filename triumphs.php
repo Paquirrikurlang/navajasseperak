@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <?php include_once('mvc/view/layouts/header.php') ?>
+<link rel="stylesheet" href="css/triumphs.css" type="text/css" />
 <div class="site">
     <div class="site__body">
         <div class="page-header">
