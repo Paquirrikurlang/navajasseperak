@@ -1,3 +1,16 @@
+.post-card--layout--list.post-card--size--nl .post-card__image {
+  margin-right: 32px;
+}
+
+.post-card--layout--list.post-card--size--nl .post-card__name {
+  margin-top: 0;
+}
+
+.product-details-small--triumphs .owl-stage {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .owl-carousel .owl-nav button {
   background-color: #fff !important;
   border-radius: 50px;
@@ -32,13 +45,40 @@
   color: #fff !important;
 }
 
+.product-details-small--triumphs .owl-item {
+  float: none;
+}
+
+.product-details-small--triumphs .ver_video {
+  display: block;
+}
+
+.product-details-small--triumphs .owl-item img {
+  height: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .posts-list__item--triumph .post-card {
+    align-items: center;
+  }
+
+  .posts-list__item--triumph .post-card__info {
+    padding-top: 0 !important;
+  }
+
+  .product-details-small--triumphs .owl-item {
+    flex: 0 0 174px;
+    max-width: 174px;
+    height: 102px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .posts-list__item--triumph .post-card__info {
     padding-top: 0 !important;
   }
 
   .post-card--layout--list.post-card--size--nl .post-card__name {
-    margin-top: 0;
     margin-bottom: 12px;
     font-size: 17px;
   }
@@ -52,23 +92,9 @@
     font-size: 14px;
   }
 
-  .product-details-small--triumphs .owl-stage {
-    display: flex;
-    flex-flow: row nowrap;
-  }
-
   .product-details-small--triumphs .owl-item {
     flex: 0 0 102.5px;
     max-width: 102.5px;
     height: 76px;
-    float: none;
-  }
-
-  .product-details-small--triumphs .ver_video {
-    display: block;
-  }
-
-  .product-details-small--triumphs .owl-item img {
-    height: 100%;
   }
 }
