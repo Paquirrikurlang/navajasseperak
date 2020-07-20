@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.post-card--layout--list.post-card--size--nl .post-card__name {
+  font-weight: 600;
+}
+
 .posts-list__item--triumph .post-card__info {
   padding-top: 0 !important;
 }

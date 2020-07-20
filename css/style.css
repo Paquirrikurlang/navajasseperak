@@ -4359,7 +4359,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   margin-right: 16px;
   margin-left: 12px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .mobile-header__logo:hover {
   color: inherit;
