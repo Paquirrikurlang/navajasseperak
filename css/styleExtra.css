@@ -286,9 +286,3 @@ p {
 }
 
 /* Fin - Estilos para sección preguntas en Vista Conversemos */
-
-@media screen and (min-width: 992px) {
-  .post-card__info {
-    width: calc(100% - 380px);
-  }
-}

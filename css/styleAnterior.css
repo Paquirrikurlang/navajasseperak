@@ -1447,9 +1447,9 @@
   line-height: 38px;
 }
 .blog-hm-content > h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 .blog-hm-content > h3 a {
   color: #001232;
@@ -1458,7 +1458,7 @@
   color: #ffb52f;
 }
 .blog-hm-content > p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   margin: 0;
 }
