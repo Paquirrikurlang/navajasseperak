@@ -188,7 +188,7 @@
                                             </span>
                                         </span>
                                     </a>
-                                </div> -->
+                                </div>
                                 <div class="indicator indicator--trigger--click">
                                     <a href="#" class="indicator__button">
                                         <span class="indicator__area">
@@ -200,7 +200,6 @@
                                         </span>
                                     </a>
                                     <div class="indicator__dropdown">
-                                        <!-- .dropcart -->
                                         <div class="dropcart dropcart--style--dropdown">
                                             <div class="dropcart__body">
                                                 <div class="dropcart__products-list">
@@ -280,9 +279,9 @@
                                                 </div>
                                                 <div class="dropcart__buttons"><a class="btn btn-secondary" href="./cart.php">Ver Carrito</a> <a class="btn btn-primary" href="checkout.php">Pagar</a></div>
                                             </div>
-                                        </div><!-- .dropcart / end -->
+                                        </div>
                                     </div>
-                                </div>
+                                </div>-->
 
                             </div>
                         </div>
