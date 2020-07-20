@@ -46,16 +46,16 @@
                                                         <a data-toggle="modal" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t8.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t4.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t5.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t6.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/peleas/p1.png">
                                                         </a>
                                                     </div>
@@ -78,20 +78,20 @@
                                                 <div class="d-none d-md-flex post-card__date">2019</div>
                                                 <div class="post-card__read-more">
                                                     <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
-                                                        <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t4.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
 
                                                             <img src="images/triunfos/t8.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t6.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/peleas/p1.png">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t5.jpg">
 
                                                         </a>
@@ -116,19 +116,19 @@
                                                 <div class="d-none d-md-flex post-card__date">2019</div>
                                                 <div class="post-card__read-more">
                                                     <div class="product-details-small nav mt-12 product-dec-slider product-details-small--triumphs owl-carousel">
-                                                        <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" class="active" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t4.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details2" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/peleas/p1.png">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details3" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t8.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details4" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t5.jpg">
                                                         </a>
-                                                        <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_ideo" onclick="playVid()">
+                                                        <a data-toggle="modal" href="#pro-details5" data-target="#homeVideo" class="img-responsive ver_video" onclick="playVid()">
                                                             <img src="images/triunfos/t5.jpg">
                                                         </a>
                                                     </div>

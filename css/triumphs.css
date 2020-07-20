@@ -8,6 +8,7 @@
 }
 
 .post-card--layout--list.post-card--size--nl .post-card__name {
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -15,8 +16,17 @@
   padding-top: 0 !important;
 }
 
-.post-card--layout--list.post-card--size--nl .post-card__name a {
+.posts-list__item--triumph .post-card__image a:before {
+  background-color: transparent;
+}
+
+.post-card--layout--list.post-card--size--nl .post-card__name a,
+.product-details-small--triumphs .active,
+.product-details-small--triumphs .ver_video {
   cursor: pointer;
+}
+
+.post-card--layout--list.post-card--size--nl .post-card__name a {
   color: #001232;
 }
 
@@ -65,11 +75,46 @@
 
 .product-details-small--triumphs .owl-item {
   float: none;
+  overflow: hidden;
 }
 
 .posts-list__item--triumph a,
+.product-details-small--triumphs .active,
 .product-details-small--triumphs .ver_video {
   display: block;
+}
+
+.product-details-small--triumphs .active,
+.product-details-small--triumphs .ver_video {
+  position: relative;
+}
+
+.product-details-small--triumphs .active:before,
+.product-details-small--triumphs .ver_video:before,
+.product-details-small--triumphs .active img,
+.product-details-small--triumphs .ver_video img {
+  transition: all 0.9s ease;
+}
+
+.product-details-small--triumphs .active:before,
+.product-details-small--triumphs .ver_video:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.product-details-small--triumphs .active:hover:before,
+.product-details-small--triumphs .ver_video:hover:before {
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+.product-details-small--triumphs .active:hover img,
+.product-details-small--triumphs .ver_video:hover img {
+  transform: scale(1.15);
 }
 
 .product-details-small--triumphs .owl-item img {
@@ -97,7 +142,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
   .posts-list__item--triumph .post-card__info {
     padding-top: 0 !important;
     width: calc(100% - 294px);
@@ -111,7 +155,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .posts-list--layout--list .posts-list__body {
     margin-top: 0;
   }
