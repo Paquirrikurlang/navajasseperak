@@ -17,7 +17,6 @@
   position: relative;
   top: 0;
   left: 0;
-  padding: 18px 18px 0;
 }
 
 .products-list[data-layout^="grid-"] .product-card .product-card__image {
@@ -53,7 +52,12 @@
   margin-top: 8px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
+
+  .products-list[data-layout^="grid-"] .product-card__badges-list {
+    padding: 18px 18px 0;
+  }
+
   .products-list__item .product-card {
     -moz-transition: box-shadow, transform, 0.3s ease;
     -o-transition: box-shadow, transform, 0.3s ease;
