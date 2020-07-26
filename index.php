@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <?php include_once('mvc/view/layouts/header.php') ?>
+<link rel="stylesheet" href="css/inicio.css" type="text/css" />
 <div class="site">
     <!-- site__body -->
     <div class="site__body">
@@ -64,7 +65,7 @@
                 </div>
                 <div class="block-products-carousel__slider">
                     <div class="block-products-carousel__preloader"></div>
-                    <div class="owl-carousel" id="productoIndex">
+                    <div class="owl-carousel owl-carousel__gridProducts" id="productoIndex">
                         <div class="block-products-carousel__column navajas ">
                             <div class="block-products-carousel__cell">
                                 <div class="product-card product-card--hidden-actions">
@@ -521,7 +522,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="block-products-carousel__column navajas ">
+                        <div class="block-products-carousel__column navajas">
                             <div class="block-products-carousel__cell">
                                 <div class="product-card product-card--hidden-actions">
                                     <button id="5" onclick="myFunction(this)" class="product-card__quickview" type="button"><svg width="16px" height="16px">
@@ -1440,8 +1441,6 @@
                 </div>
             </div>
         </div><!-- .block-products-carousel / end -->
-
-
         <!-- .block-categories -->
         <div class="banner-area pt-135 pb-120">
             <div class="container">
@@ -1473,11 +1472,7 @@
                 </div>
             </div>
         </div>
-
         <!-- .block-categories / end -->
-
-
-
     </div>
     <!-- .block-posts / end -->
 </div>

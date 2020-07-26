@@ -5,16 +5,17 @@
     <title>Navajas Seperak</title>
     <!--  <link rel="icon" type="image/png" href="images\favicon.png"> fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="vendor\bootstrap\css\bootstrap.min.css">
-    <link rel="stylesheet" href="vendor\owl-carousel\assets\owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor\photoswipe\photoswipe.css">
-    <link rel="stylesheet" href="vendor\photoswipe\default-skin\default-skin.css">
-    <link rel="stylesheet" href="vendor\select2\css\select2.min.css">
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\styleAnterior.css">
-    <link rel="stylesheet" href="css\styleExtra.css">
-    <link rel="stylesheet" href="vendor\fontawesome\css\all.min.css">
-    <link rel="stylesheet" href="fonts\stroyka\stroyka.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="vendor/photoswipe/default-skin/default-skin.css">
+    <link rel="stylesheet" href="vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleAnterior.css">
+    <link rel="stylesheet" href="css/styleExtra.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/stroyka/stroyka.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
     <style>
         .mb-45 {
@@ -79,27 +80,29 @@
     <!-- desktop site__header -->
     <header class="site__header d-lg-block d-none">
         <div class="site-header">
-            <div class="site-header__middle container">
+            <div class="justify-content-between site-header__middle container">
                 <div class="site-header__logo">
                     <a href="index.php">
                         <h3>GALPÓN PAQUIRRI</h3>
                     </a>
                 </div>
-                <div class="site-header__search">
-                    <div class="search search--location--header">
-                        <div class="search__body">
-                            <form class="search__form mb-0" action=""><input class="search__input" name="search" placeholder="Busca el modelo de tu navaja aquí" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
-                                        <use xlink:href="images/sprite.svg#search-20"></use>
-                                    </svg></button>
-                                <div class="search__border"></div>
-                            </form>
-                            <div class="search__suggestions suggestions suggestions--location--header"></div>
+                <div class="site-header__search__and__phone__container">
+                    <div class="site-header__search">
+                        <div class="search search--location--header">
+                            <div class="search__body">
+                                <form class="search__form mb-0" action=""><input class="search__input" name="search" placeholder="Busca el modelo de tu navaja aquí" aria-label="Site search" type="text" autocomplete="off"> <button class="search__button search__button--type--submit" type="submit"><svg width="20px" height="20px">
+                                            <use xlink:href="images/sprite.svg#search-20"></use>
+                                        </svg></button>
+                                    <div class="search__border"></div>
+                                </form>
+                                <div class="search__suggestions suggestions suggestions--location--header"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="site-header__phone">
-                    <div class="site-header__phone-title">Servicio al Cliente</div>
-                    <div class="site-header__phone-number">(01) 999919898</div>
+                    <div class="site-header__phone">
+                        <div class="site-header__phone-title">Servicio al Cliente</div>
+                        <div class="site-header__phone-number">(01) 999919898</div>
+                    </div>
                 </div>
             </div>
             <div class="site-header__nav-panel">

@@ -22,12 +22,20 @@
 
 .products-list[data-layout^="grid-"] .product-card .product-card__image {
   padding: 16px 18px 18px 18px;
-  height: 190px;
+  height: 152px;
+}
+
+.products-list[data-layout^="grid-"] .product-card__quickview + .product-card__image {
+  margin-top: 40px;
 }
 
 .products-list[data-layout^="grid-"] .product-card .product-image__body {
   height: 100%;
   padding-bottom: 0;
+}
+
+.products-list[data-layout="grid-4-full"] .products-list__item {
+  width: calc(20% - 12px);
 }
 
 .products-list[data-layout="list"] .product-card__badges-list {

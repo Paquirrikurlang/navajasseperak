@@ -32,3 +32,24 @@
 footer a {
   font-size: 15px;
 }
+
+@media screen and (min-width: 992px) {
+
+  .site-header__search__and__phone__container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      align-content: flex-end;
+      flex-grow: 1;
+  }
+
+  .site-header__search {
+      flex: 0 0 400px;
+      max-width: 400px;
+  }
+
+  .site-header__phone {
+      margin-left: 48px;
+  }
+
+}
